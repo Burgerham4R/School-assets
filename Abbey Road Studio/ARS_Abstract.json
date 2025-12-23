@@ -1,0 +1,744 @@
+{
+  "Identity": {
+    "id": "abbey_road_studios_id",
+    "name": "Abbey Road Studios",
+    "intro": "位于伦敦圣约翰伍德的全球首家专业录音室，面向艺术家与制作人提供顶级音乐制作、电影配音及音频后期服务。",
+    "highlights": [
+      "全球首家专用录音室",
+      "现代音乐与流行文化的摇篮",
+      "传奇录音设备与尖端技术中心",
+      "全欧洲唯一同时提供电影配乐与音效后期的场所"
+    ],
+    "key_facts": [
+      "由英国留声机公司于1929年斥资16500英镑购买的一栋九居室房产改造而成",
+      "录音室于1931年11月12日正式开幕并运营至今达93年",
+      "1号录音室面积为4844平方英尺，可同时容纳100人的管弦乐队和100人的合唱团",
+      "自2001年1月为游戏《Headhunter》录音起，持续24年为电子游戏提供音轨制作",
+      "2017年新增了获得杜比全景声首级认证的混合录音棚",
+      "地处伦敦圣约翰伍德阿比路3号，邮编为NW8 9AY",
+      "母公司为维京唱片有限公司，在英注册编号为01070953"
+    ],
+    "core_advantages": [
+      {
+        "title": "无与伦比的历史底蕴",
+        "description": "自1932年开放以来，作为披头士、粉红弗洛伊德等传奇乐队的录制地，为当代艺术家提供深厚的文化背书与灵感氛围。"
+      },
+      {
+        "title": "顶级的声学空间配置",
+        "description": "拥有世界上最大的专用录音室及多样化的创作空间，从容纳百人乐团的1号棚到具备现代化隔离舱的2号棚，满足各量级录制需求。"
+      },
+      {
+        "title": "全流程音频技术闭环",
+        "description": "依托自主开发的定制化音频单元和杜比全景声技术，提供从实时录音、在线混音到远程母带处理的一站式专业交付体验。"
+      }
+    ],
+    "tags": [
+      "录音室",
+      "音乐制作",
+      "电影配乐",
+      "母带处理",
+      "杜比全景声",
+      "伦敦地标"
+    ]
+  },
+  "Mission": {
+    "overview": {
+      "summary": "Abbey Road Studios 成立于 1931 年，作为全球首家专门建造的录音室，致力于在超过 94 年的音乐遗产基础上，构建一个集创意、创新与社区建设于一体的全球中心。其核心使命是赋能全球音乐创作者，并通过技术进步与行业包容性举措塑造音乐制作的未来。\n\n### 愿景与使命核心\n* **赋能全球创作者**：通过提供世界顶级的录音空间（如 Studio One、Two、Three）和工程专长，支持从古典大师到新兴艺术家的各类创作。其宗旨是协助音乐人释放愿景，并捕捉最真实的艺术版本。\n* **驱动技术革命**：自 1955 年设立录音工程开发部（REDD）以来，始终处于音频技术创新的前沿。通过 Abbey Road Red 孵化器计划，该机构在全行业范围内发掘并推进下一代音乐制作技术。\n* **打破行业壁垒**：致力于推动音乐行业的多元化与包容性。通过 Amplify、Equalise 等年度节日和项目，为女性、非二元性别及代表性不足的背景群体提供导师指导、工作坊及职业路径支持。\n* **底蕴开放与教育传承**：通过 Abbey Road Institute 的认证课程，以及与 Waves、Spitfire Audio 等合作推出的数字插件和采样库，将近一个世纪的专业知识与标志性声音资源分享给全球制作人。\n* **卓越标准与艺术激情**：作为“声音的见证”和音乐卓越的象征，坚持精密工艺与创新协作的价值观，致力于在保护历史文化底蕴的同时，为未来百年的音乐故事书写新篇章。",
+      "tags": [
+        "Abbey Road Studios",
+        "创意之家",
+        "音乐创新",
+        "赋能创作者",
+        "录音工程开发",
+        "技术孵化",
+        "行业包容性",
+        "卓越标准",
+        "艺术教育",
+        "声音遗产",
+        "全球协作",
+        "多元化倡议",
+        "未来技术",
+        "音乐社区"
+      ]
+    }
+  },
+  "Offerings": {
+    "label": "核心业务体系",
+    "overview_web": "自1931年成立以来，Abbey Road Studios 提供涵盖顶级录音棚录音、全球化母带后期处理、影视游戏配乐、音频软硬件产品及专业音乐教育的全方位业务体系。",
+    "overview_app": {
+      "summary": "Abbey Road Studios 构建了一个连接物理空间与数字技术的音乐制作生态系统。核心设施包括世界领先的 Studio One、Two、Three 及多功能后制空间，服务对象涵盖全球独立音乐人至好莱坞顶级制片方。通过在线混音、远程母带处理、音频插件开发及 Abbey Road Institute 的教育课程，将近一个世纪的音频技术沉淀转化为现代化的生产力工具与专业人才培养体系。",
+      "tags": [
+        "录音棚",
+        "母带处理",
+        "影视配乐",
+        "音频插件",
+        "音乐教育",
+        "黑胶刻片",
+        "远程协作"
+      ]
+    },
+    "recording_and_mixing": {
+      "label": "录音与混音服务",
+      "summary": "提供多样化的录音空间与尖端录音/混音技术支持：\n\n### 核心录音棚空间\n- **Studio One**：全球最大的专用录音棚，面积达 4,844 平方英尺，可容纳 100 人管弦乐团及 100 人合唱团。\n- **Studio Two**：标志性录音空间，以其温暖的声学特性闻名，配备现代隔离间及 Neve 调音台。\n- **Studio Three**：现代录音棚基准，配备 SSL G-Plus 调音台及最大的控制室，适合各类乐队及个人创作。\n- **精致空间**：包含 Gatehouse（Neve 调音台）、Front Room（SSL 调音台）及 Penthouse（全数字录音混音套间）。\n- **Angel Studios**：2022 年重新启用，拥有 Seethly 管风琴及 1917 年 Steinway Model D 演奏钢琴，支持大型录音项目。\n\n### 在线与远程混音\n- **在线混音服务**：由获奖工程师团队通过远程协作完成混音。\n- **人声修正 (Vocal Tuning)**：单音轨收费 90 英镑，使用尖端技术进行精细化处理。\n- **Audiomovers 技术**：支持高分辨率、实时多通道音频流，实现无缝远程协作。",
+      "tags": [
+        "Studio One",
+        "Studio Two",
+        "Studio Three",
+        "在线混音",
+        "人声修正",
+        "SSL G-Plus",
+        "Neve",
+        "远程录音"
+      ]
+    },
+    "mastering_services": {
+      "label": "母带后期处理",
+      "summary": "提供多层级的远程及现场母带后期处理方案：\n\n### 远程母带套餐 (Remote Mastering)\n| 等级 | 价格 (每曲) | 包含内容 |\n| :--- | :--- | :--- |\n| **Standard** | $130 | 24位母带、首位可用工程师、一次修订 |\n| **Enhanced** | $200 | 自选工程师、16位 SD 文件、一次修订 |\n| **Deluxe** | $325 | Apple Digital Masters、320kbps MP3、相关混音处理 (Radio Edit 等) |\n\n### 专项技术与工艺\n- **Stem Mastering**：提供对音质形状和平衡更细致的控制。\n- **Dolby Atmos Mastering**：利用专用套间（Room 35）进行沉浸式音频处理。\n- **黑胶刻片 (Vinyl Services)**：包含半速母带刻片 (Half-speed mastering) 和现场直接刻盘 (Direct-to-disc)。\n- **设备支持**：使用 EMI TG12410 传输台、Sontec MES-432D9 参数均衡器及定制监测系统。",
+      "tags": [
+        "远程母带",
+        "Stem母带",
+        "Dolby Atmos",
+        "黑胶刻片",
+        "半速母带",
+        "EMI TG12410",
+        "在线服务"
+      ]
+    },
+    "film_and_game_scoring": {
+      "label": "影视与游戏配乐",
+      "summary": "作为全球影视配乐中心，提供全流程声音解决方案：\n\n- **配乐录制**：Studio One 承载了《星球大战》、《指环王》、《哈利波特》及《黑豹》等电影的配乐工作。\n- **Mix Stage**：Dolby Atmos Premier 认证及 IMAX 兼容的后期制作空间，配备 4K 投影、8 套 Pro Tools 系统及 3 间剪辑室。\n- **游戏配乐**：支持《光环》(Halo)、《使命召唤》(Call of Duty)、《最终幻想》及《星球大战绝地：幸存者》等大规模游戏音效制作。\n- **技术规格**：提供从单声道到全 360 度球面扬声器的 Object 音频编码及 Ambisonic 技术支持。",
+      "tags": [
+        "电影配乐",
+        "游戏音效",
+        "Mix Stage",
+        "Dolby Atmos Premier",
+        "IMAX音频",
+        "Studio One",
+        "声音后期"
+      ]
+    },
+    "audio_products": {
+      "label": "音频软硬件产品",
+      "summary": "通过品牌授权与合作，将标志性的声学遗产数字化：\n\n- **硬件模拟**：与 Chandler Limited 合作推出 REDD.47 预放、RS660 压缩器及 TG Microphone Type L 等硬件。\n- **插件集合**：与 Waves 合作推出 Abbey Road Collection (包含 J37 磁带、REDD 台子、RS56 均衡器等)。\n- **虚拟乐器**：与 Spitfire Audio 合作开发 Abbey Road Orchestra 系列采样库，覆盖弦乐、铜管、木管及打击乐。\n- **协作工具**：Audiomovers OMNIBUS 虚拟音频跳线板及 LISTENTO 协作插件。",
+      "tags": [
+        "Chandler Limited",
+        "Waves插件",
+        "Spitfire Audio",
+        "采样库",
+        "REDD.47",
+        "RS660",
+        "虚拟乐器"
+      ]
+    },
+    "education_and_training": {
+      "label": "专业音乐教育培训",
+      "summary": "致力于培养下一代音频专业人才：\n\n- **Abbey Road Institute**：提供“音乐制作与录音工程高级文凭” (Advanced Diploma in Music Production and Sound Engineering)，校区分布于伦敦、洛杉矶、巴黎、悉尼等地。\n- **Amplify 音乐节**：年度免费活动，包含大师班、互动环节、A&R 演示反馈及 1对1 指导。\n- **Equalise 计划**：旨在推动音乐制作领域的多元化与包容性，支持女性及非二元性别创作者进入行业。\n- **奖学金计划**：为来自代表性不足背景的 18-25 岁年轻人提供全额资助名额。",
+      "tags": [
+        "高级文凭",
+        "Amplify",
+        "Equalise",
+        "录音工程培训",
+        "音乐奖学金",
+        "导师指导"
+      ]
+    },
+    "bespoke_events": {
+      "label": "定制化品牌活动",
+      "summary": "利用传奇空间提供独特的活动体验：\n\n- **Record a Song Experience**：定制化企业活动，支持 2-150 人在传奇录音棚内由专业工程团队指导录制歌曲。\n- **场地租赁**：Studio One、Two、Three 可承接晚宴、招待会、会议及现场演出。\n- **配套服务**：内建餐饮合作伙伴 Lexington Catering 提供定制化菜单设计与品鉴服务。\n- **专属内容**：包含 Stories In Sound 等沉浸式品牌体验项目。",
+      "tags": [
+        "定制录音体验",
+        "企业年会",
+        "空间租赁",
+        "宴会服务",
+        "沉浸式体验"
+      ]
+    },
+    "archiving_and_restoration": {
+      "label": "音频档案修复保存",
+      "summary": "拥有专业实验室（Room 22）进行珍贵音乐资产的转录与修复：\n\n- **介质数字化**：支持 1/4英寸及 2英寸磁带（需经过 Baking 处理）、黑胶、78转胶片、金属母盘及数字带 (DAT, DASH, Exabyte)。\n- **数字修复技术**：利用 CEDAR Cambridge 系统和 Retouch 软件进行非破坏性噪声清除（去点击、去爆裂声）。\n- **专业流程**：通过方位角修正 (Azimuth adjust) 和磁性观察器确定最佳播放头块，确保最高技术规格的档案转录。",
+      "tags": [
+        "音频数字化",
+        "磁带修复",
+        "CEDAR修复",
+        "档案保存",
+        "噪声清除",
+        "模拟转数字"
+      ]
+    },
+    "photography_awards": {
+      "label": "音乐摄影奖项",
+      "summary": "成立于 2022 年，致力于提升音乐摄影艺术水平：\n\n- **摄影竞赛 (MPA)**：全球范围内征集作品，类别包含 Making Music、Live Music、Underground Scenes、Festivals 及 Portrait 等。\n- **社区支持**：提供 Skills Hub 在线咨询、工作坊及投资新兴摄影人才的音乐摄影加速器计划。\n- **展示平台**：通过年度获奖晚宴、在线目录及与 Royal Albert Hall 等机构的合作伙伴展览提升人才知名度。",
+      "tags": [
+        "音乐摄影奖",
+        "MPA",
+        "摄影比赛",
+        "艺术展览",
+        "人才加速器"
+      ]
+    },
+    "features": [
+      {
+        "title": "在线混音服务 (Online Mixing)",
+        "description": "全球创作者可上传 WAV/AIFF 音轨，由 Abbey Road 工程师在棚内模拟/数字混合台上完成专业混音。",
+        "tags": [
+          "远程服务",
+          "获奖工程师"
+        ]
+      },
+      {
+        "title": "Audiomovers 协作工具",
+        "description": "提供实时高分辨率音频传输方案，解决音乐人在异地录音、混音过程中的实时同步监听需求。",
+        "tags": [
+          "远程协作",
+          "高分辨率音频"
+        ]
+      },
+      {
+        "title": "Topline 创作应用",
+        "description": "免费 iOS 应用，支持多轨录音、歌词记录及云同步，旨在帮助词曲作者精准捕捉瞬间灵感。",
+        "tags": [
+          "移动创作",
+          "免费工具"
+        ]
+      },
+      {
+        "title": "Record a Song 体验",
+        "description": "面向企业及团体的定制录音项目，在披头士等传奇艺人工作过的空间内完成歌曲录制及混音交付。",
+        "tags": [
+          "定制活动",
+          "文化体验"
+        ]
+      },
+      {
+        "title": "De-mix 提取技术",
+        "description": "利用 James Clarke 开发的算法，从单声道或已混缩音轨中提取特定乐器或人声，用于重混或修复。",
+        "tags": [
+          "音频分离",
+          "智能算法"
+        ]
+      }
+    ]
+  },
+  "Capability": {
+    "label": "核心技术能力",
+    "overview_web": "Abbey Road Studios 凭借近一个世纪的研发传统，通过 REDD 部门的软硬件创新、De-mix 智能拆解及半速刻录等工艺，为全球音乐人提供行业顶尖的音频处理与技术支撑。",
+    "overview_app": {
+      "summary": "### 音频技术研发与支撑体系\n* **创新研发部 (REDD)**：始创于 1955 年，该部门奠定了现代录音调音台的设计蓝图，目前通过 Abbey Road Red 孵化器继续探索人工智能、虚拟现实等前沿领域。\n* **技术服务支持**：拥有专门的各代麦克风维护专家及技术服务部，负责管理 800 多支麦克风的庞大收藏，并为所有录音棚提供全天候的技术基础设施维护。\n* **音频产品转化**：Audio Products 团队与 Waves、Spitfire Audio 等合作，将标志性的硬件（如 TG12345 调音台、RS124 压缩器）数字化为插件与高端采样库。\n* **定制化基因**：坚持内部开发非标准解决方案的传统，涵盖电子音频单元、录音控制台及 IT 软硬件系统，确保在通用设备无法满足需求时提供独特支持。",
+      "tags": [
+        "音频创新",
+        "REDD研发部",
+        "Abbey Road Red",
+        "技术服务部",
+        "硬件开发",
+        "软件模拟",
+        "麦克风收藏",
+        "数字化转型",
+        "EMI传统"
+      ]
+    },
+    "immersive_audio_expertise": {
+      "label": "全景声空间音频技术",
+      "summary": "### 全景声制作与空间建模\n* **专业设施配置**：拥有专门设计的全景声母带套间 (Room 35) 以及获得 Dolby Atmos Premier 认证的电影混录棚 (Mix Stage)，能够处理 7.1.4 等多种空间音频布局。\n* **核心技术流程**：工程师可从混合立体声分轨 (Stems) 开始构建空间影像，或直接对全景声混音文件进行后期处理，利用 metadata 元数据操控声音在观众周围的三维定位。\n* **监听系统规格**：Room 35 采用 12 扬声器监听布局，包括 3 台 ATC SCM100ASL Pro (前置 LCR)、4 台 SCM50ASL Pro (环绕) 及 4 台 SCM12i Pro (顶置)，确保极高的声音清晰度与透明度。\n* **创新产品**：开发了专为耳机混音设计的 Studio 3 插件，利用 Nx 沉浸式音频技术在耳机中精确还原录音室控制室的声学环境。",
+      "tags": [
+        "Dolby Atmos",
+        "空间音频",
+        "Room 35",
+        "Mix Stage",
+        "三维声场",
+        "12扬声器系统",
+        "ATC监听",
+        "声音定位",
+        "Nx技术"
+      ]
+    },
+    "demix_technology": {
+      "label": "智能音频拆解技术",
+      "summary": "### De-mix 数字化音轨分离\n* **研发逻辑**：由技术分析师 James Clarke 开发，通过创建目标乐器（如人声、吉他、鼓、贝斯）的频谱模型，寻找混合音频中的匹配模式。\n* **工作机制**：软件生成数字化“掩码” (Masks)，如同精密的筛子，在不破坏整体录音结构的前提下，提取出特定音轨成分。\n* **核心能力**：解锁单声道录音或多轨素材缺失的旧录音，允许工程师重新调整人声与乐器的平衡。在重制项目中，可实现目标频率的独立均衡处理（如单独增强贝斯而不影响鼓声）。\n* **版本演进**：第一代技术基于特定歌曲生成掩码；第二代技术引入深度学习，通过数百小时的素材训练实现对任意歌曲的自动化精准拆解。\n* **标志性应用**：该技术已用于 The Beatles 《Revolver》重混版及最后单曲《Now And Then》中人声与钢琴的分离。",
+      "tags": [
+        "De-mix技术",
+        "频谱模型",
+        "人声提取",
+        "单声道重制",
+        "深度学习",
+        "James Clarke",
+        "音轨分离",
+        "数字化掩码"
+      ]
+    },
+    "bespoke_engineering": {
+      "label": "定制化工程研发",
+      "summary": "### 手工研发与定制技术方案\n* **内部发明案例**：包括 Ken Townsend 为 The Beatles 发明的自动双轨录音 (ADT) 技术，该技术现已通过 Reel ADT 插件实现数字化复刻。\n* **跨界工程设计**：技术工程师 Matt Kingdon 等人将 1950 年代的 RS97 隆隆声滤波器电路直接集成至 Gretsch RS201 Studiomatic 吉他的信号路径中，实现了乐器级的创新。\n* **传统工艺应用**：录音工程部 (REDD) 负责开发定制音箱、外置设备及专用调音台（如 TG 系列），通过模块化设计为母带工程师提供极高的信号路由灵活性。\n* **维护与修复**：技术部具备修复数十年历史的古董设备（如 78 转唱片转录机、1920 年代的麦克风）的能力，并能根据特定项目开发前所未有的工作流补丁。",
+      "tags": [
+        "定制工程",
+        "ADT技术",
+        "Ken Townsend",
+        "RS97滤波器",
+        "电路集成",
+        "音频工作流",
+        "EMI工艺",
+        "手工接线"
+      ]
+    },
+    "half_speed_mastering": {
+      "label": "半速母带刻录工艺",
+      "summary": "### 半速刻录工艺 (Half-Speed Mastering)\n* **技术核心**：由专家 Miles Showell 主导，在刻录过程中，母带回放速度与刻片机转速均降至一半。这使得刻纹刀头能够用两倍的时间在漆盘上雕刻出极细微的机械纹槽。\n* **质量优势**：该工艺极大缓解了刀头的频率响应限制，显著提升了高频细节的还原度、瞬态响应及声像清晰度，被视为黑胶母带刻录的“圣杯”。\n* **核心设施**：使用定制修复的 Neumann VMS 80 刻片机，该机器经过电路重组和顶级线材重布，是 Miles Showell 职业生涯中声音表现最佳的刻录系统。\n* **应用成果**：广泛应用于 The Beatles、The Rolling Stones、ABBA、Queen 等传奇艺人经典的重制发行版及 50 周年纪念珍藏版中。",
+      "tags": [
+        "半速刻录",
+        "Miles Showell",
+        "Neumann VMS 80",
+        "机械纹槽",
+        "黑胶母带",
+        "高保真",
+        "30年经验",
+        "瞬态响应"
+      ]
+    }
+  },
+  "Roles": {
+    "label": "人才矩阵与角色",
+    "overview_web": "Abbey Road Studios 建立了由董事总经理 Sally Davies 领衔的高层决策团队、屡获殊荣的母带与录音工程专家组，以及包括 Jordan Rakei 和 Kid Harpoon 在内的驻场创意人才体系。",
+    "overview_app": {
+      "summary": "Abbey Road Studios 的人才矩阵涵盖了从全球运营管理到精尖工程技术的全方位角色。其核心由以下四大群体构成：\n\n- **管理决策层**: 负责工作室愿景规划、全球品牌战略及 Abbey Road Red 科技孵化器运营。\n- **工程专家组**: 汇聚了母带处理（如半速母带专家 Miles Showell）、录音混音及磁带存档修复领域的顶级工程师。\n- **驻场创意人才**: 通过 Artist In Residence 及 Producer In Residence 计划，邀请顶尖音乐人深度参与创作与技术咨询。\n- **教育与运营支持**: 包括专业导师（如 Nile Rodgers）及确保录音室高效运转的跑手（Runner）团队。",
+      "tags": [
+        "管理精英",
+        "格莱美获奖工程师",
+        "驻场艺术家",
+        "行业导师",
+        "运营跑手",
+        "科技孵化专家"
+      ]
+    },
+    "executive_leadership": {
+      "label": "管理与战略领导层",
+      "summary": "该层级负责 Abbey Road Studios 的整体商业运作、合作伙伴关系及创新项目的战略指导。成员包括：\n\n- **Sally Davies**: 董事总经理 (Managing Director)，主持工作室整体愿景。\n- **Sam McCarthy**: 财务总监 (Finance Director)。\n- **Jeremy Huffelmann**: 总经理 (General Manager)。\n- **Mark Robertson**: 营销与创意总监 (Director of Marketing & Creative)，负责品牌传播与文化遗产保护。\n- **Fiona Gillott**: 录音室服务总监 (Director of Studio Services)。\n- **Simon Campbell**: 技术服务总监 (Director of Technical Services)。\n- **Dominika Dronska**: Audiomovers 总经理。\n- **决策支持**: 此外还设有一个由 14 人组成的咨询委员会，包含来自 Abbey Road 及 Universal Music Group 的资深管理人员，负责指导 Abbey Road Red 孵化器的运营。",
+      "tags": [
+        "Sally Davies",
+        "战略管理",
+        "品牌营销",
+        "技术服务领导",
+        "Audiomovers",
+        "Universal Music Group"
+      ]
+    },
+    "engineering_specialists": {
+      "label": "多领域工程专家组",
+      "summary": "工程团队分布在录音、混音、母带及存档等多个核心实验室，支持从交响乐到现代流行乐的各类制作：\n\n- **母带工程 (Mastering)**: 拥有超过 30 年经验的 Miles Showell（半速母带专家）、Geoff Pesche、Christian Wright、Sean Magee、Alex Gordon。他们负责处理包括 The Beatles、Coldplay 等艺术家的作品。\n- **录音与混音 (Recording & Mixing)**: 核心成员包括 Andrew Dudman、John Barrett、Gordon Davidson、Lewis Jones、Paul Pritchard。John Barrett 负责了《Phantom Thread》的混音及《The Shape of Water》的录音工作。\n- **存档与转录 (Transfer & Archive)**: Matthew Cocker 负责管理 Room 22 磁带转录室，领导对 The Beatles、The Who 及 John Lennon 等原始母带的修复与数字化传输工作。\n- **技术服务部 (Technical Services)**: 由 Ian Taylor、Matt Kingdon 等技术工程师组成，提供 24 小时技术支持，负责从维护经典麦克风（如 HB1E）到研发 Bespoke 硬件/软件解决方案（如 Room 7 的 TG 传输控制台）。",
+      "tags": [
+        "Miles Showell",
+        "Geoff Pesche",
+        "母带处理",
+        "录音工程",
+        "磁带修复",
+        "技术研发",
+        "Dolby Atmos"
+      ]
+    },
+    "creative_residents": {
+      "label": "驻场创意人才计划",
+      "summary": "这一系列“驻场”任命旨在巩固 Abbey Road 作为创意中心的地位，并建立广泛的音乐社区：\n\n- **Artist In Residence**: Jordan Rakei 为工作室历史上首位驻场艺术家。他在 18 个月的任期内可全面使用 Studio Two、Studio Three 及其传奇器材库，并拥有专属创作室。\n- **Producer In Residence**: Thomas Hull (Kid Harpoon)，格莱美与 BRIT 奖得主。他深度参与 Amplify 等教育项目，并为 Audiomovers 及 Abbey Road Red 的音乐科技创新工作提供咨询。\n- **Photographer in Residence**: Sam Rockman，负责记录工作室内的重要时刻，其作品曾登上《Uncut Magazine》封面。",
+      "tags": [
+        "Jordan Rakei",
+        "Kid Harpoon",
+        "创意合作",
+        "驻场计划",
+        "技术咨询",
+        "艺术影像"
+      ]
+    },
+    "mentors_and_tutors": {
+      "label": "行业导师与培训师",
+      "summary": "工作室通过全球性项目和教育机构，将行业知识传授给下一代：\n\n- **Chief Creative Advisor**: Nile Rodgers，作为首席创意顾问，为人才选拔提供指导并直接参与 Mentorship 计划（如 Backed By 项目）。\n- **Amplify 与 Equalise 导师**: 包括 Hannah V、Nainita Desai、James Ford、Rich Castillo 等。他们在年度节日中提供 1 对 1 反馈、混音诊断（Mix Surgery）及职业路径指导。\n- **Abbey Road Institute**: 由 CEO Luca Barassi 领导的教育团队讲授 Advanced Diploma in Music Production and Sound Engineering，课程由工作室工程师协助开发，遍布巴黎、阿姆斯特丹、悉尼及孟买等校区。\n- **专项导师**: Dion (Novelist 的经纪人兼导师) 为年轻音乐人提供 121 咨询。 ",
+      "tags": [
+        "Nile Rodgers",
+        "Amplify",
+        "Equalise",
+        "职业导师",
+        "Abbey Road Institute",
+        "音乐制作教育"
+      ]
+    },
+    "studio_runners": {
+      "label": "录音室运营支撑岗",
+      "summary": "Studio Runners 被称为工作室的“无名英雄”，曾获得 MPG (Music Producers Guild) 奖项提名。他们的工作贯穿录音过程的每一环节：\n\n- **核心职责**: 负责麦克风及其线缆的布设与收纳、准确记录每一条录音（take）的小节数（bar count），并协助工程师进行现场调度。\n- **团队成员**: 包括资深跑手 Sarah Meyz（后晋升至音频产品部）、Al Russell、Leah Morris、Sherry、Mack Kniese 及 Ed Farrell。\n- **学徒文化**: 该角色是传统学徒制的入门门槛，助理工程师（如 Freddie Light）多由优秀跑手晋升而来。跑手在工作中可以吸收来自资深工程师及《Pinocchio》等大型电影配乐项目的实战知识。",
+      "tags": [
+        "Sarah Meyz",
+        "录音支持",
+        "现场调度",
+        "MPG Awards",
+        "技术学徒",
+        "录音记录"
+      ]
+    }
+  },
+  "Assets": {
+    "label": "物理与技术资产",
+    "overview_web": "Abbey Road Studios 拥有包括全球最大录音室 Studio One 在内的顶级空间与 6 间母带工作室，配套 800 多支稀有麦克风及全量杜比全景声设施。",
+    "overview_app": {
+      "summary": "Abbey Road Studios 提供世界上最负盛名的专业音频设施，其资产体系涵盖了从 Studio One 到 Mix Stage 的多功能录音空间，以及由 800 余支麦克风、定制 EMI 控制台和传奇乐器构成的“器材宝库”。通过集成杜比全景声（Dolby Atmos）技术与 Audiomovers 远程协作系统，这些物理资产支撑起从管弦乐配乐、母带后期到历史档案修复的全流程业务。所有设备均由专业技术服务部进行维护，确保经典模拟器材与现代数字架构的深度融合。",
+      "tags": [
+        "录音工作室",
+        "母带后期",
+        "复古器材",
+        "乐器资产",
+        "杜比全景声",
+        "刻纹机",
+        "磁带机",
+        "技术支持"
+      ]
+    },
+    "recording_studios": {
+      "label": "标志性录音空间",
+      "summary": "### 主要录音空间\n* **Studio One**：全球最大的目的建造录音室，面积 4,844 平方英尺，可容纳 100 人交响乐团及 100 人合唱团，配备 AMS Neve 88RS SP3D 调音台。\n* **Studio Two**：1932 年启用的传奇空间，以独特的暖质音效著称，配有著名的隔离间及 Echo Chamber（回声室）。\n* **Studio Three**：2022 年重新装修，被定位为创作游戏场，配备 SSL G-Plus 调音台、Neve 1081 前置放大器及定制 ATC 监听系统。\n\n### 影视与配乐专用空间\n* **The Mix Stage**：杜比全景声（Dolby Atmos）Premier 认证及 IMAX 音频兼容，配备 4K 投影、8 套 Pro Tools 系统及 3 间剪辑室。\n* **Penthouse**：全数字当代录音与混音空间，获全景声混音认证。\n\n### 其他创意工作室\n* **Angel Studios**：位于伊斯灵顿的姐妹录音室，Angel One 配有 Seethly 管风琴。 \n* **The Gatehouse** & **The Front Room**：配有 Neve 或 SSL 调音台的小型化创意空间，适合乐队跟踪及人声录制。",
+      "tags": [
+        "Studio One",
+        "Studio Two",
+        "Studio Three",
+        "Mix Stage",
+        "Dolby Atmos",
+        "IMAX",
+        "Angel Studios",
+        "Penthouse",
+        "SSL G-Plus"
+      ]
+    },
+    "mastering_suites": {
+      "label": "专业母带后期套间",
+      "summary": "### 母带处理能力\n* **多功能工作室群**：共设有 6 间专业母带后期套间，支持立体声、STEM 及环绕声处理。\n* **Room 35**：专为杜比全景声（Dolby Atmos）音乐母带打造的专用室，采用 12 只 ATC 扬声器布局。\n* **Room 5 & Room 30**：配备 Neumann VMS 80 漆盘刻纹机、EMI TG12410 调音台及 B&W Nautilus 801 监听系统。\n\n### 档案传输与修复（Room 22）\n* **核心设施**：配备磁带烘烤炉（恒温 52°C 运行），负责 multitrack 磁带转移。\n* **设备规格**：使用 Studer A80（1/4 英寸）、Studer A820（2 英寸 24 轨）及 1 英寸 4 轨机；集成 CEDAR 音频修复系统进行非破坏性降噪。",
+      "tags": [
+        "Neumann VMS 80",
+        "Room 35",
+        "Room 22",
+        "CEDAR",
+        "Studer A80",
+        "黑胶刻纹",
+        "磁带修复"
+      ]
+    },
+    "vintage_gear_collection": {
+      "label": "经典复古器材收藏",
+      "summary": "### 麦克风珍藏\n* **规模**：馆藏 800 余支麦克风，包含 EMI HB-1E（1931 年专利）、Neumann U47、U67、M50、AKG D19、D20、STC/Coles 4038 等经典型号。\n* **特殊资产**：三支专为英国王室定制的金银压花麦克风（Royal Microphones）。\n\n### 控制台与动态处理器\n* **定制硬件**：EMI TG12345 调音台、REDD.51 电子管台；Fairchild 660、RS124、RS660 限制器。\n* **磁带技术**：Studer J37 4 轨磁带机、BTR 2 系列模拟录音机，以及被广泛模拟的 ADT（人工双轨录音）硬件链路。",
+      "tags": [
+        "Neumann U47",
+        "EMI TG12345",
+        "Fairchild 660",
+        "RS124",
+        "Studer J37",
+        "REDD.51",
+        "皇家麦克风"
+      ]
+    },
+    "instrument_assets": {
+      "label": "传奇乐器资产",
+      "summary": "### 标志性键盘乐器\n* **Mrs. Mills 钢琴**：1905 年产 Steinway Vertegrand，因其锤头经过漆面处理而具有独特的明亮金属音色。\n* **Steinway 大钢琴**：包含 1917 年 Steinway Model D 音乐会大钢琴及 Yamaha CFX 音乐会大钢琴。\n* **Challen 钢琴**：录音室常驻的直立钢琴，常用于获得特定时代感的音色。\n\n### 管风琴与弦乐\n* **Seethly Pipe Organ**：位于 Angel One 工作室，是大型编曲的核心乐器。\n* **定制吉他**：RS201 Studiomatic 限量版空心电吉他，首次内置了 EMI 团队于 1950 年代设计的 RS97 Rumble Filter 电路。",
+      "tags": [
+        "Steinway",
+        "Mrs. Mills 钢琴",
+        "Challen 钢琴",
+        "管风琴",
+        "RS201 Studiomatic",
+        "Yamaha CFX"
+      ]
+    },
+    "technical_infrastructure": {
+      "label": "音频技术基础设施",
+      "summary": "### 音频路由与监听\n* **物理连接**：全场部署有 35 个 bantam 线路插孔盘；配备自研的 MosCow 模拟信号路由与监听矩阵。\n* **监听系统**：官方合作伙伴 Bowers & Wilkins 提供的 800 系列 Diamond D3、801 与 802 系列旗舰级监听音箱。\n\n### 技术服务部 (Technical Services Department)\n* **定制开发**：提供全天候技术支持，能够开发内部定制的电子音频单元、IT 硬件及软件解决方案。\n* **远程协作层**：基于 Audiomovers 平台的 Listento 与 OMNIBUS 技术，支持在全球范围内实时同步传输高分辨率多通道音频数据。",
+      "tags": [
+        "Audiomovers",
+        "B&W 800 系列",
+        "MosCow 矩阵",
+        "接线盘",
+        "技术服务部",
+        "Pro Tools"
+      ]
+    }
+  },
+  "Ecosystem": {
+    "label": "生态连接网络",
+    "overview_web": "Abbey Road Studios 作为 Universal Music Group 旗下一员，通过 Abbey Road Red 孵化器连接全球超过 20 家音乐科技初创企业，并与 Bowers & Wilkins、Vacheron Constantin 等顶级品牌建立跨界战略联盟。",
+    "overview_app": {
+      "summary": "Abbey Road Studios 构建了涵盖母公司、顶级硬件品牌、科技孵化器及内容分发渠道的多元化生态网络。作为 Universal Music Group 的成员，其不仅是顶级录音基地，更通过 Abbey Road Red 计划在音乐科技领域深度布局，同时与 Bowers & Wilkins、DHL 及 Polestar 等战略伙伴合作，将“Abbey Road 标准”延伸至音响硬件、全球物流及高端汽车音频体验中。",
+      "tags": [
+        "Universal Music Group",
+        "Abbey Road Red",
+        "战略合作伙伴",
+        "品牌联盟",
+        "科技孵化",
+        "内容分发"
+      ]
+    },
+    "corporate_affiliation": {
+      "label": "母公司与集团关联",
+      "summary": "### 集团架构与法律信息\n* **隶属关系**：隶属于全球领先的音乐公司 **Universal Music Group (Universal)**。\n* **运营主体**：由 **Virgin Records Limited**（名义为 Abbey Road Studios）所有并运营。\n* **注册信息**：在英格兰注册，编号为 **01070953**。\n* **注册办公地点**：位于伦敦 **4 Pancras Square, Kings Cross, London N1C 4AG**。",
+      "tags": [
+        "Universal Music Group",
+        "Virgin Records Limited",
+        "伦敦",
+        "注册机构"
+      ]
+    },
+    "strategic_partners": {
+      "label": "全球战略品牌伙伴",
+      "summary": "### 跨界品牌联盟\n* **高保真音响与硬件**：\n    * **Bowers & Wilkins**：官方音箱与耳机合作伙伴。录音室全线配备其旗舰级 **800 Series Diamond** 扬声器。双方合作推出了 Px8 007 特别版耳机及限量版 **801 Abbey Road** 音箱。\n    * **Philips & TP Vision**：官方电视合作伙伴。在其 **OLED+903** 系列电视等产品中集成 Abbey Road 认证的视听体验。\n* **奢侈品与精密计时**：\n    * **Vacheron Constantin**：官方时间合作伙伴。共同推出 **One of Not Many** 导师计划，为草根音乐人才提供指导。\n* **物流与汽车音频**：\n    * **DHL**：官方物流伙伴。保障黑胶漆盘（lacquer masters）的全球化安全运输，并合作运营 **FAST-TRACK Sessions** 音乐平台。\n    * **Polestar**：与 **Polestar 3** 合作开发 **Abbey Road Studios Mode**，利用车内 25 个扬声器模拟录音室监听环境。\n* **生活方式与零售体验**：\n    * **Airbnb**：共同策划 **A Night at Abbey Road** 活动，提供在录音室过夜的稀有体验。\n    * **Ralph Lauren & Selfridges**：在 Oxford Street 合作设立 **SongShack** 弹出式录音棚。\n    * **Cunard**：在 **Queen Elizabeth** 邮轮上推出沉浸式 **Listening Lounge**，配备专属耳机及精选歌单。\n* **乐器研发**：\n    * **Gretsch**：合作开发限量版 **RS201 Studiomatic** 吉他，首次将录音室级电路直接嵌入乐器信号链。",
+      "tags": [
+        "Bowers & Wilkins",
+        "Vacheron Constantin",
+        "DHL",
+        "Polestar",
+        "Gretsch",
+        "Airbnb",
+        "Cunard",
+        "跨界合作"
+      ]
+    },
+    "tech_incubator_network": {
+      "label": "科技孵化创新生态",
+      "summary": "### Abbey Road Red 音乐科技孵化器\n* **发展历程**：成立于 **2016年**，是欧洲首个专注于音乐技术的专业孵化器，继承了 EMI 时期 **REDD** 部门的创新基因。\n* **孵化成果**：截至目前已孵化 **20 家** 音乐科技企业，成员总估值超过 **3.25 亿美元**，累计筹资超 **8000 万美元**。\n* **核心校友与项目**：\n    * **Audiomovers**：已被 Abbey Road 收购，提供高保真远程实时音频协作工具。\n    * **DAACI**：基于元作曲（meta-composition）AI 技术的作曲辅助平台。\n    * **LifeScore**：自适应生成式音乐 AI 平台。\n    * **成员名单**：包括 Audoo、Freedrum、Vochlea、Humtap、BrainRap、MediMusic 及 XONE 等多个细分领域初创企业。\n* **治理架构**：由制作人 **Nile Rodgers** 担任顾问委员会主席及首席合作者，董事会由 14 名来自录音室及母公司的资深管理层组成。",
+      "tags": [
+        "Abbey Road Red",
+        "Nile Rodgers",
+        "Audiomovers",
+        "音乐科技",
+        "初创企业",
+        "AI音乐",
+        "风险投资"
+      ]
+    },
+    "distribution_partners": {
+      "label": "数字分发与内容伙伴",
+      "summary": "### 全球分发与内容制作协作\n* **数字音乐分发**：\n    * **Spinnup**：Universal Music 旗下的数字分发服务，支持独立艺术家将音乐分发至 **Spotify**、**Apple Music**、**Amazon** 等 30 多个平台，并保留 100% 的版权与收益。\n* **内容制作伙伴**：\n    * **Because Music**：深度合作伙伴，共同制作 **Live Cuts** 系列现场录音计划及专属黑胶发布。\n    * **Friendly Records**：协助发布 Sleaford Mods 与 Hot Chip 等艺术家的公益单曲，收益捐赠予 **War Child** 慈善机构。\n    * **Pitchfork**：合作推出 **Amplify x Pitchfork London** 系列录音与采访计划。\n* **人才与 A&R 链接**：\n    * 与 **Decca**、**Polydor**、**EMI**、**Ninja Tune** 等主流与独立厂牌合作，通过 **Amplify** 等项目为新兴人才提供 A&R 评估及反馈通道。",
+      "tags": [
+        "Spinnup",
+        "Because Music",
+        "Spotify",
+        "Apple Music",
+        "Pitchfork",
+        "独立分发",
+        "A&R"
+      ]
+    }
+  },
+  "Proof": {
+    "label": "实力与名誉背书",
+    "overview_web": "Abbey Road Studios 自 1931 年在伦敦 St. John's Wood 开业以来，作为全球首家专用录音室，承载了 The Beatles 与《星球大战》等跨世纪文化杰作的诞生。",
+    "overview_app": {
+      "summary": "Abbey Road Studios 拥有超过 93 年的深厚积淀，是全球音乐制作与电影配乐的巅峰殿堂。从 The Beatles 的摇滚革命到好莱坞顶级大片的声景构建，该录音室凭借其独一无二的声学空间（如 Studio One）、传奇硬件收藏及屡获 Grammy 奖项的工程师团队，确立了其作为全球文化偶像的卓越地位。",
+      "tags": [
+        "The Beatles",
+        "Pink Floyd",
+        "电影配乐圣地",
+        "立体声诞生地",
+        "Grammy获奖团队",
+        "93年历史"
+      ]
+    },
+    "landmark_discography": {
+      "label": "文化里程碑式唱片",
+      "summary": "### 核心录制纪录\n- **The Beatles**: 1962年至1970年期间，在录音室录制了 210 首歌曲中的 190 首，包括《Revolver》、《Sgt. Pepper's Lonely Hearts Club Band》及以街道命名的《Abbey Road》。\n- **Pink Floyd**: 录制了《The Dark Side of the Moon》、《Wish You Were Here》以及首张专辑《Piper at the Gates of Dawn》。\n- **Fela Kuti**: 在此录制了开创性的《Afrodisiac》和《Live!》（与 Ginger Baker 合作）。\n\n### 跨世代标志性作品\n- **摇滚与流行**: 包括 Radiohead 的《The Bends》、Oasis 的《Be Here Now》、Kate Bush 的《Babooshka》以及 Shirley Bassey 的《Goldfinger》。\n- **当代经典**: 涵盖了 Frank Ocean 的《Blond》、Lady Gaga 的《Born This Way》、Amy Winehouse 的最后录制作品《Body and Soul》、Brockhampton 的《Iridescence》、Dua Lipa 及 Kanye West 的作品。",
+      "tags": [
+        "The Beatles",
+        "Pink Floyd",
+        "Radiohead",
+        "Amy Winehouse",
+        "Frank Ocean",
+        "Fela Kuti",
+        "摇滚里程碑",
+        "流行乐史"
+      ]
+    },
+    "film_scoring_credits": {
+      "label": "重量级影视配乐履历",
+      "summary": "### 影史经典配乐\n- **Studio One 成就**: 在过去 45 年中录制了众多重量级配乐，包括《Raiders of the Lost Ark》、《Star Wars》及《The Empire Strikes Back》之后的系列、《The Lord of the Rings》三部曲、《The Hobbit》三部曲、《Harry Potter》系列及《Avengers: Endgame》。\n- **奥斯卡获奖作品**: 《The Last Emperor》、《The Shape of Water》、《Gravity》、《Black Panther》及《Barbie》。\n\n### 近期大片录制\n- **电影**: 《1917》、《Tár》、《Spider-Man: Across the Spider-Verse》、《Wonka》、《Deadpool & Wolverine》、《Gladiator II》、《Wicked》及《Alien: Romulus》。\n- **剧集**: 《Downton Abbey》、《The Sandman》及《Peaky Blinders》。\n\n### 顶级电子游戏配乐\n- **项目列表**: 包括《Halo》、《Call of Duty》、《Final Fantasy》、《World of Warcraft》、《Genshin Impact》及获 Grammy 奖的《Star Wars Jedi: Survivor》。",
+      "tags": [
+        "Studio One",
+        "Star Wars",
+        "指环王",
+        "哈利波特",
+        "漫威电影",
+        "奥斯卡获奖配乐",
+        "电子游戏配乐"
+      ]
+    },
+    "industry_awards": {
+      "label": "行业权威奖项认可",
+      "summary": "### 录音室与团队荣誉\n- **机构奖项**: 2018 年荣获 Music Producers Guild (MPG) Awards 颁发的“年度录音室（Studio of the Year）”大奖。\n- **Grammy 荣誉**: 工程师团队（如 Simon Gibson, Sean Magee 等）因 2009 年 The Beatles 母带重制工程荣获 Grammy 奖；Andrew Walter 获得 4 项 Gramophone Awards 及 2 项 Grammy 提名。\n- **MPG 个人奖**: 母带工程师 Cicely Balston 蝉联 2021 年与 2024 年 MPG“年度母带工程师”奖。\n- **其他行业奖**: 工程师 Andrew Dudman 曾获 Cinema Audio Society (CAS) 奖项及 MPSE 奖项。",
+      "tags": [
+        "MPG Awards",
+        "Grammy",
+        "年度录音室",
+        "Gramophone Awards",
+        "母带重制成就"
+      ]
+    },
+    "historical_heritage": {
+      "label": "近世纪品牌历史底蕴",
+      "summary": "### 发展里程碑\n- **1830年**: 录音室所在建筑落成，最初为拥有 9 个卧室的乔治亚风格住宅。\n- **1931年11月12日**: 由 Sir Edward Elgar 主持开幕仪式，正式成立为全球首家专用录音室。\n- **1930s-1940s**: 二战期间坚持运营，成为 Glenn Miller 等艺术家的录制地。\n- **1970年代**: Pink Floyd 在此录制《The Dark Side of the Moon》，标志着多声道技术进入 Quad 时代。\n\n### 技术创新发源地\n- **立体声诞生**: 1931 年 Alan Blumlein 在此发明并获得立体声专利（专利号 394,325）。\n- **REDD 部门**: 1955 年成立 Record Engineering Development Department，开发了首批现代录音控制台蓝图。\n- **人工双轨录音 (ADT)**: 1960 年代由 Ken Townsend 发明，初衷是为满足 The Beatles 的录音需求。\n- **当代转型**: 2015 年成立音乐技术孵化器 Abbey Road Red，并于 2017 年建成全欧洲唯一具备杜比全景声 Premier 认证的电影混录棚（Mix Stage）。",
+      "tags": [
+        "立体声发明",
+        "Sir Edward Elgar",
+        "1931年开幕",
+        "ADT技术",
+        "EMI历史",
+        "REDD实验室"
+      ]
+    },
+    "testimonials": [
+      {
+        "type": "client",
+        "review": "这里的房间听起来非常华丽，墙壁充满了历史气息。这简直就是一个梦想。",
+        "author": "Edward Berger (电影导演)"
+      },
+      {
+        "type": "client",
+        "review": "在 Abbey Road 录制配乐，你置身于神圣的土地上——它名副其实。全新的混音中心感觉是业内最先进的。",
+        "author": "Bart Layton (电影制片人)"
+      },
+      {
+        "type": "client",
+        "review": "当你在 Abbey Road 录音室这样的声音殿堂里为电影配音时，这不仅仅是去工作，这更像是在朝圣。",
+        "author": "Rob Cohen (电影导演)"
+      },
+      {
+        "type": "client",
+        "review": "在 Abbey Road 混录电影，等同于一个梦想成为赛车手的人进入了法拉利工作。",
+        "author": "Andrew Stirk (重新录音混音师)"
+      },
+      {
+        "type": "other",
+        "review": "有些事物是神话般的。Abbey Road 就是一个神话。",
+        "author": "Nile Rodgers (首席创意顾问)"
+      },
+      {
+        "type": "client",
+        "review": "你来到这里，知道自己在某种程度上是在追逐音乐的幽灵。",
+        "author": "Mark Ronson (音乐制作人)"
+      }
+    ]
+  },
+  "Access": {
+    "label": "获取与参与路径",
+    "overview_web": "Abbey Road Studios 为全球艺术家提供现场录音室预订、数字化母带处理服务、行业活动抽签准入及音频工程专业教育申请路径。",
+    "overview_app": {
+      "summary": "Abbey Road Studios 构建了从物理录音室预订到全数字化音频生产的完整接入体系。用户可通过官方在线门户使用远程母带（Remote Mastering）和在线混音（Online Mixing）服务，并可在 **my.abbeyroad** 账户中管理项目。针对新一代创意人才，工作室开放了 **Amplify** 和 **Equalise** 活动的免费抽签名额，并提供 **Abbey Road Institute** 的高级文凭课程申请通道。作为专业办公场所，录音室不对公众开放导览参观。",
+      "tags": [
+        "录音室预订",
+        "远程母带服务",
+        "在线混音服务",
+        "教育课程申请",
+        "Amplify活动",
+        "抽签准入",
+        "非导览区域"
+      ]
+    },
+    "online_service_portal": {
+      "label": "数字化在线门户",
+      "summary": "数字化生产管理通过 **my.abbeyroad** 专属账户实现：\n- **项目管理：** 支持 WAV 或 AIFF 格式（最高 96kHz/32bit）的音频上传，用户可直接在线选择工程师并沟通制作意见。\n- **存储周期：** 母带成品自上传起在服务器存储 **1个月**，在线混音成品存储 **2个月**，用户需在有效期内完成下载备份。\n- **接入工具：** 支持使用 **Audiomovers** 或 **Source Connect Now** 插件进行高分辨率、低延迟的实时音频流监控。 \n- **安全保障：** 门户采用工业标准 128 bit SSL 加密保护账户交易及文件传输。",
+      "tags": [
+        "my.abbeyroad",
+        "SSL加密",
+        "成品下载",
+        "远程协作工具",
+        "在线存储"
+      ]
+    },
+    "booking_and_enquiry": {
+      "label": "咨询与预订流程",
+      "summary": "针对不同业务形态设有特定申请路径：\n- **现场录音室预订：** 需通过官网联系表格或邮件对接 **Studio Bookings** 团队，涵盖 Studio One 到 Angel Studios 等所有物理空间。\n- **远程生产流程：** 在线门户提交订单 → 支付 → 上传音源 → 工程师制作 → 站内信沟通 → 接收成品。\n- **公开活动接入：** 年度 Amplify 节庆活动采用免费抽签（**Ballot**）制度，优先考虑代表性不足背景的申请者。\n- **教育项目：** 申请 **Abbey Road Institute** 需提交作品集并通过面试，学院在洛杉矶、孟买、悉尼等四大洲均设有校区。",
+      "tags": [
+        "录音室预订",
+        "抽签制度",
+        "工程师沟通",
+        "申请评审",
+        "国际校区"
+      ]
+    },
+    "pricing_and_packages": {
+      "label": "定价体系与套餐",
+      "summary": "远程母带服务提供三档阶梯套餐（按曲计费）：\n| 套餐 | 价格 | 包含内容 |\n| :--- | :--- | :--- |\n| **Standard** | $130 | 24bit 母带、首位可用工程师、1组修订 |\n| **Enhanced** | $200 | 自选工程师、SD 16bit 文件、1组修订 |\n| **Deluxe** | $325 | 自选工程师、Apple Digital Masters、MP3、关联混音母带 |\n\n**增值服务与限制：**\n- **其他定价：** 在线母带服务 £90 起；人声修音（Vocal Tuning）每条音轨额外收费 £90。\n- **支付渠道：** 仅接受 **Mastercard** 与 **Visa** 信用卡支付，非英国用户需确认银行支持 GBP 跨境结算。\n- **交付时效：** 支付后最长 5 个工作日内交付；选择 **Fast Track** 选项可缩短至 1-2 天。",
+      "tags": [
+        "$130起",
+        "阶梯定价",
+        "FastTrack",
+        "Visa支付",
+        "英镑结算"
+      ]
+    },
+    "account_management": {
+      "label": "账户管理与规范",
+      "summary": "接入与交付必须遵守以下业务规范：\n- **工程文件规范：** 单曲时长上限 **10分钟**；需保留 -6dB 至 -3dB 动态余量；禁止提交已进行限制器（Limiting）处理的预混音文件。\n- **修订政策：** 套餐费包含一次针对音量或音色细节的合理修订；重大创作方向调整将视为新项目计费。\n- **年龄门槛：** 16 岁以下需监护人同意；13 岁以下用户需由监护人发送授权邮件至 **info@umusic.com** 建立档案。\n- **交付格式：** 最终交付物包括 44.1kHz/24bit 的成品，Deluxe 套餐额外提供 320kbps MP3。",
+      "tags": [
+        "WAV格式",
+        "10分钟上限",
+        "年龄门槛",
+        "修订规则",
+        "动态余量"
+      ]
+    }
+  },
+  "Operations": {
+    "label": "运营治理规范",
+    "overview_web": "艾比路录音室作为维珍唱片有限公司旗下的业务，在环球音乐集团架构下运行，遵循英格兰和威尔士法律及国际版权规范。",
+    "overview_app": {
+      "summary": "录音室的运营治理体系由环球音乐集团（Universal Music Group）统筹，以英格兰和威尔士法律为管辖基准。其核心规范涵盖了基于 128 位 SSL 加密的在线交易安全标准、严格的知识产权授权协议以及精细化的场地准入管理，确保从版权归属到物理空间安全的标准化运作。",
+      "tags": [
+        "维珍唱片",
+        "环球音乐",
+        "英格兰法律",
+        "128位SSL",
+        "版权保护",
+        "隐私政策",
+        "伦敦NW8 9AY",
+        "01070953"
+      ]
+    },
+    "compliance_and_legal": {
+      "label": "合规与法律条款管理",
+      "summary": "### 法律主体与管辖\n- **运营实体**：录音室是维珍唱片有限公司（Virgin Records Limited）的业务名称，公司注册编号为 01070953，注册地址位于伦敦国王十字区 4 Pancras Square。\n- **法律管辖**：受英格兰和威尔士法律约束，所有相关法律诉讼仅由英格兰和威尔士法院审理。\n\n### 年龄合规要求\n- **16岁约束**：16 岁以下用户提交个人信息前需获得父母或法定监护人同意。\n- **13岁限制**：13 岁以下用户禁止在未获得监护人书面邮件授权（需发送至 info@umusic.com）的情况下提交个人数据。\n\n### 财务与税务规范\n- **增值税发票**：仅向英国注册地址提供 VAT 发票，用户须在提交在线订单前联系团队申请。\n- **支付安全**：若国际支付被拦截，该卡将被系统锁定，用户需更换卡片支付。",
+      "tags": [
+        "注册编号01070953",
+        "英格兰法律",
+        "13岁政策",
+        "16岁政策",
+        "VAT发票申请",
+        "维珍唱片",
+        "法律管辖权"
+      ]
+    },
+    "intellectual_property": {
+      "label": "知识产权与内容保护",
+      "summary": "### 素材保护范围\n- **定义**：网站上包含的信息、艺术品、文本、视频、音频、图片及软件（统称为“Materials”）均受版权法及国际法律保护。\n- **使用许可**：用户仅获得个人非商业用途的使用授权，严禁未经授权进行商业性质的复制、分发、公开演出、展示或改编。\n\n### 权利保留与授权\n- **嵌入授权**：在第三方网站嵌入本站内容须获得环球音乐的明确协议授权，展示方式由环球音乐决定。\n- **活动许可**：如“Record a Song Experience”等录制体验包已包含所有 PRS（表演权利协会）许可证。",
+      "tags": [
+        "国际版权法",
+        "个人使用许可",
+        "商业禁止条款",
+        "PRS授权",
+        "素材版权",
+        "环球音乐授权"
+      ]
+    },
+    "site_operations": {
+      "label": "场地管理与运营制度",
+      "summary": "### 地理位置与准入\n- **场址**：位于伦敦 St. John's Wood 艾比路 3 号（3 Abbey Road, London NW8 9AY）。\n- **准入政策**：录音室属于工作场所与商业机构，不对普通公众开放参观或游览。\n\n### 运营时间与周期\n- **年度停业**：录音室在圣诞至元旦期间（如 2025 年 12 月 20 日至 2026 年 1 月 5 日）关闭，在此期间提交的远程任务不保证原定交付周期。\n- **交付效率**：在线母带处理通常在付款后 5 个工作日内完成，快速通道（FAST TRACK）可缩短至 1-2 天。\n\n### 现场安保规范\n- **活动安保**：企业或私人活动包含全方位的场馆安全管理（Full venue security）。\n- **承载量限制**：单间录音室（Studios One/Two/Three）可容纳 2-150 位宾客。",
+      "tags": [
+        "伦敦NW8 9AY",
+        "禁公众参观",
+        "2025圣诞停业周期",
+        "场馆安保",
+        "交付周期保障",
+        "150人限额"
+      ]
+    },
+    "privacy_and_data_security": {
+      "label": "数据隐私与安全标准",
+      "summary": "### 数据传输安全\n- **加密技术**：在线服务平台采用行业标准的 128 位 SSL 加密，覆盖账户管理、信用卡交易及音频文件传输全流程。\n- **支付渠道**：目前仅接受 Mastercard 和 Visa 支付，交易以英镑（GBP）结算。\n\n### 文件保留机制\n- **母带文件**：在线处理的文件在账号中保留 1 个月。\n- **混音文件**：交付的混音文件在服务器上保留 2 个月，用户须在此期限内下载并自行备份。\n\n### 隐私处理与合作\n- **支付第三方**：购买第三方产品（如杂志订阅）时，财务信息会提供给受合同约束的特定第三方服务商。\n- **地理信息采集**：使用 Cookies 采集非个人化的统计数据（如浏览器类型、域名），用于系统管理和流量监测。",
+      "tags": [
+        "128位SSL加密",
+        "1个月存储期",
+        "2个月存储期",
+        "Mastercard",
+        "Visa",
+        "Cookie政策",
+        "财务数据脱敏"
+      ]
+    }
+  }
+}
