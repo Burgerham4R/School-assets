@@ -1,0 +1,5557 @@
+{
+  "schema": "service_category_nav",
+  "version": "1.0",
+  "locale": "zh-CN",
+  "note": "按用户心智的“解决问题入口”组织；可按国家/地区法规与供给侧扩展叶子节点。",
+  "categories": [
+    {
+      "key": "housing_home",
+      "name": "居住与家",
+      "jobs": [
+        "把家住得更舒服",
+        "把空间变好用/更美",
+        "提升安全与便利"
+      ],
+      "children": [
+        {
+          "key": "home_maintenance_repair",
+          "name": "房屋日常维护与修缮",
+          "children": [
+            {
+              "key": "handyman_general",
+              "name": "万能工按时计费服务 (Handyman Services)"
+            },
+            {
+              "key": "gutter_cleaning_repair",
+              "name": "排水槽清理与漏水修复"
+            },
+            {
+              "key": "roof_inspection_minor_repair",
+              "name": "屋顶巡检与瓦片小修"
+            },
+            {
+              "key": "chimney_sweep_safety_check",
+              "name": "烟囱清扫与壁炉安全检查"
+            },
+            {
+              "key": "siding_repair_power_wash",
+              "name": "外墙板维修与高压冲洗"
+            },
+            {
+              "key": "window_screen_glass_repair",
+              "name": "纱窗换新与窗玻璃起雾修复"
+            },
+            {
+              "key": "drywall_patching_texture",
+              "name": "石膏板补洞与墙面纹理修复"
+            },
+            {
+              "key": "deck_staining_sealing",
+              "name": "木露台刷漆与防水密封"
+            },
+            {
+              "key": "foundation_crack_monitoring",
+              "name": "地基裂缝监测与灌缝处理"
+            },
+            {
+              "key": "driveway_resurfacing_sealing",
+              "name": "车道翻新与沥青密封"
+            }
+          ]
+        },
+        {
+          "key": "interior_design_improvement",
+          "name": "室内设计与居住体验优化",
+          "children": [
+            {
+              "key": "color_consultation_sampling",
+              "name": "室内配色方案专家上门建议"
+            },
+            {
+              "key": "lighting_design_ambience",
+              "name": "居家采光设计与氛围灯光布局"
+            },
+            {
+              "key": "closet_system_optimization",
+              "name": "步入式衣帽间系统定制与扩容"
+            },
+            {
+              "key": "soundproofing_solutions",
+              "name": "居家办公/影音室隔音改造"
+            },
+            {
+              "key": "accessibility_aging_in_place",
+              "name": "适老化无障碍居家改造方案"
+            },
+            {
+              "key": "kitchen_cabinet_refacing",
+              "name": "橱柜换门翻新 (不更换柜体)"
+            },
+            {
+              "key": "fireplace_modernization",
+              "name": "壁炉现代化外观改造"
+            },
+            {
+              "key": "basement_finishing_consult",
+              "name": "地下室硬装完成度提升规划"
+            },
+            {
+              "key": "window_treatment_automation",
+              "name": "智能窗帘系统定制安装"
+            }
+          ]
+        },
+        {
+          "key": "garden_outdoor_living",
+          "name": "庭院美化与户外生活",
+          "children": [
+            {
+              "key": "lawn_aeration_overseeding",
+              "name": "草坪打孔透气与补种"
+            },
+            {
+              "key": "irrigation_system_winterization",
+              "name": "灌溉系统冬季防冻排空与春季启动"
+            },
+            {
+              "key": "tree_trimming_arborist",
+              "name": "专业树艺师大树修剪与移除"
+            },
+            {
+              "key": "hardscape_paver_install",
+              "name": "户外硬质景观砖石铺设"
+            },
+            {
+              "key": "outdoor_kitchen_gas_line",
+              "name": "户外厨房及烧烤炉天然气管道排布"
+            },
+            {
+              "key": "fence_gate_automation",
+              "name": "庭院围栏加装与自动门禁系统"
+            },
+            {
+              "key": "pool_spa_maintenance",
+              "name": "泳池水质维护与加热系统检修"
+            },
+            {
+              "key": "pest_wildlife_deterrent",
+              "name": "庭院野生动物驱避与防虫害屏障"
+            },
+            {
+              "key": "snow_removal_contract",
+              "name": "季节性除雪预约服务"
+            }
+          ]
+        },
+        {
+          "key": "smart_home_security",
+          "name": "智能家居与安全防御",
+          "children": [
+            {
+              "key": "security_camera_mesh_wifi",
+              "name": "全屋监控覆盖与Mesh网络扩容"
+            },
+            {
+              "key": "smart_lock_video_doorbell",
+              "name": "智能门锁与可视门铃系统集成"
+            },
+            {
+              "key": "leak_detection_automatic_shutoff",
+              "name": "漏水自动感应及总阀切断系统安装"
+            },
+            {
+              "key": "ev_charger_home_install",
+              "name": "家用电动汽车充电桩安装与增容"
+            },
+            {
+              "key": "backup_generator_install",
+              "name": "全家备用发电机系统安装"
+            },
+            {
+              "key": "smart_thermostat_zoning",
+              "name": "智能温控器多分区精细化调试"
+            }
+          ]
+        },
+        {
+          "key": "home_health_environment",
+          "name": "居家健康与环境监测",
+          "children": [
+            {
+              "key": "mold_inspection_remediation",
+              "name": "霉菌检测与专业除霉治理"
+            },
+            {
+              "key": "lead_asbestos_testing",
+              "name": "含铅涂料与石棉安全评估 (老房适用)"
+            },
+            {
+              "key": "air_duct_sanitizing",
+              "name": "全屋通风管道深度清洁与除菌"
+            },
+            {
+              "key": "water_filtration_softener",
+              "name": "全屋软水机与反渗透净水安装"
+            },
+            {
+              "key": "energy_audit_efficiency",
+              "name": "家庭能源审计与隔热棉加装"
+            },
+            {
+              "key": "allergy_friendly_deep_clean",
+              "name": "深度抗过敏原居家环境处理"
+            }
+          ]
+        },
+        {
+          "key": "space_organization_lifestyle",
+          "name": "空间整理与居家生活方式",
+          "children": [
+            {
+              "key": "professional_organizing_declutter",
+              "name": "专业收纳师断舍离上门指导"
+            },
+            {
+              "key": "garage_storage_system",
+              "name": "车库立体收纳系统规划"
+            },
+            {
+              "key": "art_hanging_mirror_mounting",
+              "name": "画作挂件与重型镜面专业安装"
+            },
+            {
+              "key": "home_staging_for_sale",
+              "name": "售房前软装美化 (Staging)"
+            },
+            {
+              "key": "holiday_decor_install",
+              "name": "季节性节日灯饰专业挂装与拆卸"
+            },
+            {
+              "key": "wine_cellar_climate_control",
+              "name": "恒温酒窖环境监控与维护"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home_to_door",
+      "name": "家政到家",
+      "jobs": [
+        "把家打扫干净",
+        "有人帮我做家务",
+        "照顾家人/宠物"
+      ],
+      "children": [
+        {
+          "key": "residential_cleaning",
+          "name": "住宅清洁与深度保洁",
+          "children": [
+            {
+              "key": "standard_house_cleaning",
+              "name": "标准日常住宅保洁"
+            },
+            {
+              "key": "deep_cleaning_service",
+              "name": "全屋深度清洁"
+            },
+            {
+              "key": "move_in_out_cleaning",
+              "name": "搬入/搬出空屋保洁"
+            },
+            {
+              "key": "post_construction_cleaning",
+              "name": "装修后拓荒保洁"
+            },
+            {
+              "key": "vacation_rental_turnover",
+              "name": "短租房(Airbnb)快速翻台保洁"
+            },
+            {
+              "key": "spring_cleaning_seasonal",
+              "name": "季节性大扫除"
+            },
+            {
+              "key": "apartment_condo_cleaning",
+              "name": "公寓/联排别墅针对性保洁"
+            },
+            {
+              "key": "eco_friendly_green_cleaning",
+              "name": "纯植物系环保/低敏保洁"
+            },
+            {
+              "key": "hoarding_cleanup_specialist",
+              "name": "极端囤积症家庭清理"
+            }
+          ]
+        },
+        {
+          "key": "specialized_surface_care",
+          "name": "专项材质/部位维护",
+          "children": [
+            {
+              "key": "carpet_steam_cleaning",
+              "name": "地毯蒸汽清洗与消毒"
+            },
+            {
+              "key": "upholstery_furniture_cleaning",
+              "name": "布艺/皮质家具专业清洗"
+            },
+            {
+              "key": "window_interior_exterior_washing",
+              "name": "高低层窗户内外擦拭"
+            },
+            {
+              "key": "tile_grout_steam_cleaning",
+              "name": "瓷砖缝隙去垢与密封"
+            },
+            {
+              "key": "hardwood_floor_waxing_polishing",
+              "name": "实木地板打蜡与抛光"
+            },
+            {
+              "key": "area_rug_specialty_cleaning",
+              "name": "波斯/高档手工地毯专项洗护"
+            },
+            {
+              "key": "curtain_blind_cleaning",
+              "name": "窗帘及百叶窗拆洗"
+            },
+            {
+              "key": "chimney_sweep_inspection",
+              "name": "烟囱清扫与安全检测"
+            },
+            {
+              "key": "air_duct_vent_cleaning",
+              "name": "空调管道与通风口除尘"
+            },
+            {
+              "key": "dryer_vent_lint_removal",
+              "name": "烘干机排气管毛絮清理(防灾)"
+            }
+          ]
+        },
+        {
+          "key": "organizing_decluttering",
+          "name": "空间收纳与整理咨询",
+          "children": [
+            {
+              "key": "closet_organization_system",
+              "name": "衣橱系统规划与整理"
+            },
+            {
+              "key": "kitchen_pantry_categorization",
+              "name": "厨房与储藏室分类整理"
+            },
+            {
+              "key": "garage_basement_decluttering",
+              "name": "车库/地下室杂物出清与重组"
+            },
+            {
+              "key": "home_office_filing_optimization",
+              "name": "家庭办公室/文案整理"
+            },
+            {
+              "key": "digital_photo_file_organizing",
+              "name": "数字遗产与电子照片整理"
+            },
+            {
+              "key": "senior_downsizing_assistance",
+              "name": "长辈换小房搬家前断舍离助教"
+            },
+            {
+              "key": "playroom_toy_management",
+              "name": "儿童房玩具动线管理"
+            },
+            {
+              "key": "paper_shredding_secure_disposal",
+              "name": "机密文件上门销毁服务"
+            }
+          ]
+        },
+        {
+          "key": "laundry_wardrobe_care",
+          "name": "洗护与衣物管家",
+          "children": [
+            {
+              "key": "wash_dry_fold_delivery",
+              "name": "日常衣物代洗烘与折叠配送"
+            },
+            {
+              "key": "dry_cleaning_pickup_delivery",
+              "name": "高端干洗上门取送"
+            },
+            {
+              "key": "leather_suede_refurbishment",
+              "name": "皮衣奢侈品翻新护理"
+            },
+            {
+              "key": "clothing_alterations_tailoring",
+              "name": "上门量体与衣物修改"
+            },
+            {
+              "key": "ironing_pressing_service",
+              "name": "上门熨烫与挂烫"
+            },
+            {
+              "key": "sneaker_cleaning_restoration",
+              "name": "限量版球鞋精洗与修复"
+            }
+          ]
+        },
+        {
+          "key": "personal_chef_nutrition",
+          "name": "私厨、备餐与营养管理",
+          "children": [
+            {
+              "key": "weekly_meal_prep_service",
+              "name": "每周家庭配餐预制(Meal Prep)"
+            },
+            {
+              "key": "private_dinner_party_chef",
+              "name": "家庭宴会/私厨驻场服务"
+            },
+            {
+              "key": "special_dietary_nutritionist",
+              "name": "生酮/纯素/抗炎膳食规划"
+            },
+            {
+              "key": "grocery_shopping_concierge",
+              "name": "超市代采买与冰箱补货"
+            },
+            {
+              "key": "in_home_cooking_lessons",
+              "name": "上门一对一烹饪教学"
+            },
+            {
+              "key": "wine_cellar_management",
+              "name": "私人酒窖整理与藏酒管理"
+            }
+          ]
+        },
+        {
+          "key": "pet_care_services",
+          "name": "宠物到家与行为护理",
+          "children": [
+            {
+              "key": "dog_walking_active_play",
+              "name": "遛狗与户外体能消耗"
+            },
+            {
+              "key": "pet_sitting_overnight",
+              "name": "宠物留守看护(过夜)"
+            },
+            {
+              "key": "at_home_veterinary_checkup",
+              "name": "执业兽医上门基础检查"
+            },
+            {
+              "key": "dog_behavior_training_home",
+              "name": "宠物行为纠正上门私教"
+            },
+            {
+              "key": "pooper_scooper_yard_cleaning",
+              "name": "院子宠物粪便定期清理"
+            },
+            {
+              "key": "aquarium_tank_maintenance",
+              "name": "大型鱼缸清洗与水族维护"
+            },
+            {
+              "key": "pet_hospice_end_of_life",
+              "name": "宠物临终关怀与善后协助"
+            }
+          ]
+        },
+        {
+          "key": "caregiving_companionship",
+          "name": "家庭成员照护与帮手",
+          "children": [
+            {
+              "key": "babysitting_date_night",
+              "name": "临时育儿看护(Date Night)"
+            },
+            {
+              "key": "nanny_placement_service",
+              "name": "长期住家/通勤保姆匹配"
+            },
+            {
+              "key": "senior_non_medical_companion",
+              "name": "老人非医疗陪护与社交陪伴"
+            },
+            {
+              "key": "postpartum_doula_care",
+              "name": "产后月嫂/导乐居家护理"
+            },
+            {
+              "key": "special_needs_child_assistance",
+              "name": "特殊需求儿童居家辅助"
+            },
+            {
+              "key": "errand_running_personal_assistant",
+              "name": "私人生活助理(代办杂事)"
+            }
+          ]
+        },
+        {
+          "key": "outdoor_maintenance",
+          "name": "庭院周边与户外家政",
+          "children": [
+            {
+              "key": "lawn_mowing_edging",
+              "name": "草坪修剪与包边"
+            },
+            {
+              "key": "pool_cleaning_chemical_balance",
+              "name": "泳池清理与水质平衡"
+            },
+            {
+              "key": "gutter_cleaning_debris_removal",
+              "name": "房檐排水槽清理"
+            },
+            {
+              "key": "pressure_washing_driveway_deck",
+              "name": "车道与露台高压水枪冲洗"
+            },
+            {
+              "key": "snow_removal_salting",
+              "name": "冬季铲雪与撒盐防滑"
+            },
+            {
+              "key": "pest_control_mosquito_barrier",
+              "name": "居家虫害防治与蚊虫屏障"
+            },
+            {
+              "key": "garden_weeding_mulching",
+              "name": "花园除草与铺设覆盖物"
+            },
+            {
+              "key": "holiday_lighting_installation",
+              "name": "节日/圣诞灯饰布置与拆卸"
+            }
+          ]
+        },
+        {
+          "key": "emergency_restoration",
+          "name": "极端情况与灾后恢复",
+          "children": [
+            {
+              "key": "water_damage_mitigation",
+              "name": "漏水/水灾后除湿与除霉"
+            },
+            {
+              "key": "fire_smoke_odor_neutralization",
+              "name": "火灾后烟熏异物清除与除臭"
+            },
+            {
+              "key": "biohazard_trauma_cleanup",
+              "name": "生物危险品/创伤现场清理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "repair_install",
+      "name": "维修安装与工程",
+      "jobs": [
+        "东西坏了能修好",
+        "新设备有人装",
+        "小工程有人做"
+      ],
+      "children": [
+        {
+          "key": "hvac_climate_control",
+          "name": "冷暖空调与通风系统",
+          "children": [
+            {
+              "key": "ac_repair_maintenance",
+              "name": "中央空调维修与加氟"
+            },
+            {
+              "key": "furnace_heating_repair",
+              "name": "暖炉/锅炉修理与调试"
+            },
+            {
+              "key": "duct_cleaning_sealing",
+              "name": "通风管道清理与密封"
+            },
+            {
+              "key": "thermostat_smart_hvac_install",
+              "name": "智能温控器安装与集成"
+            },
+            {
+              "key": "heat_pump_installation",
+              "name": "热泵系统安装"
+            },
+            {
+              "key": "emergency_hvac_service",
+              "name": "24小时紧急冷暖抢修"
+            },
+            {
+              "key": "radiant_floor_heating_repair",
+              "name": "地暖系统维修"
+            },
+            {
+              "key": "hvac_insulation_upgrade",
+              "name": "阁楼/墙体隔热层加装"
+            }
+          ]
+        },
+        {
+          "key": "plumbing_water_systems",
+          "name": "水管、卫浴与水处理",
+          "children": [
+            {
+              "key": "leak_detection_repair",
+              "name": "漏水检测与水管修补"
+            },
+            {
+              "key": "drain_snaking_hydrojetting",
+              "name": "下水道疏通与高压清洗"
+            },
+            {
+              "key": "water_heater_install_repair",
+              "name": "热水器维修与换新(含无水箱式)"
+            },
+            {
+              "key": "toilet_faucet_fixture_install",
+              "name": "马桶、龙头及卫浴五金安装"
+            },
+            {
+              "key": "sump_pump_service",
+              "name": "防涝潜水泵维护"
+            },
+            {
+              "key": "water_softener_filtration",
+              "name": "全屋软水机与净水系统"
+            },
+            {
+              "key": "septic_tank_pumping",
+              "name": "化粪池清理与维护"
+            },
+            {
+              "key": "backflow_prevention_testing",
+              "name": "防倒流装置测试与安装"
+            },
+            {
+              "key": "garbage_disposal_repair",
+              "name": "厨房碎骨机维修"
+            }
+          ]
+        },
+        {
+          "key": "electrical_power_services",
+          "name": "电力、照明与能源交付",
+          "children": [
+            {
+              "key": "electrical_panel_upgrade",
+              "name": "电箱/配电盘升级更新"
+            },
+            {
+              "key": "outlet_switch_wiring",
+              "name": "插座开关增设与布线"
+            },
+            {
+              "key": "lighting_fixture_installation",
+              "name": "灯具/吊扇安装与亮化工程"
+            },
+            {
+              "key": "ev_charger_installation",
+              "name": "家用电动车充电桩安装"
+            },
+            {
+              "key": "generator_install_maintenance",
+              "name": "全屋备用发电机安装"
+            },
+            {
+              "key": "solar_panel_repair",
+              "name": "太阳能电池板维护与清洗"
+            },
+            {
+              "key": "smart_home_electrical_hub",
+              "name": "智能家居电力中枢集成"
+            },
+            {
+              "key": "surge_protection_whole_house",
+              "name": "全屋防浪涌保护系统"
+            }
+          ]
+        },
+        {
+          "key": "appliance_repair_install",
+          "name": "大家电维修与安装",
+          "children": [
+            {
+              "key": "refrigerator_freezer_repair",
+              "name": "冰箱及冷柜压缩机维修"
+            },
+            {
+              "key": "washer_dryer_service",
+              "name": "洗衣机/烘干机故障排除"
+            },
+            {
+              "key": "dryer_vent_cleaning",
+              "name": "烘干机排风口除尘(防灾)"
+            },
+            {
+              "key": "dishwasher_install_repair",
+              "name": "洗碗机安装与漏水修复"
+            },
+            {
+              "key": "oven_range_hood_repair",
+              "name": "烤箱、灶台及抽油烟机维修"
+            },
+            {
+              "key": "microwave_built_in_install",
+              "name": "嵌入式微波炉安装"
+            },
+            {
+              "key": "wine_cooler_repair",
+              "name": "恒温酒柜专业维修"
+            }
+          ]
+        },
+        {
+          "key": "exterior_roofing_structure",
+          "name": "房屋外部、屋顶与结构工程",
+          "children": [
+            {
+              "key": "roof_repair_shingle_replacement",
+              "name": "屋顶瓦片修复与补漏"
+            },
+            {
+              "key": "siding_repair_installation",
+              "name": "外墙挂板修补与翻新"
+            },
+            {
+              "key": "skylight_install_repair",
+              "name": "天窗安装与密封修复"
+            },
+            {
+              "key": "chimney_sweep_repair",
+              "name": "烟囱清理与砖石修复"
+            },
+            {
+              "key": "foundation_crack_repair",
+              "name": "地基裂缝修补与加固"
+            },
+            {
+              "key": "deck_patio_resurfacing",
+              "name": "露台修缮与木材打蜡"
+            },
+            {
+              "key": "fence_gate_repair",
+              "name": "围栏及庭院门翻新"
+            }
+          ]
+        },
+        {
+          "key": "interior_remodeling_finishing",
+          "name": "室内改造、精装修与木工",
+          "children": [
+            {
+              "key": "drywall_repair_patching",
+              "name": "石膏板修补与墙面找平"
+            },
+            {
+              "key": "flooring_install_refinishing",
+              "name": "地板安装、打磨与翻新"
+            },
+            {
+              "key": "cabinet_refacing_repair",
+              "name": "橱柜改色与五金修复"
+            },
+            {
+              "key": "tile_grout_repair",
+              "name": "瓷砖铺设与美缝修复"
+            },
+            {
+              "key": "wallpaper_removal_install",
+              "name": "墙纸撕除与铺贴"
+            },
+            {
+              "key": "molding_trim_carpentry",
+              "name": "踢脚线及装饰线条定制"
+            },
+            {
+              "key": "door_window_glass_repair",
+              "name": "门窗轨道调节与玻璃更换"
+            },
+            {
+              "key": "staircase_railing_repair",
+              "name": "楼梯及扶手加固"
+            }
+          ]
+        },
+        {
+          "key": "specialized_home_services",
+          "name": "专项维保与长尾工程",
+          "children": [
+            {
+              "key": "asbestos_lead_testing",
+              "name": "石棉与铅涂料检测脱除"
+            },
+            {
+              "key": "mold_remediation_testing",
+              "name": "霉菌检测与专业除霉"
+            },
+            {
+              "key": "termite_structural_repair",
+              "name": "白蚁受损结构加固修复"
+            },
+            {
+              "key": "radon_mitigation_system",
+              "name": "氡气检测与缓解系统安装"
+            },
+            {
+              "key": "soundproofing_installation",
+              "name": "家庭影院/卧室隔音工程"
+            },
+            {
+              "key": "accessibility_ramps_lifts",
+              "name": "无障碍坡道与升降机安装"
+            },
+            {
+              "key": "safe_vault_bolting",
+              "name": "保险柜墙体固定安装"
+            },
+            {
+              "key": "art_heavy_mirror_hanging",
+              "name": "重型艺术品/挂镜安全悬挂"
+            },
+            {
+              "key": "fireplace_gas_log_convert",
+              "name": "壁炉改燃气/电壁炉改造"
+            }
+          ]
+        },
+        {
+          "key": "garage_outdoor_maintenance",
+          "name": "车库与户外大型设施",
+          "children": [
+            {
+              "key": "garage_door_spring_repair",
+              "name": "车库门弹簧与开门机维修"
+            },
+            {
+              "key": "pool_equipment_repair",
+              "name": "泳池泵浦与过滤系统维修"
+            },
+            {
+              "key": "sprinkler_irrigation_repair",
+              "name": "自动草坪喷淋系统维护"
+            },
+            {
+              "key": "awning_pergola_install",
+              "name": "遮阳棚与凉亭组装"
+            },
+            {
+              "key": "outdoor_kitchen_repair",
+              "name": "户外厨房设备维护"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "real_estate_property",
+      "name": "房产与物业",
+      "jobs": [
+        "租买卖更省心",
+        "住得更省事",
+        "资产更安全"
+      ],
+      "children": [
+        {
+          "key": "residential_sales_leasing",
+          "name": "住宅买卖与租赁经纪",
+          "children": [
+            {
+              "key": "buyer_representation",
+              "name": "买方代理人服务"
+            },
+            {
+              "key": "seller_listing_agent",
+              "name": "卖方挂牌代理"
+            },
+            {
+              "key": "luxury_real_estate_concierge",
+              "name": "豪宅全程陪跑服务"
+            },
+            {
+              "key": "rental_locator_services",
+              "name": "公寓租赁寻源服务"
+            },
+            {
+              "key": "foreclosure_short_sale_specialist",
+              "name": "法拍房与折价房交易专家"
+            },
+            {
+              "key": "off_market_sourcing",
+              "name": "非公开市场房源挖掘"
+            },
+            {
+              "key": "vacant_land_acquisition",
+              "name": "住宅用地购置服务"
+            }
+          ]
+        },
+        {
+          "key": "property_management_operations",
+          "name": "房产托付与租赁管理",
+          "children": [
+            {
+              "key": "long_term_rental_mgmt",
+              "name": "长租公寓日常代管"
+            },
+            {
+              "key": "short_term_vacation_rental_hosting",
+              "name": "Airbnb/短租全流程托管"
+            },
+            {
+              "key": "tenant_screening_eviction",
+              "name": "租客背景调查与驱逐协助"
+            },
+            {
+              "key": "rent_collection_financial_reporting",
+              "name": "租金收缴与财务账单服务"
+            },
+            {
+              "key": "vacant_home_watching",
+              "name": "空置房屋定期巡检(Snowbird服务)"
+            },
+            {
+              "key": "squatter_removal_consultation",
+              "name": "非法占屋者清理与法律咨询"
+            },
+            {
+              "key": "corporate_housing_mgmt",
+              "name": "企业员工宿舍管理"
+            }
+          ]
+        },
+        {
+          "key": "home_preparation_staging",
+          "name": "售前整备与陈列艺术",
+          "children": [
+            {
+              "key": "professional_home_staging",
+              "name": "售前家具租赁与软装陈列"
+            },
+            {
+              "key": "real_estate_photography_drone",
+              "name": "房产摄影与无人机航拍"
+            },
+            {
+              "key": "virtual_tour_3d_scanning",
+              "name": "Matterport 3D虚拟看房建模"
+            },
+            {
+              "key": "curb_appeal_enhancement",
+              "name": "房屋外缘美化与路缘吸引力提升"
+            },
+            {
+              "key": "decluttering_estate_sale_organizing",
+              "name": "杂物清空与遗产拍卖组织"
+            }
+          ]
+        },
+        {
+          "key": "inspection_due_diligence",
+          "name": "房产检测与尽职调查",
+          "children": [
+            {
+              "key": "general_home_inspection",
+              "name": "全屋综合质量检测"
+            },
+            {
+              "key": "termite_pest_inspection",
+              "name": "白蚁与木结构害虫专门检测"
+            },
+            {
+              "key": "radon_gas_testing",
+              "name": "氡气含量检测"
+            },
+            {
+              "key": "mold_mildew_environmental_assessment",
+              "name": "霉菌与环境风险评估"
+            },
+            {
+              "key": "sewer_scope_inspection",
+              "name": "地下下水道内窥镜检测"
+            },
+            {
+              "key": "lead_paint_asbestos_testing",
+              "name": "铅漆与石棉历史残留检测"
+            },
+            {
+              "key": "structural_engineering_report",
+              "name": "房屋结构安全工程报告"
+            }
+          ]
+        },
+        {
+          "key": "title_legal_closing",
+          "name": "产权、法律与交易过户",
+          "children": [
+            {
+              "key": "title_search_insurance",
+              "name": "产权检索与产权保险服务"
+            },
+            {
+              "key": "escrow_settlement_services",
+              "name": "第三方托管与结算服务"
+            },
+            {
+              "key": "notary_public_mobile_signing",
+              "name": "公证员上门签名服务"
+            },
+            {
+              "key": "deed_transfer_recording",
+              "name": "房契转让与政府登记"
+            },
+            {
+              "key": "real_estate_tax_appeal",
+              "name": "房产税评估异议与减免申诉"
+            },
+            {
+              "key": "zoning_land_use_consulting",
+              "name": "土地用途规划与变更咨询"
+            }
+          ]
+        },
+        {
+          "key": "hoa_community_governance",
+          "name": "HOA社区治理与物业管理",
+          "children": [
+            {
+              "key": "hoa_association_mgmt",
+              "name": "业主委员会(HOA)职业经理人"
+            },
+            {
+              "key": "community_rule_enforcement",
+              "name": "社区规章巡查与违规处理"
+            },
+            {
+              "key": "amenity_facility_maintenance",
+              "name": "社区公共设施(泳池/会所)维护"
+            },
+            {
+              "key": "reserve_study_consulting",
+              "name": "社区储备金长期规划咨询"
+            },
+            {
+              "key": "dispute_resolution_mediation",
+              "name": "邻里纠纷调解服务"
+            }
+          ]
+        },
+        {
+          "key": "specialized_property_services",
+          "name": "特种房产修复与极端清理",
+          "children": [
+            {
+              "key": "biohazard_remediation",
+              "name": "生物风险修复(命案/孤独死现场清理)"
+            },
+            {
+              "key": "hoarder_cleanup_services",
+              "name": "囤积癖住宅深度清理"
+            },
+            {
+              "key": "meth_lab_decontamination",
+              "name": "违禁实验室污染净化"
+            },
+            {
+              "key": "wildfire_ash_smoke_restoration",
+              "name": "山火烟灰受损修复"
+            },
+            {
+              "key": "historic_home_restoration_consulting",
+              "name": "历史保护建筑修复咨询"
+            }
+          ]
+        },
+        {
+          "key": "commercial_industrial_real_estate",
+          "name": "商业与工业地产专项",
+          "children": [
+            {
+              "key": "commercial_lease_negotiation",
+              "name": "商业租约谈判与审核"
+            },
+            {
+              "key": "warehouse_logistics_facility_mgmt",
+              "name": "仓库与物流设施专项管理"
+            },
+            {
+              "key": "retail_space_site_selection",
+              "name": "零售门店选址与客流分析"
+            },
+            {
+              "key": "ada_compliance_audit",
+              "name": "残障人士便利设施合规审计"
+            },
+            {
+              "key": "commercial_energy_efficiency_retrofitting",
+              "name": "商业建筑能效改造规划"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "transport_mobility",
+      "name": "出行与交通",
+      "jobs": [
+        "从A到B更省心",
+        "通勤更顺",
+        "运送更可靠"
+      ],
+      "children": [
+        {
+          "key": "personal_vehicle_services",
+          "name": "私家车车主服务",
+          "children": [
+            {
+              "key": "mobile_car_detailing",
+              "name": "上门汽车美容与精洗"
+            },
+            {
+              "key": "on_demand_fuel_delivery",
+              "name": "按需上门加油/充电"
+            },
+            {
+              "key": "emergency_roadside_assistance",
+              "name": "紧急道路救援与拖车"
+            },
+            {
+              "key": "mobile_mechanic_repair",
+              "name": "上门机修与保养"
+            },
+            {
+              "key": "vin_lookup_history_reports",
+              "name": "车辆历史报告查询"
+            },
+            {
+              "key": "vehicle_storage_longterm",
+              "name": "长期车辆托管与存放"
+            },
+            {
+              "key": "car_wrap_tinting",
+              "name": "车身改色膜与隔热膜施工"
+            }
+          ]
+        },
+        {
+          "key": "driver_for_hire",
+          "name": "代驾与私人司机",
+          "children": [
+            {
+              "key": "designated_driver_personal",
+              "name": "酒后/疲劳私人代驾"
+            },
+            {
+              "key": "executive_chauffeur_service",
+              "name": "商务行政司机托管"
+            },
+            {
+              "key": "school_run_shuttle",
+              "name": "校车未覆盖区接送代办"
+            },
+            {
+              "key": "senior_medical_transport_escort",
+              "name": "老年人就医陪诊接送"
+            },
+            {
+              "key": "long_distance_vehicle_relocation",
+              "name": "跨州车辆代驱动"
+            },
+            {
+              "key": "non_emergency_medical_transport",
+              "name": "非紧急医疗转运"
+            }
+          ]
+        },
+        {
+          "key": "specialized_rentals",
+          "name": "特种/休闲车辆租赁",
+          "children": [
+            {
+              "key": "rv_camper_rental",
+              "name": "房车与露营车租赁"
+            },
+            {
+              "key": "luxury_exotic_car_rental",
+              "name": "豪车与超跑租赁"
+            },
+            {
+              "key": "motorcycle_scooter_rental",
+              "name": "摩托车与踏板车租赁"
+            },
+            {
+              "key": "boat_yacht_charter",
+              "name": "游艇与私人船只租凭"
+            },
+            {
+              "key": "classic_car_for_events",
+              "name": "婚礼/拍摄用老爷车"
+            },
+            {
+              "key": "adventure_atv_utv_rental",
+              "name": "全地形车(ATV)租赁"
+            }
+          ]
+        },
+        {
+          "key": "air_aviation_services",
+          "name": "私人飞行与航空服务",
+          "children": [
+            {
+              "key": "private_jet_charter",
+              "name": "私人飞机包机服务"
+            },
+            {
+              "key": "helicopter_shuttle_tour",
+              "name": "直升机通勤与观光"
+            },
+            {
+              "key": "aircraft_maintenance_management",
+              "name": "私人飞机维保托管"
+            },
+            {
+              "key": "pilot_for_hire",
+              "name": "私人飞行员派遣"
+            },
+            {
+              "key": "hangar_space_rental",
+              "name": "机库租赁与地面服务"
+            }
+          ]
+        },
+        {
+          "key": "special_cargo_transport",
+          "name": "特种运输与物流",
+          "children": [
+            {
+              "key": "pet_relocation_ground_air",
+              "name": "宠物跨州/国际转运"
+            },
+            {
+              "key": "horse_livestock_transport",
+              "name": "马匹与活畜专业运输"
+            },
+            {
+              "key": "piano_fine_art_moving",
+              "name": "钢琴与艺术品恒温运输"
+            },
+            {
+              "key": "boat_transport_hauling",
+              "name": "游艇陆路拖运"
+            },
+            {
+              "key": "white_glove_delivery",
+              "name": "白手套高端家具配送安装"
+            }
+          ]
+        },
+        {
+          "key": "urban_micro_mobility",
+          "name": "城市微出行与共享",
+          "children": [
+            {
+              "key": "ebike_sharing_subscription",
+              "name": "电单车长租/订阅"
+            },
+            {
+              "key": "last_mile_shuttle_fleet",
+              "name": "最后一公里企业班车"
+            },
+            {
+              "key": "bike_repair_mobile_shop",
+              "name": "自行车/滑板车上门维修"
+            },
+            {
+              "key": "parking_spot_reservation",
+              "name": "城市泊位预约服务"
+            }
+          ]
+        },
+        {
+          "key": "travel_compliance_doc",
+          "name": "跨境与合规政务",
+          "children": [
+            {
+              "key": "tsa_precheck_global_entry",
+              "name": "快速通关申请代办"
+            },
+            {
+              "key": "international_driving_permit",
+              "name": "国际驾照翻译与公证"
+            },
+            {
+              "key": "vehicle_registration_renewal",
+              "name": "DMV车辆年检注册代办"
+            },
+            {
+              "key": "customs_brokerage_personal",
+              "name": "个人自带货关税申报"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "travel_holiday",
+      "name": "旅游度假",
+      "jobs": [
+        "玩得省心",
+        "订得划算",
+        "行程可控"
+      ],
+      "children": [
+        {
+          "key": "lodging_accommodations",
+          "name": "住宿预订与个性化入住",
+          "children": [
+            {
+              "key": "luxury_hotels_resorts",
+              "name": "豪华酒店与全包式度假村预订"
+            },
+            {
+              "key": "vacation_rentals_villas",
+              "name": "度假屋/短租别墅预订与管家对接"
+            },
+            {
+              "key": "boutique_inn_bnb",
+              "name": "精品旅馆与特色民宿 B&B"
+            },
+            {
+              "key": "glamping_unique_stays",
+              "name": "奢华露营（Glamping）与树屋/透明球房"
+            },
+            {
+              "key": "rv_parks_campgrounds",
+              "name": "房车营地与国家公园露营位代订"
+            },
+            {
+              "key": "pet_friendly_lodging",
+              "name": "宠物友好住宿筛选与配置服务"
+            },
+            {
+              "key": "accessible_travel_stays",
+              "name": "无障碍住宿（ADA合规）深度定制"
+            },
+            {
+              "key": "long_term_digital_nomad_housing",
+              "name": "数字游民长租公寓与联合办公配套"
+            }
+          ]
+        },
+        {
+          "key": "transportation_rentals",
+          "name": "出行交通与自驾租赁",
+          "children": [
+            {
+              "key": "car_rental_standard",
+              "name": "标准车辆租赁（轿车/SUV）"
+            },
+            {
+              "key": "luxury_exotic_car_rentals",
+              "name": "豪车与超跑租赁（含赛道送取）"
+            },
+            {
+              "key": "rv_campervan_rentals",
+              "name": "房车（RV）与改装露营车租赁"
+            },
+            {
+              "key": "helicopter_transfers",
+              "name": "直升机接送与城市低空通勤"
+            },
+            {
+              "key": "chauffeur_limo_services",
+              "name": "专职司机与礼宾豪华轿车服务"
+            },
+            {
+              "key": "boat_yacht_charters",
+              "name": "游艇与动力船租赁（含船长/无船长）"
+            },
+            {
+              "key": "motorcycle_rental_tours",
+              "name": "哈雷/重型机车租赁与骑行路线设计"
+            },
+            {
+              "key": "train_rail_passes",
+              "name": "观光列车（如Amtrak/皇家库页号）车票与包厢"
+            }
+          ]
+        },
+        {
+          "key": "itinerary_planning_concierge",
+          "name": "行程规划与深度定制",
+          "children": [
+            {
+              "key": "bespoke_itinerary_design",
+              "name": "1对1私人定制师行程规划"
+            },
+            {
+              "key": "road_trip_mapping",
+              "name": "公路旅行路线设计与沿途补给点规划"
+            },
+            {
+              "key": "last_minute_travel_assist",
+              "name": "24小时紧急行程变更与最后时刻预订"
+            },
+            {
+              "key": "corporate_retreat_planning",
+              "name": "企业团建与异地商务会议统筹"
+            },
+            {
+              "key": "disney_universal_vip_guide",
+              "name": "主题乐园VIP带玩与排队优化服务"
+            },
+            {
+              "key": "restaurant_reservation_concierge",
+              "name": "米其林/热门餐厅席位抢订与代约"
+            },
+            {
+              "key": "local_insider_scouting",
+              "name": "当地“百事通”目的地踩点与避雷报告"
+            }
+          ]
+        },
+        {
+          "key": "outdoor_adventure_activities",
+          "name": "户外探险与体育旅游",
+          "children": [
+            {
+              "key": "guided_national_park_tours",
+              "name": "国家公园持牌导游深度徒步"
+            },
+            {
+              "key": "ski_snowboard_packages",
+              "name": "滑雪度假包（含雪票/教练/雪具送达）"
+            },
+            {
+              "key": "deep_sea_fishing_charters",
+              "name": "深海海钓包船与战利品处理"
+            },
+            {
+              "key": "hunting_expeditions",
+              "name": "合法狩猎远征服务（含向导/许可）"
+            },
+            {
+              "key": "scuba_diving_excursions",
+              "name": "潜水考证与船宿潜水行程"
+            },
+            {
+              "key": "skydiving_paragliding",
+              "name": "高空跳伞与滑翔伞体验预订"
+            },
+            {
+              "key": "wildlife_photography_tours",
+              "name": "野生动物摄影专家随行指导"
+            },
+            {
+              "key": "golf_vacation_packages",
+              "name": "顶级高尔夫球场预订与巡回赛体验"
+            }
+          ]
+        },
+        {
+          "key": "culture_wellness_specialty",
+          "name": "文化艺术、康养与专项旅游",
+          "children": [
+            {
+              "key": "wine_tasting_napa_sonoma",
+              "name": "酒庄深度品鉴与酿酒师私享会"
+            },
+            {
+              "key": "wellness_meditation_retreats",
+              "name": "静修营与高端水疗康养之旅"
+            },
+            {
+              "key": "art_gallery_studio_tours",
+              "name": "私人画廊走访与艺术家工作室预约"
+            },
+            {
+              "key": "culinary_cooking_tours",
+              "name": "当地名厨私房菜课程与食材寻访"
+            },
+            {
+              "key": "genealogy_heritage_trips",
+              "name": "寻根之旅（家谱溯源与祖籍地探访）"
+            },
+            {
+              "key": "volunteer_tourism",
+              "name": "公益志愿者旅游（环保/动保项目）"
+            },
+            {
+              "key": "music_festival_packages",
+              "name": "大型音乐节（Coachella等）门票与周边保障"
+            }
+          ]
+        },
+        {
+          "key": "travel_support_logistics",
+          "name": "旅游后勤与极致便利服务",
+          "children": [
+            {
+              "key": "luggage_shipping_valet",
+              "name": "行李全球直寄与目的地门到门配送"
+            },
+            {
+              "key": "visa_passport_expediting",
+              "name": "签证加急与护照延期代办"
+            },
+            {
+              "key": "travel_insurance_claims",
+              "name": "高额旅游保险咨询与理赔辅助"
+            },
+            {
+              "key": "portable_wifi_sim_esim",
+              "name": "全球移动网络方案（eSIM/移动WiFi）"
+            },
+            {
+              "key": "travel_gear_rental",
+              "name": "专业户外装备（帐篷/摄影机）异地租赁"
+            },
+            {
+              "key": "home_watch_travel",
+              "name": "旅行期间“看家服务”（绿植浇水/信件处理）"
+            },
+            {
+              "key": "language_translation_escort",
+              "name": "目的地随身翻译与文化陪同"
+            },
+            {
+              "key": "airport_meet_greet",
+              "name": "机场贵宾通道协助与行李专人提取"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "food_dining",
+      "name": "餐饮与到店生活",
+      "jobs": [
+        "吃得方便",
+        "聚会有安排",
+        "场景更有仪式感"
+      ],
+      "children": [
+        {
+          "key": "restaurant_reservations",
+          "name": "餐厅预订与到店",
+          "children": [
+            {
+              "key": "fine_dining_booking",
+              "name": "米其林/高端精致餐饮预订"
+            },
+            {
+              "key": "casual_dining_waitlist",
+              "name": "大众流行餐厅在线排队"
+            },
+            {
+              "key": "group_table_booking",
+              "name": "多人/大桌聚会预订"
+            },
+            {
+              "key": "themed_restaurant_exp",
+              "name": "沉浸式/主题特色餐厅预约"
+            },
+            {
+              "key": "pet_friendly_dining",
+              "name": "宠物友好餐厅索引与订位"
+            },
+            {
+              "key": "blind_box_dining",
+              "name": "盲盒餐厅/神秘晚餐体验预约"
+            }
+          ]
+        },
+        {
+          "key": "catering_events",
+          "name": "餐饮承办与大型活动",
+          "children": [
+            {
+              "key": "corporate_lunch_catering",
+              "name": "企业员工午餐批量承办"
+            },
+            {
+              "key": "wedding_food_service",
+              "name": "婚礼宴会餐饮全案服务"
+            },
+            {
+              "key": "outdoor_bbq_party",
+              "name": "户外烧烤派对上门承办"
+            },
+            {
+              "key": "cocktail_bar_mobile",
+              "name": "移动酒吧与调酒师现场服务"
+            },
+            {
+              "key": "food_truck_rental",
+              "name": "活动餐饮车（Food Truck）现场驻点"
+            },
+            {
+              "key": "funeral_reception_catering",
+              "name": "葬礼招待会餐饮礼仪服务"
+            },
+            {
+              "key": "tailgate_party_supply",
+              "name": "赛事前哨（Tailgate）派对餐饮供应"
+            }
+          ]
+        },
+        {
+          "key": "private_chef_expert",
+          "name": "私厨与专业定制",
+          "children": [
+            {
+              "key": "home_fine_dining",
+              "name": "家庭高端法式/日料私厨上门"
+            },
+            {
+              "key": "weekly_meal_prep_pro",
+              "name": "专业厨师上门批量备菜（一周量）"
+            },
+            {
+              "key": "nutritionist_custom_meal",
+              "name": "注册营养师定制减脂/增肌餐单"
+            },
+            {
+              "key": "allergy_specific_chef",
+              "name": "极端过敏源避让定制厨师服务"
+            },
+            {
+              "key": "postpartum_nutrition_chef",
+              "name": "产后修复/月子餐定制厨师"
+            },
+            {
+              "key": "celebrity_chef_experience",
+              "name": "名厨预约及私人菜单设计"
+            }
+          ]
+        },
+        {
+          "key": "delivery_specialty",
+          "name": "外送与特色配送",
+          "children": [
+            {
+              "key": "last_minute_office_delivery",
+              "name": "商务会议紧急茶歇配送"
+            },
+            {
+              "key": "hospital_patient_meal",
+              "name": "医院患者专用营养餐外送"
+            },
+            {
+              "key": "drive_thru_pickup_service",
+              "name": "指定窗口代取餐服务"
+            },
+            {
+              "key": "alcohol_tobacco_delivery",
+              "name": "含酒精饮料/烟草合规配送"
+            },
+            {
+              "key": "fresh_ingredient_kits",
+              "name": "半成品净菜（Meal Kits）订阅配送"
+            },
+            {
+              "key": "midnight_snack_express",
+              "name": "深夜/全天候快餐特快配送"
+            }
+          ]
+        },
+        {
+          "key": "food_experience_tours",
+          "name": "饮食文化体验与课程",
+          "children": [
+            {
+              "key": "winery_tasting_tour",
+              "name": "酒庄采摘与品酒体验预约"
+            },
+            {
+              "key": "local_food_crawl",
+              "name": "城市街头美食徒步向导服务"
+            },
+            {
+              "key": "professional_cooking_class",
+              "name": "专业厨艺技能短期培训课程"
+            },
+            {
+              "key": "sommelier_service_home",
+              "name": "侍酒师上门品鉴与藏酒建议"
+            },
+            {
+              "key": "coffee_roasting_workshop",
+              "name": "咖啡烘焙与拉花大师课"
+            },
+            {
+              "key": "foraging_wild_food_exp",
+              "name": "野外食材采摘与现场烹饪体验"
+            }
+          ]
+        },
+        {
+          "key": "dietary_lifestyle_niche",
+          "name": "特定饮食生活方式",
+          "children": [
+            {
+              "key": "vegan_vegetarian_expert",
+              "name": "纯素/素食生活全案餐饮方案"
+            },
+            {
+              "key": "kosher_halal_certified",
+              "name": "宗教清洁食品（Kosher/Halal）保障服务"
+            },
+            {
+              "key": "keto_paleo_subscription",
+              "name": "生酮/原始饮食长期订阅计划"
+            },
+            {
+              "key": "farm_to_table_direct",
+              "name": "农场直供（Farm-to-Table）认养与配送"
+            },
+            {
+              "key": "zero_waste_dining_consult",
+              "name": "零浪费/环保可持续餐饮咨询"
+            }
+          ]
+        },
+        {
+          "key": "dining_facility_space",
+          "name": "餐饮设施与空间租赁",
+          "children": [
+            {
+              "key": "commercial_kitchen_rental",
+              "name": "共享/共享商业厨房（Ghost Kitchen）租赁"
+            },
+            {
+              "key": "private_dining_room_rent",
+              "name": "独立私人包厢/宴会厅时段租赁"
+            },
+            {
+              "key": "pop_up_restaurant_space",
+              "name": "快闪餐厅经营场地申请与租赁"
+            },
+            {
+              "key": "restaurant_equipment_lease",
+              "name": "专业餐饮设备短期租赁"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "health_medical",
+      "name": "健康与医疗",
+      "jobs": [
+        "身体不舒服有人帮",
+        "健康管理更科学",
+        "看病更顺畅"
+      ],
+      "children": [
+        {
+          "key": "primary_urgent_care",
+          "name": "基础诊疗与急诊",
+          "children": [
+            {
+              "key": "pcp_consultation",
+              "name": "全科医生(PCP)预约挂号"
+            },
+            {
+              "key": "urgent_care_visit",
+              "name": "急诊中心(Urgent Care)快速就诊"
+            },
+            {
+              "key": "pediatric_checkup",
+              "name": "儿科常规检查与疫苗"
+            },
+            {
+              "key": "telehealth_on_demand",
+              "name": "24/7 在线全科视频问诊"
+            },
+            {
+              "key": "annual_physical_exam",
+              "name": "年度全项体检"
+            },
+            {
+              "key": "travel_vaccination",
+              "name": "国际旅行疫苗与咨询"
+            },
+            {
+              "key": "house_call_doctor",
+              "name": "医生上门诊疗服务"
+            }
+          ]
+        },
+        {
+          "key": "specialist_services",
+          "name": "专科医生服务",
+          "children": [
+            {
+              "key": "cardiology_consult",
+              "name": "心脏科咨询与心电图"
+            },
+            {
+              "key": "dermatology_screening",
+              "name": "皮肤科检查与病灶切除"
+            },
+            {
+              "key": "orthopedic_sports_med",
+              "name": "骨科与运动医学诊治"
+            },
+            {
+              "key": "gastroenterology_endo",
+              "name": "肠胃科与内窥镜检查"
+            },
+            {
+              "key": "endocrinology_diabetes",
+              "name": "内分泌与糖尿病管理"
+            },
+            {
+              "key": "neurology_evaluation",
+              "name": "神经内科评估"
+            },
+            {
+              "key": "allergy_immunology",
+              "name": "过敏原测试与免疫治疗"
+            },
+            {
+              "key": "obgyn_prenatal",
+              "name": "妇产科产前检查"
+            },
+            {
+              "key": "urology_service",
+              "name": "泌尿外科服务"
+            },
+            {
+              "key": "ophthalmology_surgery",
+              "name": "眼科诊治与激光手术"
+            }
+          ]
+        },
+        {
+          "key": "mental_health_wellness",
+          "name": "心理健康与精神疗愈",
+          "children": [
+            {
+              "key": "individual_therapy",
+              "name": "个人心理咨询(CBT/DBT)"
+            },
+            {
+              "key": "couples_counseling",
+              "name": "伴侣与婚姻关系咨询"
+            },
+            {
+              "key": "teen_therapy",
+              "name": "青少年心理健康干预"
+            },
+            {
+              "key": "addiction_recovery",
+              "name": "药物/酒精成瘾康复指导"
+            },
+            {
+              "key": "psychiatric_med_mgmt",
+              "name": "精神科药物管理"
+            },
+            {
+              "key": "grief_counseling",
+              "name": "哀伤辅导"
+            },
+            {
+              "key": "eating_disorder_treatment",
+              "name": "进食障碍专业治疗"
+            },
+            {
+              "key": "art_music_therapy",
+              "name": "艺术或音乐表达性疗法"
+            },
+            {
+              "key": "adhd_coaching",
+              "name": "ADHD执行力教练服务"
+            }
+          ]
+        },
+        {
+          "key": "home_health_care",
+          "name": "家庭护理与康复",
+          "children": [
+            {
+              "key": "post_op_nursing",
+              "name": "术后居家专业护理"
+            },
+            {
+              "key": "elderly_daily_assistance",
+              "name": "高龄老人居家生活协助"
+            },
+            {
+              "key": "respite_care",
+              "name": "喘息服务(家属短期替代护理)"
+            },
+            {
+              "key": "hospice_at_home",
+              "name": "居家临终关怀"
+            },
+            {
+              "key": "physical_therapy_home",
+              "name": "居家物理治疗(PT)"
+            },
+            {
+              "key": "occupational_therapy",
+              "name": "职业作业治疗(OT)"
+            },
+            {
+              "key": "speech_therapy",
+              "name": "语言障碍矫正治疗"
+            },
+            {
+              "key": "home_wound_care",
+              "name": "慢病伤口专业换药"
+            }
+          ]
+        },
+        {
+          "key": "dental_care",
+          "name": "牙科服务",
+          "children": [
+            {
+              "key": "dental_cleaning",
+              "name": "常规洗牙与深度刮治"
+            },
+            {
+              "key": "wisdom_tooth_extraction",
+              "name": "智齿拔除手术"
+            },
+            {
+              "key": "orthodontics_invisalign",
+              "name": "牙齿正畸(含隐形美牙)"
+            },
+            {
+              "key": "root_canal_therapy",
+              "name": "根管治疗"
+            },
+            {
+              "key": "dental_implants",
+              "name": "牙齿种植服务"
+            },
+            {
+              "key": "emergency_dentistry",
+              "name": "牙科紧急止痛与修复"
+            }
+          ]
+        },
+        {
+          "key": "diagnostics_lab",
+          "name": "医学检查与实验室服务",
+          "children": [
+            {
+              "key": "blood_test_lab",
+              "name": "抽血化验与生验(Labcorp/Quest)"
+            },
+            {
+              "key": "mri_ct_imaging",
+              "name": "MRI/CT/PET断层扫描"
+            },
+            {
+              "key": "ultrasound_sonogram",
+              "name": "超声波检查"
+            },
+            {
+              "key": "genetic_testing",
+              "name": "临床级基因检测与筛查"
+            },
+            {
+              "key": "at_home_test_kits",
+              "name": "居家检测包采样收送(如STD/激素)"
+            },
+            {
+              "key": "x_ray_mobile",
+              "name": "移动式X光检查"
+            }
+          ]
+        },
+        {
+          "key": "alternative_holistic",
+          "name": "替代疗法与整体健康",
+          "children": [
+            {
+              "key": "acupuncture_session",
+              "name": "针灸疗法"
+            },
+            {
+              "key": "chiropractic_adjustment",
+              "name": "脊柱按摩与正骨"
+            },
+            {
+              "key": "medical_massage",
+              "name": "医疗康复按摩"
+            },
+            {
+              "key": "naturopathic_consult",
+              "name": "自然疗法医生咨询"
+            },
+            {
+              "key": "iv_drip_therapy",
+              "name": "IV营养点滴服务"
+            },
+            {
+              "key": "cryotherapy_recovery",
+              "name": "冷冻疗法恢复"
+            },
+            {
+              "key": "functional_medicine",
+              "name": "功能医学整体评估"
+            }
+          ]
+        },
+        {
+          "key": "medication_pharmacy",
+          "name": "药物与处方服务",
+          "children": [
+            {
+              "key": "prescription_delivery",
+              "name": "处方药加急配送"
+            },
+            {
+              "key": "pharmacist_consult",
+              "name": "药师用药安全咨询"
+            },
+            {
+              "key": "compounding_pharmacy",
+              "name": "定制化复配药剂服务"
+            },
+            {
+              "key": "specialty_med_access",
+              "name": "罕见病/特效药获取协助"
+            }
+          ]
+        },
+        {
+          "key": "health_navigation_admin",
+          "name": "医疗导航与行政辅助",
+          "children": [
+            {
+              "key": "medical_billing_advocate",
+              "name": "大额医疗账单审计与砍价"
+            },
+            {
+              "key": "insurance_plan_navigation",
+              "name": "医保方案(Medicare/PPO)选择咨询"
+            },
+            {
+              "key": "second_opinion_expert",
+              "name": "全球名医远程第二诊疗意见"
+            },
+            {
+              "key": "medical_records_digitization",
+              "name": "个人健康档案整理与数字化"
+            },
+            {
+              "key": "clinical_trial_matching",
+              "name": "临床试验项目匹配与申请"
+            },
+            {
+              "key": "medical_translation_legal",
+              "name": "就医陪诊翻译(含法律效力)"
+            }
+          ]
+        },
+        {
+          "key": "reproductive_fertility",
+          "name": "生殖与生育辅助",
+          "children": [
+            {
+              "key": "ivf_consultation",
+              "name": "试管婴儿(IVF)全流程服务"
+            },
+            {
+              "key": "egg_freezing_process",
+              "name": "冻卵/冻精医疗方案"
+            },
+            {
+              "key": "surrogacy_coordination",
+              "name": "代孕合规协调与筛选"
+            },
+            {
+              "key": "infertility_counseling",
+              "name": "不孕不育专项诊治"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "beauty_style",
+      "name": "美业与形象",
+      "jobs": [
+        "变好看更自信",
+        "重要场合更体面",
+        "形象管理更省心"
+      ],
+      "children": [
+        {
+          "key": "hair_services",
+          "name": "美发与头皮护理",
+          "children": [
+            {
+              "key": "haircut_styling",
+              "name": "精剪与造型 (Men/Women/Kids)"
+            },
+            {
+              "key": "hair_coloring_balayage",
+              "name": "专业染发与渐变 (Balayage & Highlights)"
+            },
+            {
+              "key": "keratin_straightening",
+              "name": "角蛋白矫正与拉直"
+            },
+            {
+              "key": "hair_extensions_install",
+              "name": "接发安装与维护"
+            },
+            {
+              "key": "braiding_weaving",
+              "name": "黑人传统编发与织发 (Braids & Weaves)"
+            },
+            {
+              "key": "scalp_detox_treatment",
+              "name": "头皮深层排毒与抗敏护理"
+            },
+            {
+              "key": "non_surgical_hair_replacement",
+              "name": "非手术类补发与织发块定制"
+            },
+            {
+              "key": "dreadlock_maintenance",
+              "name": "脏辫制作与日常打理"
+            }
+          ]
+        },
+        {
+          "key": "skincare_facials",
+          "name": "面部美容与皮肤管理",
+          "children": [
+            {
+              "key": "hydrafacial_treatment",
+              "name": "水飞梭深度清洁"
+            },
+            {
+              "key": "chemical_peeling",
+              "name": "专业刷酸/化学焕肤"
+            },
+            {
+              "key": "microneedling_therapy",
+              "name": "微针美肤与促生护理"
+            },
+            {
+              "key": "anti_aging_radiofrequency",
+              "name": "射频紧致与抗衰提升"
+            },
+            {
+              "key": "acne_extraction_specialist",
+              "name": "顽固痤疮针对性清理"
+            },
+            {
+              "key": "led_light_therapy",
+              "name": "LED 光疗皮肤修复"
+            },
+            {
+              "key": "lymphatic_drainage_facial",
+              "name": "面部淋巴排毒按摩"
+            },
+            {
+              "key": "oxygen_infusion_facial",
+              "name": "注氧活肤注能"
+            }
+          ]
+        },
+        {
+          "key": "nail_art_care",
+          "name": "美甲与手足护理",
+          "children": [
+            {
+              "key": "gel_manicure_pedicure",
+              "name": "凝胶美甲与足浴"
+            },
+            {
+              "key": "acrylic_nails_fullset",
+              "name": "水晶甲全套定制"
+            },
+            {
+              "key": "dip_powder_nails",
+              "name": "浸粉美甲 (SNS)"
+            },
+            {
+              "key": "apres_gel_x_extensions",
+              "name": "Gel-X 快速接甲"
+            },
+            {
+              "key": "medical_pedicure_podiatry",
+              "name": "医疗级足部护理 (针对灰指甲/嵌甲)"
+            },
+            {
+              "key": "paraffin_wax_hand_mask",
+              "name": "手部石蜡深层滋养"
+            },
+            {
+              "key": "nail_art_3d_design",
+              "name": "3D 立体手绘美甲艺术"
+            }
+          ]
+        },
+        {
+          "key": "lash_brow_permanent_makeup",
+          "name": "睫毛、眉形与半永久",
+          "children": [
+            {
+              "key": "eyelash_extensions_classic_volume",
+              "name": "睫毛嫁接 (单根/浓密型)"
+            },
+            {
+              "key": "lash_lift_tint",
+              "name": "角蛋白翘睫与染色"
+            },
+            {
+              "key": "microblading_eyebrows",
+              "name": "半永久纹眉/丝绣眉"
+            },
+            {
+              "key": "brow_lamination_shaping",
+              "name": "野生眉塑形 (Lamination)"
+            },
+            {
+              "key": "lip_blushing_tattoo",
+              "name": "半永久水晶唇色"
+            },
+            {
+              "key": "permanent_eyeliner",
+              "name": "美瞳线/半永久眼线"
+            },
+            {
+              "key": "henna_brows_art",
+              "name": "海娜植物染眉"
+            }
+          ]
+        },
+        {
+          "key": "body_treatments_hair_removal",
+          "name": "身体护理与毛发管理",
+          "children": [
+            {
+              "key": "laser_hair_removal",
+              "name": "激光永久脱毛"
+            },
+            {
+              "key": "brazilian_waxing_expert",
+              "name": "专业巴西脱毛 (Waxing)"
+            },
+            {
+              "key": "sugaring_hair_removal",
+              "name": "糖浆脱毛 (低敏)"
+            },
+            {
+              "key": "body_contouring_coolsculpting",
+              "name": "冷冻减脂与身体塑形"
+            },
+            {
+              "key": "spray_tanning_session",
+              "name": "美黑喷雾/人工日晒"
+            },
+            {
+              "key": "back_facial_treatment",
+              "name": "背部深层美肤护理"
+            },
+            {
+              "key": "stretch_mark_camouflage",
+              "name": "妊娠纹/疤痕肤色掩盖纹绣"
+            }
+          ]
+        },
+        {
+          "key": "makeup_styling_services",
+          "name": "彩妆造型与场合妆容",
+          "children": [
+            {
+              "key": "bridal_makeup_hair_trial",
+              "name": "新娘妆发设计与试妆"
+            },
+            {
+              "key": "editorial_high_fashion_makeup",
+              "name": "时尚大片/杂志硬照妆造"
+            },
+            {
+              "key": "sfx_special_effects_makeup",
+              "name": "特效妆容 (万圣节/影视)"
+            },
+            {
+              "key": "prom_event_glam",
+              "name": "毕业舞会/派对晚宴妆"
+            },
+            {
+              "key": "drag_makeup_transformation",
+              "name": "变装皇后/反串视觉妆造"
+            },
+            {
+              "key": "airbrush_makeup_application",
+              "name": "高清喷枪彩妆"
+            }
+          ]
+        },
+        {
+          "key": "image_consulting_fashion",
+          "name": "个人形象顾问与时尚穿搭",
+          "children": [
+            {
+              "key": "personal_color_analysis",
+              "name": "个人四季色彩鉴定"
+            },
+            {
+              "key": "closet_audit_organization",
+              "name": "衣橱诊断与精简整理"
+            },
+            {
+              "key": "personal_shopping_concierge",
+              "name": "陪同购物/代买代购服务"
+            },
+            {
+              "key": "corporate_image_branding",
+              "name": "职场/高管商务形象塑造"
+            },
+            {
+              "key": "virtual_styling_subscription",
+              "name": "远程线上穿搭订阅顾问"
+            },
+            {
+              "key": "etiquette_poise_coaching",
+              "name": "仪态、走秀与社交礼仪培训"
+            }
+          ]
+        },
+        {
+          "key": "medical_aesthetics_injections",
+          "name": "轻医美与注射美容",
+          "children": [
+            {
+              "key": "botox_dysport_injections",
+              "name": "肉毒素除皱/瘦脸针"
+            },
+            {
+              "key": "dermal_fillers_lips_cheeks",
+              "name": "玻尿酸填充 (唇/颊/鼻)"
+            },
+            {
+              "key": "iv_vitamin_therapy_drip",
+              "name": "静脉美白/能量营养滴注"
+            },
+            {
+              "key": "kybella_double_chin_removal",
+              "name": "溶脂针 (双下巴针对性)"
+            },
+            {
+              "key": "thread_lift_pdo",
+              "name": "PDO 线雕提拉"
+            }
+          ]
+        },
+        {
+          "key": "niche_grooming_wellness",
+          "name": "长尾美容与小众护理",
+          "children": [
+            {
+              "key": "medical_tattoo_areola_restoration",
+              "name": "乳晕再造/医疗级修复纹绣"
+            },
+            {
+              "key": "ear_piercing_professional",
+              "name": "专业无菌打耳洞/体穿"
+            },
+            {
+              "key": "teeth_whitening_professional",
+              "name": "专业牙齿冷光美白"
+            },
+            {
+              "key": "scalp_micropigmentation_smp",
+              "name": "SMP 纹发 (针对脱发视觉加密)"
+            },
+            {
+              "key": "men_beard_grooming_spa",
+              "name": "男士胡须精修与护理 SPA"
+            },
+            {
+              "key": "hand_rejuvenation_therapy",
+              "name": "手部抗衰/去青筋专项护理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "education_growth",
+      "name": "学习与成长",
+      "jobs": [
+        "提升技能",
+        "升学/考试",
+        "职业发展"
+      ],
+      "children": [
+        {
+          "key": "k12_academic_support",
+          "name": "K-12 学业辅导与支持",
+          "children": [
+            {
+              "key": "subject_tutoring_math",
+              "name": "数学与科学专项辅导 (STEM)"
+            },
+            {
+              "key": "reading_writing_enrichment",
+              "name": "阅读与创意写作提升"
+            },
+            {
+              "key": "foreign_language_k12",
+              "name": "青少年外语习得"
+            },
+            {
+              "key": "homework_help_sessions",
+              "name": "每日家庭作业督导"
+            },
+            {
+              "key": "special_education_iep",
+              "name": "特殊教育 (LD/ADHD) 评估与个性化教学支持"
+            },
+            {
+              "key": "homeschooling_curriculum_support",
+              "name": "在家自学 (Homeschooling) 课程指导与外派教师"
+            },
+            {
+              "key": "gifted_talented_prep",
+              "name": "天才班 (Gifted & Talented) 入学考试准备"
+            }
+          ]
+        },
+        {
+          "key": "test_prep_services",
+          "name": "标准化考试培训",
+          "children": [
+            {
+              "key": "college_entrance_exams",
+              "name": "大学入学考试 (SAT/ACT) 强化"
+            },
+            {
+              "key": "graduate_school_exams",
+              "name": "研究生入学考试 (GRE/GMAT/LSAT/MCAT) 辅导"
+            },
+            {
+              "key": "english_proficiency_tests",
+              "name": "英语能力考试 (TOEFL/IELTS/Duolingo) 培训"
+            },
+            {
+              "key": "ap_ib_diploma_prep",
+              "name": "AP/IB 国际课程学分考试预备"
+            },
+            {
+              "key": "professional_licensure_exams",
+              "name": "职业执照考试 (Bar/NCLEX/CPA) 考前冲刺"
+            }
+          ]
+        },
+        {
+          "key": "college_admissions_career_planning",
+          "name": "升学咨询与生涯规划",
+          "children": [
+            {
+              "key": "college_application_consulting",
+              "name": "本科申请策略与全案规划"
+            },
+            {
+              "key": "essay_editing_storytelling",
+              "name": "申请文书润色与叙事指导"
+            },
+            {
+              "key": "financial_aid_scholarship_consulting",
+              "name": "助学金 (FAFSA) 与奖学金申请策略"
+            },
+            {
+              "key": "athletic_recruitment_consulting",
+              "name": "体育特长生招募咨询"
+            },
+            {
+              "key": "art_portfolio_review",
+              "name": "艺术作品集指导与评估"
+            },
+            {
+              "key": "graduate_school_admissions",
+              "name": "硕博申请及科研背景提升"
+            }
+          ]
+        },
+        {
+          "key": "professional_skill_development",
+          "name": "职业技能与数字化增长",
+          "children": [
+            {
+              "key": "coding_data_science_bootcamps",
+              "name": "编程与数据科学训练营"
+            },
+            {
+              "key": "digital_marketing_growth",
+              "name": "数字营销与增长黑客实操"
+            },
+            {
+              "key": "ux_ui_design_training",
+              "name": "用户体验与产品设计进阶"
+            },
+            {
+              "key": "project_management_pmp",
+              "name": "项目管理与敏捷方法论培训"
+            },
+            {
+              "key": "soft_skills_leadership",
+              "name": "职场沟通、谈判与领导力工作坊"
+            },
+            {
+              "key": "career_transition_coaching",
+              "name": "职场转型与职业倦怠应对咨询"
+            },
+            {
+              "key": "public_speaking_rhetoric",
+              "name": "公众演讲与修辞逻辑训练"
+            }
+          ]
+        },
+        {
+          "key": "language_cultural_immersion",
+          "name": "成人语言学习与文化融入",
+          "children": [
+            {
+              "key": "business_english_communication",
+              "name": "商务英语与跨文化商务谈判"
+            },
+            {
+              "key": "accent_reduction_coaching",
+              "name": "英语口音纠正与语感训练"
+            },
+            {
+              "key": "world_languages_adults",
+              "name": "成人多语种 (西/法/德/中/日) 教学"
+            },
+            {
+              "key": "asl_sign_language",
+              "name": "美国手语 (ASL) 学习"
+            },
+            {
+              "key": "citizenship_test_prep",
+              "name": "入籍考试与美国公民知识辅导"
+            }
+          ]
+        },
+        {
+          "key": "arts_creative_expression",
+          "name": "艺术、创意与乐器",
+          "children": [
+            {
+              "key": "musical_instrument_instruction",
+              "name": "各类西洋及民族乐器私教"
+            },
+            {
+              "key": "vocal_coaching_performance",
+              "name": "声乐训练与舞台表演指导"
+            },
+            {
+              "key": "fine_arts_studio_lessons",
+              "name": "素描、油画与数字绘画教学"
+            },
+            {
+              "key": "photography_videography_production",
+              "name": "摄影技术与后期剪辑实操"
+            },
+            {
+              "key": "creative_writing_poetry",
+              "name": "创意写作、诗歌与剧本创作"
+            },
+            {
+              "key": "acting_improv_workshops",
+              "name": "戏剧表演与即兴表演工作坊"
+            }
+          ]
+        },
+        {
+          "key": "lifestyle_specialized_skills",
+          "name": "生活技能与长尾兴趣",
+          "children": [
+            {
+              "key": "culinary_arts_pastry",
+              "name": "烹饪艺术、烘焙与品酒技巧"
+            },
+            {
+              "key": "home_homesteading_skills",
+              "name": "家庭园艺、木工与自给自足技能"
+            },
+            {
+              "key": "personal_finance_investing",
+              "name": "个人财务规划与基础投资理财教育"
+            },
+            {
+              "key": "meditation_mindfulness_training",
+              "name": "冥想、正念与心理复原力构建"
+            },
+            {
+              "key": "survival_skills_outdoors",
+              "name": "野外生存与户外探险技能"
+            },
+            {
+              "key": "genealogy_research_training",
+              "name": "家族谱系研究与档案查阅技能"
+            },
+            {
+              "key": "adult_etiquette_social_graces",
+              "name": "成人社交礼仪与高端场合应对"
+            }
+          ]
+        },
+        {
+          "key": "corporate_learning_solutions",
+          "name": "企业学习与组织发展",
+          "children": [
+            {
+              "key": "dei_training_workshops",
+              "name": "多样性、公平与包容性 (DEI) 培训"
+            },
+            {
+              "key": "compliance_ethics_training",
+              "name": "合规、职业道德与反骚扰培训"
+            },
+            {
+              "key": "team_building_facilitation",
+              "name": "团队建设方案策划与引导"
+            },
+            {
+              "key": "executive_coaching",
+              "name": "高管一对一辅导 (Coaching)"
+            },
+            {
+              "key": "sales_enablement_training",
+              "name": "销售赋能与客户成功体系培训"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sports_entertainment",
+      "name": "文娱与运动",
+      "jobs": [
+        "放松娱乐",
+        "运动变健康",
+        "社交更有趣"
+      ],
+      "children": [
+        {
+          "key": "professional_sports_events",
+          "name": "职业体育与赛事",
+          "children": [
+            {
+              "key": "pro_league_ticketing",
+              "name": "职业联赛门票预订 (NFL/NBA/MLB/NHL)"
+            },
+            {
+              "key": "vip_box_hospitality",
+              "name": "球场VIP包厢与商务接待服务"
+            },
+            {
+              "key": "tailgating_planning",
+              "name": "赛前停车场派对 (Tailgating) 策划与布置"
+            },
+            {
+              "key": "athlete_meet_greet",
+              "name": "运动员见面会与签名活动预约"
+            },
+            {
+              "key": "sports_travel_packages",
+              "name": "客场观赛差旅全包套餐"
+            },
+            {
+              "key": "fantasy_sports_consultancy",
+              "name": "梦幻体育数据分析与咨询服务"
+            }
+          ]
+        },
+        {
+          "key": "fitness_personal_training",
+          "name": "健身与个人体能培训",
+          "children": [
+            {
+              "key": "private_gym_coach",
+              "name": "私人健身教练上门/驻场指导"
+            },
+            {
+              "key": "crossfit_box_membership",
+              "name": "CrossFit 训练营课程预约"
+            },
+            {
+              "key": "yoga_pilates_studio",
+              "name": "瑜伽与普拉提私教/精品课"
+            },
+            {
+              "key": "bodybuilding_prep",
+              "name": "健美赛事备赛指导与造型设计"
+            },
+            {
+              "key": "postpartum_fitness",
+              "name": "产后体能修复私教"
+            },
+            {
+              "key": "senior_mobility_training",
+              "name": "高龄群体灵活性与防跌倒训练"
+            },
+            {
+              "key": "home_gym_design",
+              "name": "家庭健身房配置方案与动线设计"
+            }
+          ]
+        },
+        {
+          "key": "outdoor_adventure_water",
+          "name": "户外探险与水上运动",
+          "children": [
+            {
+              "key": "kayaking_paddleboarding",
+              "name": "皮划艇/桨板租赁与向导陪练"
+            },
+            {
+              "key": "rv_camping_setup",
+              "name": "房车营地预订与野外露营设备代办"
+            },
+            {
+              "key": "hiking_wilderness_guide",
+              "name": "荒野徒步向导与生存技能培训"
+            },
+            {
+              "key": "recreational_fishing_charter",
+              "name": "海钓/湖钓包船与持证钓鱼向导"
+            },
+            {
+              "key": "rock_climbing_outdoor",
+              "name": "户外攀岩向导与安全保障"
+            },
+            {
+              "key": "hunting_expedition",
+              "name": "季节性合法狩猎向导与许可证代办"
+            },
+            {
+              "key": "national_park_itinerary",
+              "name": "国家公园深度游规划与许可申请"
+            }
+          ]
+        },
+        {
+          "key": "theme_parks_attractions",
+          "name": "主题乐园与景点特权",
+          "children": [
+            {
+              "key": "theme_park_fastpass",
+              "name": "乐园快速通行证/VIP导览预约"
+            },
+            {
+              "key": "zoo_aquarium_encounter",
+              "name": "动植物园幕后接触/喂食体验"
+            },
+            {
+              "key": "museum_private_tour",
+              "name": "博物馆闭馆后私人讲解服务"
+            },
+            {
+              "key": "fair_festival_ticketing",
+              "name": "州级博览会 (State Fair) 与嘉年华门票"
+            },
+            {
+              "key": "helicopter_city_tour",
+              "name": "城市直升机巡游观光"
+            }
+          ]
+        },
+        {
+          "key": "urban_social_entertainment",
+          "name": "城市社交与潮流娱乐",
+          "children": [
+            {
+              "key": "escape_room_booking",
+              "name": "沉浸式密室逃脱场次预订"
+            },
+            {
+              "key": "axe_throwing_social",
+              "name": "投掷斧头社交馆包场服务"
+            },
+            {
+              "key": "board_game_cafe",
+              "name": "桌游吧位点选与新游戏教学"
+            },
+            {
+              "key": "karaoke_box_rental",
+              "name": "KTV/卡拉OK包厢预订"
+            },
+            {
+              "key": "comedy_club_seat",
+              "name": "脱口秀/即兴喜剧俱乐部订座"
+            },
+            {
+              "key": "painting_wine_class",
+              "name": "微醺涂鸦 (Paint and Sip) 课程"
+            }
+          ]
+        },
+        {
+          "key": "niche_special_interests",
+          "name": "利基运动与小众兴趣",
+          "children": [
+            {
+              "key": "pickleball_court_coach",
+              "name": "匹克球 (Pickleball) 场地预订与教练"
+            },
+            {
+              "key": "shooting_range_instructor",
+              "name": "射击场预约与枪械操作私教"
+            },
+            {
+              "key": "equestrian_horse_riding",
+              "name": "马术培训与乡村野外骑行"
+            },
+            {
+              "key": "fencing_archery_lesson",
+              "name": "击剑与射箭基础课/练习赛"
+            },
+            {
+              "key": "golf_swing_analysis",
+              "name": "高尔夫挥杆数据分析与球童预约"
+            },
+            {
+              "key": "esports_coaching",
+              "name": "电竞游戏职业陪练与上分指导"
+            }
+          ]
+        },
+        {
+          "key": "performance_arts_music",
+          "name": "演艺艺术与音乐现场",
+          "children": [
+            {
+              "key": "broadway_theater_ticketing",
+              "name": "百老汇戏剧与歌舞剧门票"
+            },
+            {
+              "key": "music_festival_glamping",
+              "name": "音乐节豪华露营 (Glamping) 服务"
+            },
+            {
+              "key": "indie_band_booking",
+              "name": "独立乐队/DJ 派对上门演出"
+            },
+            {
+              "key": "instrument_tutor",
+              "name": "西洋乐器上门教学 (钢琴/吉他/萨克斯)"
+            },
+            {
+              "key": "ballet_contemporary_dance",
+              "name": "芭蕾与现代舞成人精品课"
+            }
+          ]
+        },
+        {
+          "key": "youth_youth_sports",
+          "name": "青少年运动与课外文娱",
+          "children": [
+            {
+              "key": "youth_sports_league_reg",
+              "name": "青少年社区联赛报名与代办"
+            },
+            {
+              "key": "summer_camp_scouts",
+              "name": "童子军/夏令营项目咨询与入驻"
+            },
+            {
+              "key": "college_sports_recruiting",
+              "name": "大学体育特长生申请咨询 (Recruiting)"
+            },
+            {
+              "key": "kids_gymnastics_swimming",
+              "name": "儿童体操与幼儿游泳技能班"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "wedding_ceremony",
+      "name": "婚恋与人生仪式",
+      "jobs": [
+        "把重要日子办好",
+        "关系更顺",
+        "仪式感更完整"
+      ],
+      "children": [
+        {
+          "key": "wedding_planning_coordination",
+          "name": "婚礼策划与统筹",
+          "children": [
+            {
+              "key": "full_service_wedding_planner",
+              "name": "全案婚礼策划"
+            },
+            {
+              "key": "month_of_coordination",
+              "name": "婚礼月度统筹（执行导演）"
+            },
+            {
+              "key": "destination_wedding_specialist",
+              "name": "目的地婚礼专家"
+            },
+            {
+              "key": "elopement_package_planner",
+              "name": "私奔/简约婚礼套餐"
+            },
+            {
+              "key": "wedding_budget_consultancy",
+              "name": "婚礼财务预算顾问"
+            },
+            {
+              "key": "micro_wedding_coordinator",
+              "name": "微型婚礼（50人以下）策划"
+            },
+            {
+              "key": "cultural_wedding_expert",
+              "name": "特定文化/宗教传统婚礼顾问"
+            }
+          ]
+        },
+        {
+          "key": "wedding_venues_rentals",
+          "name": "场地与硬体租赁",
+          "children": [
+            {
+              "key": "outdoor_tent_rentals",
+              "name": "户外帐篷与大型结构租赁"
+            },
+            {
+              "key": "vintage_furniture_rentals",
+              "name": "复古/主题家具租赁"
+            },
+            {
+              "key": "mobile_restroom_trailers",
+              "name": "移动豪华洗手间租赁"
+            },
+            {
+              "key": "dance_floor_lighting_rigs",
+              "name": "舞池板与专业灯光架搭设"
+            },
+            {
+              "key": "backdrop_altar_rentals",
+              "name": "祭坛/背景墙定制租赁"
+            },
+            {
+              "key": "tableware_linens_styling",
+              "name": "精选餐具与桌布布草配套"
+            },
+            {
+              "key": "venue_scouting_service",
+              "name": "场地实地考察与代订服务"
+            }
+          ]
+        },
+        {
+          "key": "visual_audio_memories",
+          "name": "影像记录与现场视听",
+          "children": [
+            {
+              "key": "wedding_photojournalism",
+              "name": "纪实风婚礼摄影"
+            },
+            {
+              "key": "cinematic_wedding_videography",
+              "name": "电影感婚礼录像"
+            },
+            {
+              "key": "drone_aerial_cinematography",
+              "name": "无人机航拍婚礼记录"
+            },
+            {
+              "key": "engagement_session_photography",
+              "name": "订婚照/婚前旅拍"
+            },
+            {
+              "key": "live_streaming_ceremony",
+              "name": "婚礼远程直播服务"
+            },
+            {
+              "key": "360_photo_booth_rentals",
+              "name": "360度旋转拍照亭"
+            },
+            {
+              "key": "boudoir_photography",
+              "name": "新娘私密写真（婚前纪念）"
+            },
+            {
+              "key": "film_photography_specialist",
+              "name": "胶片摄影师专项"
+            }
+          ]
+        },
+        {
+          "key": "attire_beauty_styling",
+          "name": "婚纱礼服与形象管理",
+          "children": [
+            {
+              "key": "custom_bridal_gown_design",
+              "name": "婚纱高级定制"
+            },
+            {
+              "key": "tuxedo_suit_rental_fitting",
+              "name": "燕尾服/西装租赁与量体"
+            },
+            {
+              "key": "bridal_makeup_hair_on_site",
+              "name": "新娘上门妆造与跟妆"
+            },
+            {
+              "key": "wedding_dress_preservation",
+              "name": "婚纱专业清洗与永久封存"
+            },
+            {
+              "key": "bridesmaid_styling_service",
+              "name": "伴娘团统一妆造"
+            },
+            {
+              "key": "jewelry_accessory_styling",
+              "name": "婚礼珠宝配饰方案"
+            },
+            {
+              "key": "wedding_alteration_specialist",
+              "name": "礼服精修裁改"
+            }
+          ]
+        },
+        {
+          "key": "ceremony_officiants_music",
+          "name": "仪式主持与音乐表演",
+          "children": [
+            {
+              "key": "religious_officiant_ordained",
+              "name": "持证牧师/宗教主持"
+            },
+            {
+              "key": "secular_celebrant_humanist",
+              "name": "世俗/人文主义婚礼主持人"
+            },
+            {
+              "key": "string_quartet_ceremony",
+              "name": "仪式现场弦乐四重奏"
+            },
+            {
+              "key": "reception_dj_emcee",
+              "name": "宴会DJ与气氛MC"
+            },
+            {
+              "key": "live_wedding_band",
+              "name": "现场婚礼乐队（全编制）"
+            },
+            {
+              "key": "solo_instrumentalist_harp_bagpipe",
+              "name": "独奏乐手（竖琴/风笛等）"
+            },
+            {
+              "key": "vows_writing_coach",
+              "name": "婚礼誓词撰写创意指导"
+            }
+          ]
+        },
+        {
+          "key": "floral_decor_design",
+          "name": "花艺设计与空间布置",
+          "children": [
+            {
+              "key": "bridal_bouquets_boutonnieres",
+              "name": "新娘手捧花与胸花设计"
+            },
+            {
+              "key": "reception_centerpiece_design",
+              "name": "宴会桌花艺术设计"
+            },
+            {
+              "key": "floral_installations_arches",
+              "name": "大型花艺装置与拱门"
+            },
+            {
+              "key": "edible_floral_decor",
+              "name": "可食用花艺布置"
+            },
+            {
+              "key": "silk_flower_alternatives",
+              "name": "高品质仿真花布景"
+            },
+            {
+              "key": "event_lighting_ambiance",
+              "name": "氛围灯光环境设计"
+            }
+          ]
+        },
+        {
+          "key": "catering_cake_treats",
+          "name": "餐饮、蛋糕与甜品",
+          "children": [
+            {
+              "key": "custom_wedding_cake_design",
+              "name": "定制婚礼多层蛋糕"
+            },
+            {
+              "key": "full_service_event_catering",
+              "name": "全包宴会餐饮（含侍者）"
+            },
+            {
+              "key": "cocktail_hour_mixology",
+              "name": "鸡尾酒时间专业调酒"
+            },
+            {
+              "key": "dessert_grazing_table",
+              "name": "甜品台与冷餐拼盘设计"
+            },
+            {
+              "key": "food_truck_catering",
+              "name": "创意餐车到场服务"
+            },
+            {
+              "key": "dietary_specific_catering",
+              "name": "特定饮食需求（素食/生酮等）宴会"
+            }
+          ]
+        },
+        {
+          "key": "pre_wedding_parties",
+          "name": "婚前单身派对与聚会",
+          "children": [
+            {
+              "key": "bachelorette_party_planning",
+              "name": "单身女郎派对全案"
+            },
+            {
+              "key": "bachelor_party_experience",
+              "name": "单身汉派对定制体验"
+            },
+            {
+              "key": "bridal_shower_coordinator",
+              "name": "新娘送礼会统筹"
+            },
+            {
+              "key": "rehearsal_dinner_management",
+              "name": "彩排晚宴策划"
+            },
+            {
+              "key": "bridesmaid_proposal_gifts",
+              "name": "伴娘邀请创意礼包定制"
+            }
+          ]
+        },
+        {
+          "key": "life_milestone_celebrations",
+          "name": "人生里程碑庆典",
+          "children": [
+            {
+              "key": "quinceanera_planner",
+              "name": "15岁成人礼（Quinceañera）策划"
+            },
+            {
+              "key": "bar_bat_mitzvah_specialist",
+              "name": "犹太成人礼专业服务"
+            },
+            {
+              "key": "sweet_sixteen_coordinator",
+              "name": "16岁生日盛典统筹"
+            },
+            {
+              "key": "vow_renewal_ceremony",
+              "name": "结婚周年誓言重温仪式"
+            },
+            {
+              "key": "baby_shower_gender_reveal",
+              "name": "迎婴派对与宝宝性别揭晓"
+            },
+            {
+              "key": "retirement_gala_planning",
+              "name": "荣休盛宴策划"
+            },
+            {
+              "key": "graduation_party_design",
+              "name": "毕业派对全案设计"
+            },
+            {
+              "key": "adoption_celebration",
+              "name": "领养家庭欢迎仪式"
+            }
+          ]
+        },
+        {
+          "key": "relationship_coaching",
+          "name": "情感咨询与关系管理",
+          "children": [
+            {
+              "key": "premarital_counseling",
+              "name": "婚前心理辅导与咨询"
+            },
+            {
+              "key": "relationship_mediation",
+              "name": "伴侣矛盾调解服务"
+            },
+            {
+              "key": "dating_profile_photography",
+              "name": "相亲/约会软件形象拍摄"
+            },
+            {
+              "key": "dating_coach_consultant",
+              "name": "约会技巧与社交指导"
+            },
+            {
+              "key": "breakup_divorce_support",
+              "name": "分手/离婚后情感重建支持"
+            }
+          ]
+        },
+        {
+          "key": "end_of_life_ceremonies",
+          "name": "生命终点与告别仪式",
+          "children": [
+            {
+              "key": "memorial_service_planning",
+              "name": "追思会/追悼仪式策划"
+            },
+            {
+              "key": "celebration_of_life_coordinator",
+              "name": "生命庆典（非传统葬礼）统筹"
+            },
+            {
+              "key": "funeral_flower_arrangements",
+              "name": "葬礼花圈与慰问花艺"
+            },
+            {
+              "key": "obituary_writing_service",
+              "name": "讣告撰写与媒体代发"
+            },
+            {
+              "key": "scattering_ashes_service",
+              "name": "骨灰撒海/定制安葬服务"
+            },
+            {
+              "key": "digital_legacy_management",
+              "name": "数字遗产与社交账号清理"
+            },
+            {
+              "key": "grief_support_groups",
+              "name": "丧亲悲伤辅导小组"
+            }
+          ]
+        },
+        {
+          "key": "niche_ceremony_specialties",
+          "name": "特色仪式专项服务",
+          "children": [
+            {
+              "key": "wedding_pet_attendant",
+              "name": "婚礼宠物伴娘/伴郎照看"
+            },
+            {
+              "key": "live_event_painter",
+              "name": "婚礼现场艺术绘画（即时创作）"
+            },
+            {
+              "key": "perfume_bar_scent_branding",
+              "name": "婚礼定制香氛吧"
+            },
+            {
+              "key": "luxury_transportation_limo",
+              "name": "加长林肯/复古老爷车婚礼接送"
+            },
+            {
+              "key": "wedding_insurance_broker",
+              "name": "婚礼取消/意外专项保险代办"
+            },
+            {
+              "key": "invitation_calligraphy_handwriting",
+              "name": "手工花体字请帖书写"
+            },
+            {
+              "key": "firework_display_technician",
+              "name": "婚礼专业烟花秀执行"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "parenting_elderly",
+      "name": "亲子与长者",
+      "jobs": [
+        "孩子成长更省心",
+        "老人生活更安全",
+        "照护有保障"
+      ],
+      "children": [
+        {
+          "key": "child_care_daily",
+          "name": "日常育儿与看护",
+          "children": [
+            {
+              "key": "full_time_nanny",
+              "name": "全职保姆/住家阿姨"
+            },
+            {
+              "key": "babysitting_on_demand",
+              "name": "临时/按需上门看护"
+            },
+            {
+              "key": "after_school_pickup",
+              "name": "放学接送与看管"
+            },
+            {
+              "key": "overnight_care",
+              "name": "夜间看护服务"
+            },
+            {
+              "key": "backup_child_care",
+              "name": "紧急替代看护"
+            },
+            {
+              "key": "newborn_care_specialist",
+              "name": "新生儿护理专家 (NCS)"
+            },
+            {
+              "key": "mother_helper",
+              "name": "新手妈妈助理"
+            }
+          ]
+        },
+        {
+          "key": "early_childhood_dev",
+          "name": "早期教育与成长支持",
+          "children": [
+            {
+              "key": "preschool_consulting",
+              "name": "幼儿园申请咨询"
+            },
+            {
+              "key": "early_intervention_specialist",
+              "name": "早期发育干预指导"
+            },
+            {
+              "key": "potty_training_consultant",
+              "name": "如厕训练咨询师"
+            },
+            {
+              "key": "baby_sleep_coaching",
+              "name": "婴儿睡眠指导"
+            },
+            {
+              "key": "language_immersion_playgroups",
+              "name": "语言沉浸式伴玩"
+            },
+            {
+              "key": "sensory_play_session",
+              "name": "感官游戏互动设计"
+            },
+            {
+              "key": "child_talent_assessment",
+              "name": "儿童天赋/潜能评估"
+            }
+          ]
+        },
+        {
+          "key": "special_needs_support",
+          "name": "特殊需求儿童支持 (SEND)",
+          "children": [
+            {
+              "key": "aba_therapy_home_based",
+              "name": "居家 ABA 行为干预"
+            },
+            {
+              "key": "speech_language_therapy",
+              "name": "言语矫治服务"
+            },
+            {
+              "key": "occupational_therapy_kids",
+              "name": "儿童职能治疗"
+            },
+            {
+              "key": "iep_advocacy_consulting",
+              "name": "IEP (个别化教育计划) 陪同与维权咨询"
+            },
+            {
+              "key": "neurodiversity_coaching",
+              "name": "神经多样性儿童成长教练"
+            },
+            {
+              "key": "shadow_teacher_service",
+              "name": "影子老师/课堂陪读"
+            }
+          ]
+        },
+        {
+          "key": "senior_home_care",
+          "name": "长者居家照护与生活",
+          "children": [
+            {
+              "key": "home_health_aide",
+              "name": "家庭健康助手 (HHA)"
+            },
+            {
+              "key": "dementia_alzheimer_care",
+              "name": "失智/阿尔茨海默症专项护理"
+            },
+            {
+              "key": "palliative_care_at_home",
+              "name": "居家舒缓疗护"
+            },
+            {
+              "key": "senior_companion_service",
+              "name": "老人社交陪护"
+            },
+            {
+              "key": "medication_management",
+              "name": "用药提醒与管理"
+            },
+            {
+              "key": "respite_care_for_family",
+              "name": "家属喘息服务 (短期代照看)"
+            },
+            {
+              "key": "live_in_senior_care",
+              "name": "老人住家陪护"
+            },
+            {
+              "key": "hospice_support_service",
+              "name": "临终关怀辅助"
+            }
+          ]
+        },
+        {
+          "key": "senior_mobility_safety",
+          "name": "老人出行与环境安全",
+          "children": [
+            {
+              "key": "senior_transportation_medical",
+              "name": "非紧急医疗就诊接送"
+            },
+            {
+              "key": "home_aging_modification",
+              "name": "适老化家居改造评估与施工"
+            },
+            {
+              "key": "fall_prevention_audit",
+              "name": "居家防摔倒风险审计"
+            },
+            {
+              "key": "mobility_aid_fitting",
+              "name": "助行设备适配与指导"
+            },
+            {
+              "key": "errand_running_seniors",
+              "name": "代办采买/取药服务"
+            }
+          ]
+        },
+        {
+          "key": "family_legal_financial",
+          "name": "家庭法律、财务与遗产规划",
+          "children": [
+            {
+              "key": "elder_law_consulting",
+              "name": "养老法律咨询"
+            },
+            {
+              "key": "estate_planning_will",
+              "name": "遗嘱与遗产规划"
+            },
+            {
+              "key": "guardianship_services",
+              "name": "法定监护人办理服务"
+            },
+            {
+              "key": "medicaid_planning",
+              "name": "白卡 (Medicaid) 申请规划"
+            },
+            {
+              "key": "long_term_care_insurance_audit",
+              "name": "长期护理保险评估"
+            },
+            {
+              "key": "trust_administration",
+              "name": "信托管理服务"
+            }
+          ]
+        },
+        {
+          "key": "family_wellbeing_lifestyle",
+          "name": "家庭福祉与品质生活",
+          "children": [
+            {
+              "key": "family_therapy_counseling",
+              "name": "家庭关系心理咨询"
+            },
+            {
+              "key": "doula_postpartum_support",
+              "name": "导乐与产后陪护"
+            },
+            {
+              "key": "senior_concierge_service",
+              "name": "长者生活管家"
+            },
+            {
+              "key": "intergenerational_program",
+              "name": "代际互动活动策划"
+            },
+            {
+              "key": "pet_therapy_for_seniors",
+              "name": "长者动物辅助治疗"
+            },
+            {
+              "key": "digital_literacy_for_seniors",
+              "name": "老人数字设备使用教学"
+            },
+            {
+              "key": "ancestry_genealogy_service",
+              "name": "家族谱系调查与传记代写"
+            }
+          ]
+        },
+        {
+          "key": "relocation_placement",
+          "name": "转院、安置与搬迁",
+          "children": [
+            {
+              "key": "assisted_living_placement",
+              "name": "辅助生活设施 (ALF) 择址咨询"
+            },
+            {
+              "key": "nursing_home_referral",
+              "name": "专业护理院转介"
+            },
+            {
+              "key": "senior_downsizing_moving",
+              "name": "老人缩减住规模搬家服务"
+            },
+            {
+              "key": "care_coordination_manager",
+              "name": "健康护理协调经理 (GCM)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pet",
+      "name": "宠物服务",
+      "jobs": [
+        "养宠更省心",
+        "生病能就医",
+        "出门有人照看"
+      ],
+      "children": [
+        {
+          "key": "pet_medical_health",
+          "name": "医疗护理与预防医学",
+          "children": [
+            {
+              "key": "general_vet_consultation",
+              "name": "全科兽医门诊/急诊"
+            },
+            {
+              "key": "mobile_vet_services",
+              "name": "上门兽医诊疗"
+            },
+            {
+              "key": "pet_vaccination_clinics",
+              "name": "疫苗接种与驱虫预约"
+            },
+            {
+              "key": "pet_dental_cleaning",
+              "name": "宠物牙科检查与无麻醉洁牙"
+            },
+            {
+              "key": "pet_telemedicine",
+              "name": "远程视频兽医咨询"
+            },
+            {
+              "key": "specialist_vet_referral",
+              "name": "专科转诊（心脏/肿瘤/皮肤科）"
+            },
+            {
+              "key": "pet_physical_rehab",
+              "name": "术后康复训练与水疗"
+            },
+            {
+              "key": "alternative_pet_therapy",
+              "name": "宠物针灸与激光疗法"
+            },
+            {
+              "key": "pet_dna_testing",
+              "name": "品种基因检测与遗传病筛查"
+            }
+          ]
+        },
+        {
+          "key": "pet_grooming_spa",
+          "name": "美容洗护与形象设计",
+          "children": [
+            {
+              "key": "full_service_grooming",
+              "name": "全套美容套餐（洗剪吹）"
+            },
+            {
+              "key": "mobile_pet_grooming",
+              "name": "移动美容车上门洗护"
+            },
+            {
+              "key": "self_service_dog_wash",
+              "name": "自助洗狗设备租赁"
+            },
+            {
+              "key": "breed_specific_styling",
+              "name": "特定品种赛级造型设计"
+            },
+            {
+              "key": "pet_nail_paw_care",
+              "name": "指甲修剪与肉垫护理"
+            },
+            {
+              "key": "pet_creative_dyeing",
+              "name": "创意染色与皮毛彩绘"
+            },
+            {
+              "key": "cat_exclusive_grooming",
+              "name": "猫咪专项低应激洗护"
+            }
+          ]
+        },
+        {
+          "key": "pet_boarding_daycare",
+          "name": "寄宿、日托与出行照顾",
+          "children": [
+            {
+              "key": "dog_daycare_social",
+              "name": "狗狗日托中心（日间社交）"
+            },
+            {
+              "key": "luxury_pet_hotel",
+              "name": "豪华宠物酒店寄宿"
+            },
+            {
+              "key": "in_home_pet_sitting",
+              "name": "上门喂养/陪玩（不离家）"
+            },
+            {
+              "key": "overnight_house_sitting",
+              "name": "宠主家中过夜看护"
+            },
+            {
+              "key": "dog_walking_service",
+              "name": "日常遛狗与体能消耗"
+            },
+            {
+              "key": "pet_taxi_transport",
+              "name": "城市内宠物专用出租车"
+            },
+            {
+              "key": "long_distance_pet_relocation",
+              "name": "跨州/跨境宠物搬迁运输"
+            },
+            {
+              "key": "puppy_potty_breaks",
+              "name": "幼犬上门如厕训练协助"
+            }
+          ]
+        },
+        {
+          "key": "pet_training_behavior",
+          "name": "行为训练与心理干预",
+          "children": [
+            {
+              "key": "puppy_socialization_class",
+              "name": "幼犬社交与基础服从课"
+            },
+            {
+              "key": "dog_aggression_modification",
+              "name": "攻击性行为矫正训练"
+            },
+            {
+              "key": "separation_anxiety_coaching",
+              "name": "分离焦虑症心理辅导"
+            },
+            {
+              "key": "service_dog_training",
+              "name": "功能性服务犬培训（导盲/辅助）"
+            },
+            {
+              "key": "canine_good_citizen_prep",
+              "name": "CGC公民犬等级考试培训"
+            },
+            {
+              "key": "cat_behavior_consulting",
+              "name": "猫咪乱尿/攻击行为咨询"
+            },
+            {
+              "key": "pet_scent_work_agility",
+              "name": "嗅觉开发与敏捷性运动训练"
+            }
+          ]
+        },
+        {
+          "key": "pet_waste_environment",
+          "name": "居家环境与清洁卫生",
+          "children": [
+            {
+              "key": "pet_waste_removal_pooper_scooper",
+              "name": "院落粪便定期清理服务"
+            },
+            {
+              "key": "pet_odor_deep_cleaning",
+              "name": "室内宠物异味与污渍深度除味"
+            },
+            {
+              "key": "cat_litter_box_subscription",
+              "name": "猫砂盆定期深度清洁与更换"
+            },
+            {
+              "key": "pet_proof_home_modification",
+              "name": "宠物友好型家居改造咨询"
+            },
+            {
+              "key": "bird_cage_aquarium_maintenance",
+              "name": "鸟笼/水族箱定期上门维护"
+            }
+          ]
+        },
+        {
+          "key": "pet_events_lifestyle",
+          "name": "生活方式、仪式与社交",
+          "children": [
+            {
+              "key": "pet_photography_portrait",
+              "name": "宠物专业摄影/写真"
+            },
+            {
+              "key": "pet_birthday_party_planner",
+              "name": "宠物生日派对策划"
+            },
+            {
+              "key": "pet_wedding_attendant",
+              "name": "宠物婚礼伴郎/护送服务"
+            },
+            {
+              "key": "custom_pet_portrait_art",
+              "name": "宠物定制肖像画/艺术品制作"
+            },
+            {
+              "key": "pet_friendly_travel_concierge",
+              "name": "宠物友好旅游行程定制"
+            },
+            {
+              "key": "pet_dating_social_meetup",
+              "name": "宠物线下社交聚会组织"
+            }
+          ]
+        },
+        {
+          "key": "pet_legal_insurance",
+          "name": "保险、法律与保障",
+          "children": [
+            {
+              "key": "pet_insurance_comparison",
+              "name": "宠物医疗保险方案定制"
+            },
+            {
+              "key": "pet_trust_estate_planning",
+              "name": "宠物信托与遗产继承规划"
+            },
+            {
+              "key": "pet_lost_found_recovery",
+              "name": "丢失宠物专业搜寻与寻宠服务"
+            },
+            {
+              "key": "pet_dispute_legal_counsel",
+              "name": "宠物伤人或权属纠纷法律咨询"
+            },
+            {
+              "key": "emotional_support_animal_certification",
+              "name": "ESA情感支持动物评估与认证协助"
+            }
+          ]
+        },
+        {
+          "key": "pet_end_of_life",
+          "name": "临终关怀与身后事",
+          "children": [
+            {
+              "key": "at_home_euthanasia",
+              "name": "上门宁养安乐死服务"
+            },
+            {
+              "key": "pet_cremation_services",
+              "name": "宠物火化与骨灰处理"
+            },
+            {
+              "key": "pet_funeral_memorial",
+              "name": "宠物悼念仪式策划"
+            },
+            {
+              "key": "pet_loss_grief_counseling",
+              "name": "失宠哀伤心理辅导"
+            },
+            {
+              "key": "pet_taxidermy_preservation",
+              "name": "宠物标本制作与纪念品保存"
+            }
+          ]
+        },
+        {
+          "key": "specialized_exotic_pet_care",
+          "name": "异宠与特定物种专项",
+          "children": [
+            {
+              "key": "exotic_animal_vet",
+              "name": "爬行动物/小型哺乳类专项诊疗"
+            },
+            {
+              "key": "aquarium_aquascaping_service",
+              "name": "大型鱼缸造景与生态维护"
+            },
+            {
+              "key": "equine_mobile_care",
+              "name": "私人马匹修蹄与移动护理"
+            },
+            {
+              "key": "backyard_chicken_consultant",
+              "name": "后院养鸡技术指导与设施维护"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "finance_insurance",
+      "name": "金融与保险",
+      "jobs": [
+        "缺钱能融资",
+        "风险有保障",
+        "财务更清晰"
+      ],
+      "children": [
+        {
+          "key": "banking_savings",
+          "name": "银行与日常存管",
+          "children": [
+            {
+              "key": "checking_account_setup",
+              "name": "个人/商业支票账户开立"
+            },
+            {
+              "key": "high_yield_savings",
+              "name": "高息储蓄账户开办"
+            },
+            {
+              "key": "cd_ladder_strategy",
+              "name": "定期存款(CD)阶梯组合配置"
+            },
+            {
+              "key": "offshore_banking_concierge",
+              "name": "离岸账户开设与合规咨询"
+            },
+            {
+              "key": "safe_deposit_box_service",
+              "name": "保险库及贵重物品托管"
+            },
+            {
+              "key": "notary_public_financial",
+              "name": "金融文件公证服务"
+            }
+          ]
+        },
+        {
+          "key": "credit_debt_management",
+          "name": "信用增长与债务化解",
+          "children": [
+            {
+              "key": "credit_score_repair",
+              "name": "信用分数修复与争议处理"
+            },
+            {
+              "key": "identity_theft_protection",
+              "name": "身份盗用防护与监控"
+            },
+            {
+              "key": "debt_consolidation_loans",
+              "name": "债务整合方案"
+            },
+            {
+              "key": "credit_card_optimization",
+              "name": "信用卡返现/积分最大化配置"
+            },
+            {
+              "key": "bankruptcy_consulting",
+              "name": "破产保护申报咨询"
+            },
+            {
+              "key": "student_loan_refinancing",
+              "name": "学生贷款再融资筹划"
+            }
+          ]
+        },
+        {
+          "key": "mortgage_real_estate_finance",
+          "name": "房产金融与抵押贷款",
+          "children": [
+            {
+              "key": "first_home_buyer_loan",
+              "name": "首次购房者贷款申请"
+            },
+            {
+              "key": "mortgage_refinancing",
+              "name": "房屋增值再融资(Refi)"
+            },
+            {
+              "key": "heloc_application",
+              "name": "房屋净值授信额度(HELOC)办理"
+            },
+            {
+              "key": "reverse_mortgage",
+              "name": "倒按揭/养老抵押贷款"
+            },
+            {
+              "key": "commercial_real_estate_loan",
+              "name": "商业地产抵押贷款"
+            },
+            {
+              "key": "bridge_loan_financing",
+              "name": "过桥贷款快速融资"
+            }
+          ]
+        },
+        {
+          "key": "investment_wealth_management",
+          "name": "投资、理财与财富增长",
+          "children": [
+            {
+              "key": "robo_advisor_portfolio",
+              "name": "智能投顾组合配置"
+            },
+            {
+              "key": "active_stock_management",
+              "name": "主动型股票账户代管"
+            },
+            {
+              "key": "etf_index_fund_strategy",
+              "name": "指数基金与ETF定投方案"
+            },
+            {
+              "key": "crypto_asset_custody",
+              "name": "加密货币资产托管与合规"
+            },
+            {
+              "key": "esg_sustainable_investing",
+              "name": "ESG可持续/道德投资策略"
+            },
+            {
+              "key": "art_collectibles_investment",
+              "name": "艺术品与高端收藏品投资评估"
+            },
+            {
+              "key": "wine_precious_metal_investing",
+              "name": "名酒及贵金属实物投资"
+            }
+          ]
+        },
+        {
+          "key": "tax_accounting_services",
+          "name": "税务筹划与报税",
+          "children": [
+            {
+              "key": "individual_income_tax_filing",
+              "name": "个人联邦/州税申报"
+            },
+            {
+              "key": "small_business_tax_planning",
+              "name": "小企业税务合规与筹划"
+            },
+            {
+              "key": "irs_audit_representation",
+              "name": "IRS税务审计代理与辩护"
+            },
+            {
+              "key": "crypto_tax_reporting",
+              "name": "数字货币交易税务申报"
+            },
+            {
+              "key": "expat_foreign_income_tax",
+              "name": "外籍/海外收入税务申报"
+            },
+            {
+              "key": "sales_tax_nexus_consulting",
+              "name": "跨州销售税合规咨询"
+            }
+          ]
+        },
+        {
+          "key": "life_health_insurance",
+          "name": "人身保险与健康保障",
+          "children": [
+            {
+              "key": "term_life_insurance",
+              "name": "定期寿险方案"
+            },
+            {
+              "key": "whole_life_indexed_universal",
+              "name": "终身/指数型万能险方案"
+            },
+            {
+              "key": "medicare_supplement_plans",
+              "name": "联邦医疗保险(Medicare)补充计划"
+            },
+            {
+              "key": "long_term_care_insurance",
+              "name": "长期护理险"
+            },
+            {
+              "key": "disability_income_insurance",
+              "name": "伤残收入补偿险"
+            },
+            {
+              "key": "critical_illness_protection",
+              "name": "重大疾病专项保障"
+            }
+          ]
+        },
+        {
+          "key": "property_casualty_insurance",
+          "name": "财产、责任与意外险",
+          "children": [
+            {
+              "key": "homeowners_renters_insurance",
+              "name": "房屋所有者/租客险"
+            },
+            {
+              "key": "auto_insurance_optimization",
+              "name": "汽车保险精选方案"
+            },
+            {
+              "key": "umbrella_liability_policy",
+              "name": "超额责任险(Umbrella Policy)"
+            },
+            {
+              "key": "flood_wildfire_disaster_insurance",
+              "name": "洪灾/山火等高风险地区专项险"
+            },
+            {
+              "key": "pet_health_insurance",
+              "name": "宠物医疗保险"
+            },
+            {
+              "key": "event_wedding_insurance",
+              "name": "大型活动/婚礼取消险"
+            },
+            {
+              "key": "valuable_items_floater",
+              "name": "珠宝/奢侈品专项附加险"
+            }
+          ]
+        },
+        {
+          "key": "retirement_estate_planning",
+          "name": "退休养老与遗产继承",
+          "children": [
+            {
+              "key": "ira_401k_rollover",
+              "name": "IRA/401(k)转滚服务"
+            },
+            {
+              "key": "pension_optimization",
+              "name": "养老金领取策略优化"
+            },
+            {
+              "key": "will_probate_services",
+              "name": "遗嘱公证与遗产认证"
+            },
+            {
+              "key": "charitable_giving_trust",
+              "name": "慈善捐赠信托方案"
+            },
+            {
+              "key": "inheritance_tax_reduction",
+              "name": "遗产税减免筹划"
+            }
+          ]
+        },
+        {
+          "key": "business_commercial_finance",
+          "name": "商业金融与企业融资",
+          "children": [
+            {
+              "key": "sba_loan_assistance",
+              "name": "SBA小企业管理局贷款申请"
+            },
+            {
+              "key": "equipment_leasing_financing",
+              "name": "设备租赁与融资"
+            },
+            {
+              "key": "invoice_factoring",
+              "name": "应收账款保理融资"
+            },
+            {
+              "key": "venture_capital_matching",
+              "name": "风险投资/天使轮投融资对接"
+            },
+            {
+              "key": "business_interruption_insurance",
+              "name": "企业营业中断险"
+            },
+            {
+              "key": "professional_liability_eo",
+              "name": "专业责任险(E&O)"
+            },
+            {
+              "key": "key_person_insurance",
+              "name": "企业核心人员保险"
+            }
+          ]
+        },
+        {
+          "key": "specialized_financial_concierge",
+          "name": "专项金融辅助与代办",
+          "children": [
+            {
+              "key": "unclaimed_money_recovery",
+              "name": "失联资产/无主资金追回"
+            },
+            {
+              "key": "financial_forensic_audit",
+              "name": "财务舞弊调查与法务会计"
+            },
+            {
+              "key": "divorce_financial_settlement",
+              "name": "离婚财产分割精算服务"
+            },
+            {
+              "key": "college_fund_529_planning",
+              "name": "529大学学费基金规划"
+            },
+            {
+              "key": "social_security_optimization",
+              "name": "社保福利领取最大化咨询"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "legal_gov",
+      "name": "法律与政务代办",
+      "jobs": [
+        "合规不踩坑",
+        "办事少跑腿",
+        "纠纷有人管"
+      ],
+      "children": [
+        {
+          "key": "immigration_visa",
+          "name": "移民与签证服务",
+          "children": [
+            {
+              "key": "family_based_green_card",
+              "name": "亲属移民绿卡申请"
+            },
+            {
+              "key": "employment_visa_h1b",
+              "name": "H1-B 工作签证代办"
+            },
+            {
+              "key": "eb5_investment_immigration",
+              "name": "EB-5 投资移民法律咨询"
+            },
+            {
+              "key": "naturalization_citizenship",
+              "name": "公民入籍申请与面试辅导"
+            },
+            {
+              "key": "asylum_refugee_services",
+              "name": "庇护与难民身份申请"
+            },
+            {
+              "key": "visa_extension_status_change",
+              "name": "签证延期与身份转换"
+            },
+            {
+              "key": "fiance_visa_k1",
+              "name": "未婚妻/未婚夫 K1 签证"
+            },
+            {
+              "key": "deportation_defense",
+              "name": "驱逐出境辩护与法律援助"
+            }
+          ]
+        },
+        {
+          "key": "family_law_personal",
+          "name": "家庭法与个人事务",
+          "children": [
+            {
+              "key": "uncontested_divorce",
+              "name": "协议离婚代办"
+            },
+            {
+              "key": "contested_divorce_litigation",
+              "name": "争议性离婚诉讼代理"
+            },
+            {
+              "key": "child_custody_support",
+              "name": "子女抚养权与赡养费调解"
+            },
+            {
+              "key": "prenuptial_postnuptial_agreements",
+              "name": "婚前/婚后财产协议起草"
+            },
+            {
+              "key": "domestic_adoption_services",
+              "name": "美国境内收养手续代办"
+            },
+            {
+              "key": "surrogacy_legal_contracts",
+              "name": "代孕法律合同与出生证明代办"
+            },
+            {
+              "key": "name_change_petition",
+              "name": "个人改名法律程序代办"
+            },
+            {
+              "key": "domestic_violence_restraining_orders",
+              "name": "家庭暴力保护令申请"
+            }
+          ]
+        },
+        {
+          "key": "estate_planning_probate",
+          "name": "遗产规划与继承",
+          "children": [
+            {
+              "key": "will_drafting",
+              "name": "遗嘱起草与公证"
+            },
+            {
+              "key": "living_trust_setup",
+              "name": "生前信托设立"
+            },
+            {
+              "key": "power_of_attorney",
+              "name": "法律授权书 (POA) 办理"
+            },
+            {
+              "key": "health_care_directives",
+              "name": "医疗预嘱与临终护理指示"
+            },
+            {
+              "key": "probate_administration",
+              "name": "遗产认证与执行代理"
+            },
+            {
+              "key": "inheritance_tax_planning",
+              "name": "遗产税税务规划"
+            },
+            {
+              "key": "digital_asset_succession",
+              "name": "数字遗产（账号/加密货币）继承规划"
+            }
+          ]
+        },
+        {
+          "key": "notary_authentication",
+          "name": "公证与认证代办",
+          "children": [
+            {
+              "key": "mobile_notary_public",
+              "name": "上门移动公证服务"
+            },
+            {
+              "key": "remote_online_notarization",
+              "name": "远程在线视频公证"
+            },
+            {
+              "key": "apostille_certification",
+              "name": "海牙认证 (Apostille) 代办"
+            },
+            {
+              "key": "embassy_authentication",
+              "name": "领事馆双认证"
+            },
+            {
+              "key": "certified_translation_legal",
+              "name": "法律文件翻译加盖公证章"
+            },
+            {
+              "key": "loan_signing_agent",
+              "name": "房屋贷款文件签署公证"
+            }
+          ]
+        },
+        {
+          "key": "business_legal_compliance",
+          "name": "小企业法律与合规",
+          "children": [
+            {
+              "key": "business_entity_formation",
+              "name": "LLC/C-Corp 公司注册代办"
+            },
+            {
+              "key": "operating_agreements_bylaws",
+              "name": "公司章程与经营协议起草"
+            },
+            {
+              "key": "trademark_registration_uspto",
+              "name": "USPTO 商标注册与查询"
+            },
+            {
+              "key": "patent_filing_services",
+              "name": "专利申请与版权保护"
+            },
+            {
+              "key": "contract_review_drafting",
+              "name": "商业合同审阅与起草"
+            },
+            {
+              "key": "employment_law_compliance",
+              "name": "员工手册与劳工法合规咨询"
+            },
+            {
+              "key": "liquor_license_application",
+              "name": "酒精专卖执照代办"
+            },
+            {
+              "key": "nonprofit_501c3_status",
+              "name": "非营利组织 501(c)(3) 资格申请"
+            }
+          ]
+        },
+        {
+          "key": "criminal_traffic_law",
+          "name": "刑事辩护与交通法务",
+          "children": [
+            {
+              "key": "dui_dwi_defense",
+              "name": "酒驾/毒驾 (DUI) 辩护代理"
+            },
+            {
+              "key": "traffic_ticket_dismissal",
+              "name": "交通罚单申诉与消点"
+            },
+            {
+              "key": "expungement_record_sealing",
+              "name": "刑事犯罪记录抹除/封存"
+            },
+            {
+              "key": "misdemeanor_defense",
+              "name": "轻罪辩护代理"
+            },
+            {
+              "key": "bail_bond_assistance",
+              "name": "保释金协调与法律程序"
+            },
+            {
+              "key": "juvenile_defense",
+              "name": "青少年犯罪法律援助"
+            }
+          ]
+        },
+        {
+          "key": "civil_litigation_disputes",
+          "name": "民事诉讼与纠纷解决",
+          "children": [
+            {
+              "key": "small_claims_court_prep",
+              "name": "小额法庭诉讼准备与辅导"
+            },
+            {
+              "key": "landlord_tenant_disputes",
+              "name": "房东房客纠纷（驱逐/押金）代理"
+            },
+            {
+              "key": "personal_injury_claims",
+              "name": "人身伤害（车祸/滑倒）理赔代理"
+            },
+            {
+              "key": "medical_malpractice_legal",
+              "name": "医疗事故法律维权"
+            },
+            {
+              "key": "employment_discrimination_lawsuit",
+              "name": "职场歧视与骚扰诉讼"
+            },
+            {
+              "key": "consumer_protection_claims",
+              "name": "消费者权益保护与集体诉讼"
+            },
+            {
+              "key": "alternative_dispute_resolution",
+              "name": "民事中裁与仲裁服务"
+            }
+          ]
+        },
+        {
+          "key": "gov_document_records",
+          "name": "政务文件与记录申办",
+          "children": [
+            {
+              "key": "passport_expedited_service",
+              "name": "美国护照加急办/换发"
+            },
+            {
+              "key": "vital_records_request",
+              "name": "出生/结婚/死亡证明调档"
+            },
+            {
+              "key": "social_security_card_replacement",
+              "name": "社安卡补办与姓名更新"
+            },
+            {
+              "key": "fbi_background_check_live_scan",
+              "name": "FBI 背景调查与指纹采集"
+            },
+            {
+              "key": "dmv_registration_services",
+              "name": "DMV 车辆过户与注册代办"
+            },
+            {
+              "key": "real_id_application_assistance",
+              "name": "REAL ID 申请材料预审"
+            },
+            {
+              "key": "gun_permit_ccw_application",
+              "name": "隐蔽持枪证 (CCW) 申请指导"
+            }
+          ]
+        },
+        {
+          "key": "niche_specialized_legal",
+          "name": "专项法律咨询（长尾场景）",
+          "children": [
+            {
+              "key": "surplus_funds_recovery",
+              "name": "法拍房溢价款 (Surplus Funds) 追回"
+            },
+            {
+              "key": "elder_law_medicaid_planning",
+              "name": "老年法与白卡 (Medicaid) 资产规划"
+            },
+            {
+              "key": "aviation_maritime_law",
+              "name": "私人飞机/游艇所有权法律登记"
+            },
+            {
+              "key": "crypto_tax_legal_audit",
+              "name": "加密货币合规审计与税务辩护"
+            },
+            {
+              "key": "student_loan_discharge_legal",
+              "name": "学生贷款减免法律申诉"
+            },
+            {
+              "key": "disability_ssdi_appeals",
+              "name": "伤残补助 (SSDI) 申请被拒申诉"
+            },
+            {
+              "key": "cannabis_business_licensing",
+              "name": "大麻合法经营执照申请 (特定州)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "digital_it",
+      "name": "数字与IT服务",
+      "jobs": [
+        "设备能用",
+        "系统能跑",
+        "线上业务能增长"
+      ],
+      "children": [
+        {
+          "key": "personal_computing_support",
+          "name": "个人电脑与终端支持",
+          "children": [
+            {
+              "key": "pc_mac_troubleshooting",
+              "name": "PC/Mac 故障深度诊断与排除"
+            },
+            {
+              "key": "hardware_upgrade_install",
+              "name": "硬件加装与个性化性能改装"
+            },
+            {
+              "key": "os_reinstall_optimization",
+              "name": "操作系统重装与纯净补丁环境优化"
+            },
+            {
+              "key": "peripherals_setup",
+              "name": "打印机/扫描仪及专业办公外设配网"
+            },
+            {
+              "key": "remote_technical_assistance",
+              "name": "远程即时技术协助服务"
+            },
+            {
+              "key": "liquid_damage_recovery",
+              "name": "设备进液紧急处置与清洗"
+            },
+            {
+              "key": "custom_pc_build_consulting",
+              "name": "电竞/工作站定制组装建议与装机"
+            }
+          ]
+        },
+        {
+          "key": "smart_home_iot",
+          "name": "智能家居与物联网部署",
+          "children": [
+            {
+              "key": "mesh_network_optimization",
+              "name": "全屋 Wi-Fi 6/7 Mesh 覆盖与信号死角优化"
+            },
+            {
+              "key": "smart_security_ecosystem",
+              "name": "智能监控安防系统集成（Ring/Nest 等）"
+            },
+            {
+              "key": "home_theater_calibration",
+              "name": "家庭影院音视频系统调试与同步"
+            },
+            {
+              "key": "iot_privacy_shield",
+              "name": "智能家居隐私泄露加固与漏洞扫描"
+            },
+            {
+              "key": "smart_lighting_automation",
+              "name": "全屋智能灯光场景编程与自动化配置"
+            },
+            {
+              "key": "elderly_fall_detection_setup",
+              "name": "长者防摔倒传感器网络部署"
+            }
+          ]
+        },
+        {
+          "key": "cybersecurity_privacy",
+          "name": "网络安全与数字隐私保护",
+          "children": [
+            {
+              "key": "personal_data_encryption",
+              "name": "敏感文件高强度加密与保险箱设置"
+            },
+            {
+              "key": "malware_ransomware_removal",
+              "name": "勒索软件清理与数据暴力恢复"
+            },
+            {
+              "key": "identity_theft_recovery",
+              "name": "身份盗用后数字足迹清理与信用修复辅助"
+            },
+            {
+              "key": "parental_control_filter",
+              "name": "青少年网络内容过滤与上网行为管理"
+            },
+            {
+              "key": "dark_web_monitoring_setup",
+              "name": "暗网信息泄露监测预警配置"
+            },
+            {
+              "key": "vpn_secure_tunnel_config",
+              "name": "专属隐私隧道与异地访问内网配置"
+            }
+          ]
+        },
+        {
+          "key": "data_management_recovery",
+          "name": "数据资产管理与灾备",
+          "children": [
+            {
+              "key": "cloud_storage_migration",
+              "name": "跨云平台（iCloud/Google/OneDrive）数据无损迁移"
+            },
+            {
+              "key": "failed_hard_drive_recovery",
+              "name": "损坏硬盘/闪存卡实验室级物理恢复"
+            },
+            {
+              "key": "nas_private_cloud_setup",
+              "name": "家用 NAS 私有云存储系统搭建"
+            },
+            {
+              "key": "digital_legacy_planning",
+              "name": "数字遗产（账号/加密货币钥匙）继承托管预设"
+            },
+            {
+              "key": "photo_video_digitization",
+              "name": "老旧胶片/磁带数字化转档与云端分类"
+            }
+          ]
+        },
+        {
+          "key": "creative_digital_production",
+          "name": "数字创意工具与内容技术支持",
+          "children": [
+            {
+              "key": "video_editing_workflow_setup",
+              "name": "自媒体视频剪辑工作流环境搭建"
+            },
+            {
+              "key": "podcast_studio_tech_support",
+              "name": "播客录制音频链调试与降噪优化"
+            },
+            {
+              "key": "streaming_obs_setup",
+              "name": "直播间推流（OBS/Twitch）配置与美颜滤镜调试"
+            },
+            {
+              "key": "ai_art_tool_training",
+              "name": "生成式 AI 工具（Midjourney/Stable Diffusion）本地部署"
+            },
+            {
+              "key": "vr_ar_device_setup",
+              "name": "VR/AR 头显设备串流与内容库初始化"
+            }
+          ]
+        },
+        {
+          "key": "software_dev_web_presence",
+          "name": "个人与微企线上品牌建设",
+          "children": [
+            {
+              "key": "no_code_app_building",
+              "name": "无代码/低代码应用快速开发"
+            },
+            {
+              "key": "personal_portfolio_website",
+              "name": "个人作品集网站设计与域名托管"
+            },
+            {
+              "key": "ecommerce_storefront_setup",
+              "name": "Shopify/Etsy 店铺技术装修与插件集成"
+            },
+            {
+              "key": "seo_technical_audit",
+              "name": "个人博客 SEO 技术性指标审计与优化"
+            },
+            {
+              "key": "api_integration_automation",
+              "name": "跨应用（Zapier/Make）自动化流程编排"
+            }
+          ]
+        },
+        {
+          "key": "niche_tech_specialties",
+          "name": "特定场景技术专家服务",
+          "children": [
+            {
+              "key": "drone_firmware_calibration",
+              "name": "无人机固件升级与飞行参数校准"
+            },
+            {
+              "key": "crypto_wallet_security_audit",
+              "name": "冷钱包存储安全方案审计"
+            },
+            {
+              "key": "retro_gaming_emulation",
+              "name": "怀旧游戏机模拟器环境深度复刻"
+            },
+            {
+              "key": "starlink_installation",
+              "name": "Starlink 星链卫星地面站勘测与安装"
+            },
+            {
+              "key": "smart_car_infotainment_mod",
+              "name": "智能车载系统汉化/软件侧功能解锁"
+            },
+            {
+              "key": "digital_detox_tech_lock",
+              "name": "数字成瘾干预：设备强制极简模式改造"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "logistics_moving",
+      "name": "物流与搬运",
+      "jobs": [
+        "东西运得快",
+        "搬家不崩溃",
+        "大件有人扛"
+      ],
+      "children": [
+        {
+          "key": "residential_moving",
+          "name": "住宅搬家服务",
+          "children": [
+            {
+              "key": "local_studio_apartment_moving",
+              "name": "同城小公寓搬家（1-2人）"
+            },
+            {
+              "key": "full_service_family_home_moving",
+              "name": "全包式家庭搬家（含打包拆装）"
+            },
+            {
+              "key": "interstate_long_distance_moving",
+              "name": "跨州长途搬家配送"
+            },
+            {
+              "key": "senior_move_management",
+              "name": "老年人搬家专项辅助（含心理关怀与旧物处置）"
+            },
+            {
+              "key": "student_dorm_seasonal_storage_moving",
+              "name": "学生宿舍季节性搬运与寄存"
+            },
+            {
+              "key": "military_pcs_moving_specialist",
+              "name": "军人调动(PCS)专项搬家服务"
+            }
+          ]
+        },
+        {
+          "key": "specialty_item_logistics",
+          "name": "特殊/重型物品专项搬运",
+          "children": [
+            {
+              "key": "piano_moving_tuning_integration",
+              "name": "专业钢琴搬运与调音一体化"
+            },
+            {
+              "key": "gun_safe_heavy_machinery_moving",
+              "name": "重型保险柜/枪柜专项搬运"
+            },
+            {
+              "key": "fine_art_antique_white_glove",
+              "name": "艺术品与古董白手套恒温物流"
+            },
+            {
+              "key": "pool_table_disassembly_moving",
+              "name": "台球桌拆卸、更换台布与搬运"
+            },
+            {
+              "key": "hot_tub_spa_transport",
+              "name": "户外按摩浴缸(Hot Tub)起重与搬运"
+            },
+            {
+              "key": "aquarium_fish_tank_relocation",
+              "name": "大型鱼缸拆卸、活体运输与水质恢复"
+            },
+            {
+              "key": "exercise_equipment_gym_disassembly",
+              "name": "大型健身器材（跑步机/综合训练器）拆装搬运"
+            }
+          ]
+        },
+        {
+          "key": "junk_removal_hauling",
+          "name": "垃圾清理与废弃物搬运",
+          "children": [
+            {
+              "key": "full_service_junk_removal",
+              "name": "全责垃圾清理（上门搬运与分类）"
+            },
+            {
+              "key": "dumpster_rental_drop_off",
+              "name": "垃圾集装箱租用与投放(Dumpster Rental)"
+            },
+            {
+              "key": "estate_cleanout_service",
+              "name": "遗产房空房清空（含捐赠、回收与清扫）"
+            },
+            {
+              "key": "hoarding_cleanup_logistics",
+              "name": "囤积癖住宅专项清理与物资转移"
+            },
+            {
+              "key": "construction_debris_hauling",
+              "name": "装修建筑废料清运"
+            },
+            {
+              "key": "e_waste_recycling_transport",
+              "name": "电子垃圾合规回收与运输"
+            },
+            {
+              "key": "appliance_mattress_disposal",
+              "name": "旧床垫与大家电合法弃置运输"
+            }
+          ]
+        },
+        {
+          "key": "vehicle_transportation",
+          "name": "车辆物流托运",
+          "children": [
+            {
+              "key": "open_carrier_auto_shipping",
+              "name": "开放式车辆跨州托运"
+            },
+            {
+              "key": "enclosed_luxury_car_transport",
+              "name": "封闭式豪车/老爷车专业托运"
+            },
+            {
+              "key": "motorcycle_atv_shipping",
+              "name": "摩托车/全地形车专项托运"
+            },
+            {
+              "key": "boat_yacht_towing_hauling",
+              "name": "船只与游艇拖运服务"
+            },
+            {
+              "key": "rv_motorhome_drive_away",
+              "name": "房车代驾与长途托运"
+            }
+          ]
+        },
+        {
+          "key": "packing_unpacking_supplies",
+          "name": "打包、拆箱与包材服务",
+          "children": [
+            {
+              "key": "professional_packing_only",
+              "name": "纯专业打包服务（仅人工）"
+            },
+            {
+              "key": "unpacking_home_organization",
+              "name": "拆箱归位与空间整理收纳"
+            },
+            {
+              "key": "eco_friendly_reusable_box_rental",
+              "name": "环保塑料周转箱租赁与回收"
+            },
+            {
+              "key": "custom_crating_fragile_items",
+              "name": "易碎品定制木箱加固"
+            }
+          ]
+        },
+        {
+          "key": "labor_only_services",
+          "name": "纯劳务辅助（无车需求）",
+          "children": [
+            {
+              "key": "truck_loading_unloading_labor",
+              "name": "自租货车(U-Haul)装卸工人"
+            },
+            {
+              "key": "in_home_furniture_rearranging",
+              "name": "室内家具挪位与布局调整"
+            },
+            {
+              "key": "staged_home_furniture_moving",
+              "name": "售前样板房家具搬运摆放"
+            },
+            {
+              "key": "pod_container_loading_pro",
+              "name": "移动仓储箱(PODS)专业装载优化"
+            }
+          ]
+        },
+        {
+          "key": "commercial_office_logistics",
+          "name": "商业与办公物流",
+          "children": [
+            {
+              "key": "office_relocation_it_setup",
+              "name": "办公室整体搬迁（含IT设备调试）"
+            },
+            {
+              "key": "retail_store_fixture_moving",
+              "name": "零售门店货柜与展具搬迁"
+            },
+            {
+              "key": "medical_lab_equipment_logistics",
+              "name": "医疗实验设备精密搬运"
+            },
+            {
+              "key": "warehouse_inventory_transfer",
+              "name": "仓库库存批量调拨运输"
+            },
+            {
+              "key": "last_mile_delivery_business",
+              "name": "企业最后一公里B2B配送外包"
+            }
+          ]
+        },
+        {
+          "key": "storage_warehousing",
+          "name": "仓储与暂存服务",
+          "children": [
+            {
+              "key": "climate_controlled_self_storage",
+              "name": "恒温自助仓储租赁"
+            },
+            {
+              "key": "portable_storage_container_delivery",
+              "name": "移动仓储箱上门投放(Portable Storage)"
+            },
+            {
+              "key": "valet_storage_by_the_bin",
+              "name": "管家式按箱存储与取送服务"
+            },
+            {
+              "key": "vehicle_rv_boat_storage",
+              "name": "大型车辆/房车/船只露天及室内泊位"
+            }
+          ]
+        },
+        {
+          "key": "courier_specialized_delivery",
+          "name": "同城快递与专业送达",
+          "children": [
+            {
+              "key": "same_day_legal_document_courier",
+              "name": "当日达法律文件/证据保密递送"
+            },
+            {
+              "key": "medical_specimen_blood_transport",
+              "name": "医疗标本/血液/药品冷链即时配送"
+            },
+            {
+              "key": "oversized_parcel_white_glove_delivery",
+              "name": "超大件包裹白手套入户安装递送"
+            },
+            {
+              "key": "luggage_airport_transfer",
+              "name": "行李机场-酒店双向免手提递送"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "green_env_energy",
+      "name": "环保与能源",
+      "jobs": [
+        "更省电省钱",
+        "更环保",
+        "处理废弃物更方便"
+      ],
+      "children": [
+        {
+          "key": "residential_solar_storage",
+          "name": "家用太阳能与储能系统",
+          "children": [
+            {
+              "key": "rooftop_solar_install",
+              "name": "屋顶太阳能板安装与设计"
+            },
+            {
+              "key": "home_battery_backup",
+              "name": "家用蓄电池（如Tesla Powerwall）安装"
+            },
+            {
+              "key": "solar_panel_cleaning",
+              "name": "太阳能板专业清洗与去污"
+            },
+            {
+              "key": "solar_system_inspection",
+              "name": "太阳能系统性能检测与逆变器维修"
+            },
+            {
+              "key": "off_grid_system_design",
+              "name": "离网能源系统设计与搭建"
+            },
+            {
+              "key": "solar_incentive_consulting",
+              "name": "IRA 联邦退税与州级补贴申领咨询"
+            }
+          ]
+        },
+        {
+          "key": "energy_efficiency_optimization",
+          "name": "能效审计与节能优化",
+          "children": [
+            {
+              "key": "professional_energy_audit",
+              "name": "专业家庭能效审计（红外热成像检测）"
+            },
+            {
+              "key": "attic_insulation_upgrade",
+              "name": "阁楼保温层加装与密封"
+            },
+            {
+              "key": "smart_thermostat_setup",
+              "name": "智能温控器网络集成与调教"
+            },
+            {
+              "key": "window_weatherization",
+              "name": "门窗防风雨密封与低辐射贴膜"
+            },
+            {
+              "key": "hvac_energy_tuning",
+              "name": "空调暖通系统节能调优"
+            },
+            {
+              "key": "duct_sealing_service",
+              "name": "风管密封与漏风修复"
+            }
+          ]
+        },
+        {
+          "key": "ev_infrastructure_at_home",
+          "name": "电动汽车配套设施",
+          "children": [
+            {
+              "key": "level_2_charger_install",
+              "name": "家用 L2 充电桩安装与布线"
+            },
+            {
+              "key": "panel_upgrade_for_ev",
+              "name": "充电桩配套电表箱容量升级"
+            },
+            {
+              "key": "portable_power_station_rental",
+              "name": "应急移动充电电源租赁"
+            },
+            {
+              "key": "v2h_integration",
+              "name": "车辆到家庭（V2H）反向供电系统配置"
+            }
+          ]
+        },
+        {
+          "key": "waste_management_recycling",
+          "name": "废物管理与专项回收",
+          "children": [
+            {
+              "key": "hazardous_waste_disposal",
+              "name": "家用有害物品（油漆/化学品）清理"
+            },
+            {
+              "key": "e_waste_recycling",
+              "name": "旧电脑及电子产品数据粉碎与回收"
+            },
+            {
+              "key": "composting_bin_service",
+              "name": "厨余垃圾堆肥桶上门清运"
+            },
+            {
+              "key": "bulky_item_removal",
+              "name": "大件废弃家具/床垫环保处置"
+            },
+            {
+              "key": "scrap_metal_collection",
+              "name": "废金属上门回收与分类"
+            },
+            {
+              "key": "textile_recycling_pickup",
+              "name": "旧织物/衣物环保回收"
+            }
+          ]
+        },
+        {
+          "key": "sustainable_water_solutions",
+          "name": "可持续水资源管理",
+          "children": [
+            {
+              "key": "rainwater_harvesting_system",
+              "name": "雨水收集与过滤系统安装"
+            },
+            {
+              "key": "greywater_recycling",
+              "name": "灰水再利用系统（洗衣灌溉）设计"
+            },
+            {
+              "key": "low_flow_fixture_retrofit",
+              "name": "全屋低流量节水器具更换"
+            },
+            {
+              "key": "drip_irrigation_optimization",
+              "name": "智能滴灌系统节水改造"
+            }
+          ]
+        },
+        {
+          "key": "green_lifestyle_niche",
+          "name": "绿色生活专项服务",
+          "children": [
+            {
+              "key": "indoor_air_quality_testing",
+              "name": "室内空气质量（氡气/VOC）检测"
+            },
+            {
+              "key": "beekeeping_setup",
+              "name": "家庭后院养蜂系统搭建与维护"
+            },
+            {
+              "key": "sustainable_garden_design",
+              "name": "原生植物（Native Plants）景观改造"
+            },
+            {
+              "key": "chicken_coop_maintenance",
+              "name": "后院鸡舍环保搭建与清理"
+            }
+          ]
+        },
+        {
+          "key": "corporate_sustainability_compliance",
+          "name": "企业环保合规与碳服务",
+          "children": [
+            {
+              "key": "carbon_footprint_analysis",
+              "name": "中小企业碳足迹核算"
+            },
+            {
+              "key": "esg_reporting_assistance",
+              "name": "ESG 报告数据收集与披露辅助"
+            },
+            {
+              "key": "commercial_waste_audit",
+              "name": "商业建筑垃圾减量审计"
+            },
+            {
+              "key": "leed_certification_consulting",
+              "name": "LEED 绿色建筑认证咨询"
+            },
+            {
+              "key": "renewable_energy_credit_trading",
+              "name": "可再生能源凭证（REC）代采购"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "business_services",
+      "name": "企业经营服务",
+      "jobs": [
+        "把公司开起来",
+        "把账税弄清楚",
+        "把人招到/留住",
+        "把生意做大"
+      ],
+      "children": [
+        {
+          "key": "business_formation_compliance",
+          "name": "公司设立与合规筹备",
+          "children": [
+            {
+              "key": "entity_registration",
+              "name": "公司注册 (LLC/C-Corp/S-Corp)"
+            },
+            {
+              "key": "ein_tax_id_application",
+              "name": "EIN/税号申请"
+            },
+            {
+              "key": "registered_agent_services",
+              "name": "法定注册代理人服务"
+            },
+            {
+              "key": "operating_agreement_drafting",
+              "name": "经营协议/章程起草"
+            },
+            {
+              "key": "business_licenses_permits",
+              "name": "特种行业准入许可申请"
+            },
+            {
+              "key": "dba_registration",
+              "name": "DBA (Doing Business As) 备案"
+            },
+            {
+              "key": "boir_compliance_filing",
+              "name": "BOI受益所有人报告合规申报"
+            },
+            {
+              "key": "apostille_legalization",
+              "name": "文件公证与领事认证"
+            }
+          ]
+        },
+        {
+          "key": "financial_tax_accounting",
+          "name": "财税与会计审计",
+          "children": [
+            {
+              "key": "bookkeeping_monthly",
+              "name": "代理记账与月度对账"
+            },
+            {
+              "key": "corporate_tax_filing",
+              "name": "企业所得税申报"
+            },
+            {
+              "key": "sales_tax_nexus_compliance",
+              "name": "跨州销售税 (Sales Tax) 申报与合规"
+            },
+            {
+              "key": "payroll_processing_tax",
+              "name": "薪酬计算与工资税申报"
+            },
+            {
+              "key": "audit_assurance_services",
+              "name": "财务审计与鉴证服务"
+            },
+            {
+              "key": "r_d_tax_credit_consulting",
+              "name": "研发税收抵免 (R&D Tax Credit) 筹划"
+            },
+            {
+              "key": "fractional_cfo_services",
+              "name": "兼职/共享CFO财务战略"
+            },
+            {
+              "key": "cost_segregation_studies",
+              "name": "成本分离研究 (房产抵税优化)"
+            }
+          ]
+        },
+        {
+          "key": "human_capital_staffing",
+          "name": "人力资源与雇佣",
+          "children": [
+            {
+              "key": "talent_recruiting_headhunting",
+              "name": "全职人才猎头服务"
+            },
+            {
+              "key": "contractor_vetting_management",
+              "name": "合同工 (1099) 筛选与管理"
+            },
+            {
+              "key": "employee_handbook_creation",
+              "name": "员工手册与HR合规体系"
+            },
+            {
+              "key": "benefits_administration_peo",
+              "name": "员工福利/保险方案 (PEO)"
+            },
+            {
+              "key": "background_check_screening",
+              "name": "雇佣前背景调查与背调"
+            },
+            {
+              "key": "executive_coaching_training",
+              "name": "高管教练与团队领导力培训"
+            },
+            {
+              "key": "workplace_investigation_services",
+              "name": "职场违规行为独立调查"
+            },
+            {
+              "key": "outplacement_services",
+              "name": "离职安置与裁员辅导"
+            }
+          ]
+        },
+        {
+          "key": "marketing_growth_expansion",
+          "name": "市场营销与增长支持",
+          "children": [
+            {
+              "key": "seo_sem_optimization",
+              "name": "搜索引擎优化与竞价排名"
+            },
+            {
+              "key": "social_media_management",
+              "name": "海外社交媒体代运营"
+            },
+            {
+              "key": "ugc_influencer_marketing",
+              "name": "红人营销与UGC内容创作"
+            },
+            {
+              "key": "pr_media_distribution",
+              "name": "公关发稿与媒体通稿分发"
+            },
+            {
+              "key": "email_marketing_automation",
+              "name": "邮件营销 (EDM) 自动化"
+            },
+            {
+              "key": "amazon_ecomm_consulting",
+              "name": "亚马逊/电商平台站外引流"
+            },
+            {
+              "key": "gogo_market_entry_strategy",
+              "name": "美国市场进入策略调研 (GTM)"
+            },
+            {
+              "key": "booth_design_trade_show",
+              "name": "线下展会展位设计与现场搭建"
+            },
+            {
+              "key": "mystery_shopper_services",
+              "name": "神秘顾客调研与服务质检"
+            }
+          ]
+        },
+        {
+          "key": "legal_intellectual_property",
+          "name": "商业法律与知识产权",
+          "children": [
+            {
+              "key": "trademark_search_registration",
+              "name": "商标查询、注册与答辩"
+            },
+            {
+              "key": "patent_filing_utility_design",
+              "name": "发明与外观专利申请"
+            },
+            {
+              "key": "copyright_protection",
+              "name": "版权登记与内容维权"
+            },
+            {
+              "key": "data_privacy_gdpr_ccpa",
+              "name": "数据隐私合规 (CCPA/GDPR)"
+            },
+            {
+              "key": "litigation_support_expert_witness",
+              "name": "诉讼支持与专家证人服务"
+            },
+            {
+              "key": "franchise_disclosure_document",
+              "name": "特许经营 (Franchise) 文件编制"
+            }
+          ]
+        },
+        {
+          "key": "operations_office_logistics",
+          "name": "运营、空间与办公后勤",
+          "children": [
+            {
+              "key": "commercial_real_estate_leasing",
+              "name": "办公/仓库选址与租赁谈判"
+            },
+            {
+              "key": "office_fit_out_design",
+              "name": "办公空间设计与工位装修"
+            },
+            {
+              "key": "managed_it_msp_services",
+              "name": "企业IT外包托管 (MSP)"
+            },
+            {
+              "key": "shredding_document_destruction",
+              "name": "机密文件销毁与碎纸服务"
+            },
+            {
+              "key": "corporate_catering_events",
+              "name": "企业订餐与团建活动策划"
+            },
+            {
+              "key": "commercial_janitorial_services",
+              "name": "商业空间深度清洁与消杀"
+            },
+            {
+              "key": "supply_chain_sourcing",
+              "name": "供应链采购与供应商审计"
+            },
+            {
+              "key": "private_security_patrol",
+              "name": "私人安保与办公区巡逻服务"
+            }
+          ]
+        },
+        {
+          "key": "capital_ma_exit",
+          "name": "资本运作与退出",
+          "children": [
+            {
+              "key": "business_valuation_services",
+              "name": "企业价值评估"
+            },
+            {
+              "key": "pitch_deck_design_consulting",
+              "name": "融资 BP 设计与路演辅导"
+            },
+            {
+              "key": "m_and_a_brokerage",
+              "name": "并购咨询与买卖居间"
+            },
+            {
+              "key": "due_diligence_investigation",
+              "name": "投融资尽职调查"
+            },
+            {
+              "key": "bankruptcy_restructuring",
+              "name": "破产保护与债务重组咨询"
+            },
+            {
+              "key": "esop_plan_design",
+              "name": "期权激励计划设计"
+            }
+          ]
+        },
+        {
+          "key": "niche_business_solutions",
+          "name": "专项商业解决方案",
+          "children": [
+            {
+              "key": "grants_writing_government",
+              "name": "政府补贴/拨款项目申请书撰写"
+            },
+            {
+              "key": "sba_loan_application_support",
+              "name": "SBA 中小企业贷款申请辅助"
+            },
+            {
+              "key": "carbon_credit_accounting",
+              "name": "碳信用核算与 ESG 报告"
+            },
+            {
+              "key": "translation_interpretation_business",
+              "name": "商务同传与多语种本地化"
+            },
+            {
+              "key": "crisis_management_pr",
+              "name": "公关危机处理与舆情修复"
+            },
+            {
+              "key": "customs_brokerage_compliance",
+              "name": "海关报关与进出口合规"
+            },
+            {
+              "key": "accessibility_compliance_ada",
+              "name": "ADA (残疾人法案) 办公空间/网站合规改造"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "key": "residence_realestate",
+      "name": "居住与房产",
+      "category_keys": [
+        "housing_home",
+        "real_estate_property",
+        "green_env_energy"
+      ],
+      "children": []
+    },
+    {
+      "key": "home_services",
+      "name": "家政到家",
+      "category_keys": [
+        "home_to_door"
+      ],
+      "children": []
+    },
+    {
+      "key": "repair_engineering",
+      "name": "维修安装与工程",
+      "category_keys": [
+        "repair_install"
+      ],
+      "children": []
+    },
+    {
+      "key": "logistics_moving",
+      "name": "物流与搬运",
+      "category_keys": [
+        "logistics_moving"
+      ],
+      "children": []
+    },
+    {
+      "key": "mobility_travel",
+      "name": "出行与旅行",
+      "category_keys": [
+        "transport_mobility",
+        "travel_holiday"
+      ],
+      "children": []
+    },
+    {
+      "key": "food_local_life",
+      "name": "餐饮与到店生活",
+      "category_keys": [
+        "food_dining"
+      ],
+      "children": []
+    },
+    {
+      "key": "health_beauty",
+      "name": "健康与美业",
+      "category_keys": [
+        "health_medical",
+        "beauty_style"
+      ],
+      "children": []
+    },
+    {
+      "key": "education_growth",
+      "name": "学习与成长",
+      "category_keys": [
+        "education_growth"
+      ],
+      "children": []
+    },
+    {
+      "key": "entertainment_sports",
+      "name": "文娱与运动",
+      "category_keys": [
+        "sports_entertainment"
+      ],
+      "children": []
+    },
+    {
+      "key": "wedding_ceremony",
+      "name": "婚恋与人生仪式",
+      "category_keys": [
+        "wedding_ceremony"
+      ],
+      "children": []
+    },
+    {
+      "key": "pet",
+      "name": "宠物服务",
+      "category_keys": [
+        "pet"
+      ],
+      "children": []
+    },
+    {
+      "key": "finance_insurance",
+      "name": "金融与保险",
+      "category_keys": [
+        "finance_insurance"
+      ],
+      "children": []
+    },
+    {
+      "key": "legal_gov",
+      "name": "法律与政务代办",
+      "category_keys": [
+        "legal_gov"
+      ],
+      "children": []
+    },
+    {
+      "key": "digital_it",
+      "name": "数字与IT服务",
+      "category_keys": [
+        "digital_it"
+      ],
+      "children": []
+    },
+    {
+      "key": "business_services",
+      "name": "企业经营服务",
+      "category_keys": [
+        "business_services"
+      ],
+      "children": []
+    }
+  ]
+}
