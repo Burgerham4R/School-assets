@@ -2,121 +2,210 @@
   "schema": "service_category_nav",
   "version": "1.0",
   "locale": "zh-CN",
-  "note": "高客单价、信息密集型服务的导航分类；按用户“解决问题入口”组织，可按国家/地区法规与供给侧扩展叶子节点。",
+  "note": "本分类体系覆盖全球范围内“高客单价（通常>10,000 CNY）、信息密集、决策成本高”的可售卖专业服务业务线，面向B端与C端多用户群体，采用Coverage-first口径，便于前端三级导航与频道入口聚合。",
   "categories": [
     {
-      "key": "healthcare",
-      "name": "医疗健康",
+      "key": "seg_large_enterprise",
+      "name": "大型企业与跨国集团",
       "jobs": [
-        "解决重大疾病/疑难问题",
-        "获得更优质医疗资源",
-        "把治疗与康复安排得更可控"
+        "跨国扩张与并购重组的风险可控与合规落地",
+        "重大系统与流程变革的规划、实施与验收",
+        "全球监管与审计要求的持续满足与外部鉴证",
+        "供应链与产品进入多国市场的准入与认证",
+        "重大舆情/事故/诉讼的应对与声誉修复"
       ],
       "children": [
         {
-          "key": "cross_border_medical",
-          "name": "跨境就医与国际医疗",
+          "key": "le_corp_finance_and_mna",
+          "name": "公司金融与并购重组",
           "children": [
             {
-              "key": "oncology_referral",
-              "name": "海外肿瘤治疗转诊与全程管理",
+              "key": "le_mna_buy_side_due_diligence_report",
+              "name": "并购买方尽职调查与风险披露报告",
               "children": []
             },
             {
-              "key": "cardiac_neuro_surgery_abroad",
-              "name": "海外心脑血管/神经外科重大手术服务",
+              "key": "le_mna_sell_side_vendor_due_diligence",
+              "name": "并购卖方VDD卖方尽调报告与数据室准备",
               "children": []
             },
             {
-              "key": "rare_disease_second_opinion",
-              "name": "疑难罕见病多学科会诊与第二诊疗意见",
+              "key": "le_post_merger_integration_pmo",
+              "name": "并购后整合PMO与协同落地方案",
               "children": []
             },
             {
-              "key": "transplant_evaluation_coordination",
-              "name": "器官移植评估、排队与配套合规服务",
+              "key": "le_corporate_restructuring_plan",
+              "name": "企业重整/债务重组方案设计与债权人沟通包",
               "children": []
             },
             {
-              "key": "medical_concierge_case_management",
-              "name": "医疗管家：病历整理、翻译、预约与随访",
+              "key": "le_carve_out_separation_plan",
+              "name": "业务剥离与分拆交割计划（Carve-out）",
               "children": []
             },
             {
-              "key": "clinical_trial_matching",
-              "name": "海外临床试验匹配与入组协助",
+              "key": "le_cross_border_valuation_fairness_opinion",
+              "name": "跨境估值与公平意见书（Fairness Opinion）",
+              "children": []
+            },
+            {
+              "key": "le_capital_raise_advisory_pitchbook",
+              "name": "大额融资/再融资顾问与投标文件（Pitchbook）",
               "children": []
             }
           ]
         },
         {
-          "key": "high_end_surgery_rehab",
-          "name": "高端手术与康复管理",
+          "key": "le_compliance_audit_and_risk",
+          "name": "合规、审计与风险管理",
           "children": [
             {
-              "key": "orthopedic_joint_replacement_package",
-              "name": "关节置换/运动医学手术套餐与康复",
+              "key": "le_sox_internal_control_testing",
+              "name": "SOX内控设计与测试取证包",
               "children": []
             },
             {
-              "key": "spine_surgery_rehab_program",
-              "name": "脊柱手术+住院康复一体化项目",
+              "key": "le_enterprise_risk_framework_erm",
+              "name": "集团级ERM风险框架与风险登记册交付",
               "children": []
             },
             {
-              "key": "bariatric_metabolic_surgery",
-              "name": "减重/代谢手术全流程方案",
+              "key": "le_sanctions_export_control_program",
+              "name": "制裁与出口管制合规体系建设与培训取证",
               "children": []
             },
             {
-              "key": "full_mouth_dental_implants",
-              "name": "全口种植/咬合重建综合治疗",
+              "key": "le_privacy_gdpr_readiness_assessment",
+              "name": "GDPR/全球隐私合规差距评估与整改路线图",
               "children": []
             },
             {
-              "key": "private_inpatient_rehab",
-              "name": "高端住院康复（中风/术后/创伤）",
+              "key": "le_anti_bribery_compliance_program",
+              "name": "反贿赂反腐合规体系（政策+流程+审计线索）",
               "children": []
             },
             {
-              "key": "mental_health_inpatient_program",
-              "name": "高端心理/成瘾住院治疗项目",
+              "key": "le_third_party_risk_assessment",
+              "name": "第三方/供应商风险尽调与准入评估报告",
+              "children": []
+            },
+            {
+              "key": "le_forensic_investigation_report",
+              "name": "舞弊/泄密/合规事件法务取证与鉴证报告",
               "children": []
             }
           ]
         },
         {
-          "key": "precision_diagnostics_longevity",
-          "name": "高端体检与精准健康管理",
+          "key": "le_technology_transformation",
+          "name": "数字化与IT转型交付",
           "children": [
             {
-              "key": "executive_health_screening",
-              "name": "高端企业家体检（多模态影像+专项筛查）",
+              "key": "le_erp_global_rollout_blueprint",
+              "name": "ERP全球推广蓝图与实施方案（含治理与里程碑）",
               "children": []
             },
             {
-              "key": "genetic_testing_wgs_wes",
-              "name": "全基因组/外显子检测与遗传咨询",
+              "key": "le_system_integration_program_delivery",
+              "name": "大型系统集成项目交付与阶段验收（含SIT/UAT）",
               "children": []
             },
             {
-              "key": "advanced_imaging_pet_mri",
-              "name": "PET-CT/PET-MR等高级影像检查套餐",
+              "key": "le_data_platform_modernization_delivery",
+              "name": "数据平台现代化改造交付（数据治理+上线验收）",
               "children": []
             },
             {
-              "key": "longevity_medicine_program",
-              "name": "抗衰与长寿医学年度管理计划",
+              "key": "le_cloud_migration_assessment_plan",
+              "name": "云迁移评估与分阶段迁移计划（含成本模型）",
               "children": []
             },
             {
-              "key": "chronic_disease_management",
-              "name": "慢病管理（糖尿病/心血管等）年度方案",
+              "key": "le_zero_trust_architecture_implementation",
+              "name": "零信任安全架构落地与验收文档",
               "children": []
             },
             {
-              "key": "fertility_ivf_package",
-              "name": "辅助生殖/IVF周期套餐与生育力保存",
+              "key": "le_siem_soc_managed_service_sla",
+              "name": "SOC托管与SIEM运营服务（SLA与月度报告）",
+              "children": []
+            },
+            {
+              "key": "le_ot_ics_security_assessment",
+              "name": "工业控制/OT安全评估与整改闭环验收",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "le_market_access_and_quality",
+          "name": "产品准入、质量与供应链保障",
+          "children": [
+            {
+              "key": "le_global_product_certification_project",
+              "name": "多国产品认证项目管理（CE/FCC/UKCA等）",
+              "children": []
+            },
+            {
+              "key": "le_medical_device_regulatory_strategy",
+              "name": "医疗器械注册策略与技术文档包（含临床路径）",
+              "children": []
+            },
+            {
+              "key": "le_automotive_ppap_apqp_program",
+              "name": "车规APQP/PPAP项目辅导与提交包",
+              "children": []
+            },
+            {
+              "key": "le_factory_audit_and_corrective_plan",
+              "name": "工厂审核与CAPA整改计划（含复审验收）",
+              "children": []
+            },
+            {
+              "key": "le_supply_chain_resilience_diagnostics",
+              "name": "供应链韧性诊断与备份方案（含库存与多源策略）",
+              "children": []
+            },
+            {
+              "key": "le_food_safety_haccp_iso22000_cert",
+              "name": "食品安全体系建立与认证辅导（HACCP/ISO22000）",
+              "children": []
+            },
+            {
+              "key": "le_product_recall_crisis_plan",
+              "name": "产品召回预案与桌面演练交付（含沟通脚本）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "le_reputation_and_crisis",
+          "name": "危机公关与重大事件应对",
+          "children": [
+            {
+              "key": "le_crisis_communication_war_room",
+              "name": "危机沟通战情室搭建与72小时行动计划",
+              "children": []
+            },
+            {
+              "key": "le_reputation_monitoring_response_playbook",
+              "name": "声誉监测与响应SOP（含舆情分级与话术库）",
+              "children": []
+            },
+            {
+              "key": "le_public_affairs_policy_strategy",
+              "name": "公共事务与政策沟通策略（含利益相关方地图）",
+              "children": []
+            },
+            {
+              "key": "le_litigation_pr_support_package",
+              "name": "诉讼/仲裁期对外沟通支持包（合规口径与Q&A）",
+              "children": []
+            },
+            {
+              "key": "le_incident_post_mortem_report",
+              "name": "重大事故复盘与整改路线图（含治理与问责建议）",
               "children": []
             }
           ]
@@ -124,118 +213,202 @@
       ]
     },
     {
-      "key": "education_talent",
-      "name": "教育与人才服务",
+      "key": "seg_smb",
+      "name": "中小企业与本地企业",
       "jobs": [
-        "升学/申请更稳",
-        "能力与竞争力提升",
-        "关键人才获取与发展"
+        "把财税、用工与合规风险控制在可承受范围",
+        "在有限预算下完成关键系统上线与运营托管",
+        "在跨境业务初期完成必要的准入与认证",
+        "应对税务稽查、劳动争议与合同纠纷",
+        "提升获客与转化所需的品牌与增长基础设施"
       ],
       "children": [
         {
-          "key": "intl_k12_private_school",
-          "name": "国际学校/私立K12全流程",
+          "key": "smb_finance_tax_and_accounting",
+          "name": "财税与经营合规",
           "children": [
             {
-              "key": "boarding_school_application",
-              "name": "海外寄宿学校申请与面试辅导",
+              "key": "smb_outsourced_cfo_finance_pack",
+              "name": "外包财务总监服务（预算+报表+经营分析包）",
               "children": []
             },
             {
-              "key": "intl_school_enrollment_package",
-              "name": "国际学校择校、申请、入学全包服务",
+              "key": "smb_annual_tax_compliance_filing",
+              "name": "年度税务合规与申报托管（含风险自查清单）",
               "children": []
             },
             {
-              "key": "school_relocation_planning",
-              "name": "学区/城市搬迁+择校一体化规划",
+              "key": "smb_transfer_pricing_local_file",
+              "name": "关联交易转让定价文档（Local File）编制",
               "children": []
             },
             {
-              "key": "ib_ap_a_level_year_program",
-              "name": "IB/AP/A-Level年度全科提升项目",
+              "key": "smb_tax_audit_defense_representation",
+              "name": "税务稽查应对与代理陈述材料包",
               "children": []
             },
             {
-              "key": "special_needs_education_plan",
-              "name": "特殊教育需求评估与教育方案设计",
+              "key": "smb_revenue_recognition_policy_setup",
+              "name": "收入确认政策梳理与审计备查底稿",
               "children": []
             },
             {
-              "key": "elite_competition_coaching",
-              "name": "国际竞赛/科研/夏校组合型规划",
+              "key": "smb_cashflow_turnaround_plan",
+              "name": "现金流改善与降本增效方案（含执行清单）",
+              "children": []
+            },
+            {
+              "key": "smb_financing_application_materials",
+              "name": "银行授信/融资申请材料整备与路演支持",
               "children": []
             }
           ]
         },
         {
-          "key": "overseas_higher_education",
-          "name": "海外本硕博申请与就读支持",
+          "key": "smb_hr_legal_and_disputes",
+          "name": "用工、法务与争议处理",
           "children": [
             {
-              "key": "undergrad_application_full_service",
-              "name": "海外本科申请全包（选校-材料-面试）",
+              "key": "smb_employment_contract_handbook",
+              "name": "劳动合同与员工手册体系搭建（含合规条款库）",
               "children": []
             },
             {
-              "key": "graduate_application_full_service",
-              "name": "海外研究生申请全包（含跨专业/转学）",
+              "key": "smb_hr_compliance_audit_fix",
+              "name": "用工合规体检与整改闭环（社保/工时/派遣）",
               "children": []
             },
             {
-              "key": "scholarship_financial_aid_strategy",
-              "name": "奖学金/助学金策略与材料规划",
+              "key": "smb_labor_dispute_case_management",
+              "name": "劳动争议全流程代理（仲裁/诉讼材料与出庭）",
               "children": []
             },
             {
-              "key": "visa_enrollment_compliance",
-              "name": "签证、I-20/COE等入学合规支持",
+              "key": "smb_commercial_contract_review_package",
+              "name": "高频商业合同审阅与风险条款模板库",
               "children": []
             },
             {
-              "key": "study_abroad_guardianship_service",
-              "name": "留学监护与在地支持（住宿/安全/联络）",
+              "key": "smb_ip_trademark_filing_strategy",
+              "name": "商标注册组合策略与申请递交托管",
               "children": []
             },
             {
-              "key": "language_foundation_pathway_program",
-              "name": "语言+预科/Pathway项目整体解决方案",
+              "key": "smb_data_privacy_compliance_basic",
+              "name": "数据合规基础建设（隐私政策+告知同意+台账）",
+              "children": []
+            },
+            {
+              "key": "smb_general_counsel_retainer",
+              "name": "企业常年法律顾问（月度咨询+文书支持）",
               "children": []
             }
           ]
         },
         {
-          "key": "executive_education_and_talent",
-          "name": "高端继续教育与高管人才",
+          "key": "smb_it_and_security_services",
+          "name": "IT实施与安全托管",
           "children": [
             {
-              "key": "mba_emba_admissions_consulting",
-              "name": "MBA/EMBA申请规划与提升方案",
+              "key": "smb_erp_crm_implementation_go_live",
+              "name": "ERP/CRM实施上线与验收（含培训与SOP）",
               "children": []
             },
             {
-              "key": "executive_program_custom_training",
-              "name": "企业高管定制培训（领导力/战略）",
+              "key": "smb_it_managed_service_sla",
+              "name": "IT运维托管服务（SLA+工单+月度报告）",
               "children": []
             },
             {
-              "key": "leadership_coaching_retainer",
-              "name": "高管教练年度顾问服务",
+              "key": "smb_network_security_hardening",
+              "name": "网络安全加固与基线整改验收报告",
               "children": []
             },
             {
-              "key": "executive_search_retained",
-              "name": "猎头保留制：CXO/核心岗位寻访",
+              "key": "smb_pci_dss_readiness_and_roc",
+              "name": "PCI DSS合规评估与审计报告（ROC/SAQ）",
               "children": []
             },
             {
-              "key": "assessment_center_top_talent",
-              "name": "高管测评中心与继任梯队盘点",
+              "key": "smb_soc2_type2_readiness",
+              "name": "SOC 2 Type II准备与审计对接包",
               "children": []
             },
             {
-              "key": "employer_of_record_eor",
-              "name": "全球雇佣EOR/PEO合规用工服务",
+              "key": "smb_business_continuity_dr_plan",
+              "name": "业务连续性与灾备方案（含演练与改进报告）",
+              "children": []
+            },
+            {
+              "key": "smb_m365_google_workspace_security",
+              "name": "办公套件安全配置与权限治理交付",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "smb_market_access_and_certification",
+          "name": "准入、认证与质量管理",
+          "children": [
+            {
+              "key": "smb_ce_fcc_certification_project",
+              "name": "出口产品CE/FCC认证办理与整改闭环",
+              "children": []
+            },
+            {
+              "key": "smb_iso9001_qms_build_and_cert",
+              "name": "ISO 9001质量体系建立与认证辅导",
+              "children": []
+            },
+            {
+              "key": "smb_iso27001_isms_build_and_cert",
+              "name": "ISO 27001信息安全体系建立与认证辅导",
+              "children": []
+            },
+            {
+              "key": "smb_factory_social_compliance_audit",
+              "name": "客户验厂与社会责任审核准备（含整改方案）",
+              "children": []
+            },
+            {
+              "key": "smb_product_safety_testing_plan",
+              "name": "产品安全测试计划与报告解读交付",
+              "children": []
+            },
+            {
+              "key": "smb_packaging_labeling_compliance",
+              "name": "包装与标签合规审核与修订稿交付",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "smb_growth_and_brand",
+          "name": "增长、品牌与内容资产",
+          "children": [
+            {
+              "key": "smb_growth_strategy_funnel_redesign",
+              "name": "增长策略与漏斗重构方案（含指标体系）",
+              "children": []
+            },
+            {
+              "key": "smb_brand_positioning_toolkit",
+              "name": "品牌定位与传播策略包（含信息架构与话术）",
+              "children": []
+            },
+            {
+              "key": "smb_pr_launch_campaign_management",
+              "name": "新品发布与公关传播项目管理（含媒体包）",
+              "children": []
+            },
+            {
+              "key": "smb_crisis_response_playbook",
+              "name": "小企业危机应对预案（含声明模板与流程）",
+              "children": []
+            },
+            {
+              "key": "smb_b2b_lead_gen_system_setup",
+              "name": "B2B线索获取系统搭建（CRM+自动化+归因）",
               "children": []
             }
           ]
@@ -243,118 +416,172 @@
       ]
     },
     {
-      "key": "finance_investment",
-      "name": "金融与投资服务",
+      "key": "seg_startup_scaleup",
+      "name": "创业公司与高速增长公司",
       "jobs": [
-        "资产配置与增值",
-        "跨境架构与传承",
-        "投融资与交易更顺"
+        "融资与股权结构可持续、合规且对后续轮次友好",
+        "快速扩张中的合规、用工、数据与安全底座搭建",
+        "产品出海与跨境运营的准入与税务/隐私合规",
+        "核心技术与知识产权的保护与商业化许可",
+        "增长期的组织与运营体系从0到1建立"
       ],
       "children": [
         {
-          "key": "private_banking_wealth",
-          "name": "私人银行/财富管理",
+          "key": "su_fundraising_and_corporate",
+          "name": "融资、股权与公司治理",
           "children": [
             {
-              "key": "discretionary_portfolio_management",
-              "name": "委托投资管理（DPM）与资产配置",
+              "key": "su_investor_deck_financial_model",
+              "name": "融资路演材料与财务模型搭建（含估值假设）",
               "children": []
             },
             {
-              "key": "offshore_account_setup",
-              "name": "离岸账户/跨境金融架构搭建",
+              "key": "su_term_sheet_negotiation_support",
+              "name": "Term Sheet条款谈判支持与风险提示清单",
               "children": []
             },
             {
-              "key": "structured_products_subscription",
-              "name": "结构性产品与定制理财方案",
+              "key": "su_cap_table_reorg_esop_setup",
+              "name": "股权架构梳理与员工期权池（ESOP）方案",
               "children": []
             },
             {
-              "key": "family_wealth_reporting_system",
-              "name": "家族资产台账与投后管理系统搭建",
+              "key": "su_incorporation_multi_jurisdiction",
+              "name": "多法域公司设立与结构搭建（含合规文件包）",
               "children": []
             },
             {
-              "key": "philanthropy_advisory",
-              "name": "慈善基金会设立与公益战略顾问",
+              "key": "su_board_governance_policy_pack",
+              "name": "董事会治理制度包（授权矩阵+会议机制）",
               "children": []
             },
             {
-              "key": "trust_estate_planning",
-              "name": "家族信托/传承规划综合服务",
+              "key": "su_due_diligence_data_room_prep",
+              "name": "投融资尽调数据室搭建与材料整备",
               "children": []
             }
           ]
         },
         {
-          "key": "hnw_insurance_risk",
-          "name": "高净值保险与风险转移",
+          "key": "su_security_and_trust",
+          "name": "安全、隐私与合规取证",
           "children": [
             {
-              "key": "high_value_life_insurance",
-              "name": "大额寿险/年金配置方案",
+              "key": "su_soc2_iso27001_combined_program",
+              "name": "SOC2/ISO27001合规路线图与落地取证包",
               "children": []
             },
             {
-              "key": "global_medical_insurance_hnw",
-              "name": "全球高端医疗险/国际医院直付方案",
+              "key": "su_penetration_test_remediation_report",
+              "name": "渗透测试与整改复测报告（含修复验证）",
               "children": []
             },
             {
-              "key": "key_person_insurance",
-              "name": "企业关键人保险与股权保障结构",
+              "key": "su_privacy_policy_dpia_pack",
+              "name": "隐私政策与DPIA评估包（含数据流映射）",
               "children": []
             },
             {
-              "key": "high_value_property_liability",
-              "name": "高价值住宅/艺术品/责任险综合方案",
+              "key": "su_app_store_compliance_review",
+              "name": "应用上架合规审查与整改建议书",
               "children": []
             },
             {
-              "key": "captive_insurance_setup",
-              "name": "自保公司（Captive）设立与运营顾问",
+              "key": "su_ai_model_risk_governance",
+              "name": "AI模型风险治理与合规评估（含红队测试框架）",
               "children": []
             },
             {
-              "key": "claims_advisory_complex",
-              "name": "复杂理赔顾问（跨境/高额案件）",
+              "key": "su_payment_compliance_pci_program",
+              "name": "支付合规与PCI项目实施管理（含审计对接）",
               "children": []
             }
           ]
         },
         {
-          "key": "corporate_finance_advisory",
-          "name": "企业投融资与交易顾问",
+          "key": "su_international_expansion",
+          "name": "出海与跨境落地",
           "children": [
             {
-              "key": "mna_sell_side",
-              "name": "并购卖方顾问（交易策略+买家对接）",
+              "key": "su_market_entry_strategy_playbook",
+              "name": "目标市场进入策略与90天落地作战手册",
               "children": []
             },
             {
-              "key": "mna_buy_side",
-              "name": "并购买方顾问（标的筛选+尽调+谈判）",
+              "key": "su_cross_border_tax_vat_setup",
+              "name": "跨境税务与VAT注册申报方案（含流程包）",
               "children": []
             },
             {
-              "key": "ipo_readiness",
-              "name": "IPO筹备与内控合规整改顾问",
+              "key": "su_global_employment_eor_setup",
+              "name": "跨境用工/EOR方案评估与合同落地",
               "children": []
             },
             {
-              "key": "debt_refinancing",
-              "name": "债务重组/再融资方案设计与执行",
+              "key": "su_export_control_sanctions_screening",
+              "name": "制裁筛查与出口管制合规流程搭建",
               "children": []
             },
             {
-              "key": "valuation_fairness_opinion",
-              "name": "估值与公平意见（Fairness Opinion）",
+              "key": "su_localization_compliance_pack",
+              "name": "本地化合规包（条款/客服/数据驻留要求）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "su_ip_and_tech_commercialization",
+          "name": "知识产权与技术商业化",
+          "children": [
+            {
+              "key": "su_patent_strategy_filing_package",
+              "name": "专利布局策略与申请文件包",
               "children": []
             },
             {
-              "key": "post_merger_integration",
-              "name": "并购后整合PMI与协同落地项目",
+              "key": "su_trade_secret_protection_program",
+              "name": "商业秘密保护体系（制度+访问控制+取证）",
+              "children": []
+            },
+            {
+              "key": "su_open_source_license_audit",
+              "name": "开源许可证合规审计与替换整改清单",
+              "children": []
+            },
+            {
+              "key": "su_technology_licensing_contracts",
+              "name": "技术许可/合作开发合同包与谈判支持",
+              "children": []
+            },
+            {
+              "key": "su_brand_trademark_global_portfolio",
+              "name": "全球商标组合策略与申请托管",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "su_ops_and_scaling",
+          "name": "运营体系与增长规模化",
+          "children": [
+            {
+              "key": "su_revenue_ops_crm_automation",
+              "name": "Revenue Ops体系搭建（CRM+自动化+指标）",
+              "children": []
+            },
+            {
+              "key": "su_customer_success_playbook_sla",
+              "name": "客户成功体系与SLA/续费提升方案",
+              "children": []
+            },
+            {
+              "key": "su_finops_cloud_cost_optimization",
+              "name": "云成本FinOps治理与优化方案（含仪表盘）",
+              "children": []
+            },
+            {
+              "key": "su_process_pmo_okrs",
+              "name": "OKR与PMO机制搭建（节奏、模板与评审）",
               "children": []
             }
           ]
@@ -362,118 +589,141 @@
       ]
     },
     {
-      "key": "legal_compliance",
-      "name": "法律、合规与监管",
+      "key": "seg_financial_institution",
+      "name": "金融机构与保险资管主体",
       "jobs": [
-        "合规不踩坑",
-        "知识产权更安全",
-        "跨境交易与争议有人管"
+        "持续满足强监管要求并降低合规罚责风险",
+        "模型、数据与科技系统的稳健性与审计可解释性",
+        "反洗钱/制裁/欺诈等金融犯罪风险的管理与取证",
+        "重大交易、资产处置与风险定价的独立评估",
+        "客户信任与运营韧性的提升（BCP/灾备/网络安全）"
       ],
       "children": [
         {
-          "key": "cross_border_corporate_legal",
-          "name": "跨境公司法律服务",
+          "key": "fi_regulatory_compliance",
+          "name": "监管合规与报告",
           "children": [
             {
-              "key": "entity_setup_global",
-              "name": "海外公司设立、架构与章程治理",
+              "key": "fi_regulatory_gap_assessment_remediation",
+              "name": "监管差距评估与整改路线图（含制度与取证）",
               "children": []
             },
             {
-              "key": "international_contracts",
-              "name": "跨境合同起草/谈判/风险条款设计",
+              "key": "fi_aml_ctf_program_audit",
+              "name": "反洗钱/反恐融资体系审计与整改闭环",
               "children": []
             },
             {
-              "key": "legal_due_diligence",
-              "name": "法律尽调（投融资/并购/合作）",
+              "key": "fi_sanctions_screening_tuning_validation",
+              "name": "制裁筛查系统调优与有效性验证报告",
               "children": []
             },
             {
-              "key": "fdi_approval_and_filings",
-              "name": "外商投资/对外投资申报与审批",
+              "key": "fi_consumer_protection_compliance_review",
+              "name": "消费者保护与销售合规审查（含抽检与报告）",
               "children": []
             },
             {
-              "key": "cross_border_dispute_resolution",
-              "name": "国际争议解决（仲裁/诉讼）",
+              "key": "fi_data_governance_bcbs239_program",
+              "name": "BCBS 239数据治理项目交付（含报表血缘）",
               "children": []
             },
             {
-              "key": "employment_global_compliance",
-              "name": "跨国用工合规与劳动争议处理",
+              "key": "fi_regulatory_reporting_operating_model",
+              "name": "监管报送运营模型搭建（流程+岗位+SLA）",
               "children": []
             }
           ]
         },
         {
-          "key": "ip_portfolio_and_enforcement",
-          "name": "知识产权组合与维权",
+          "key": "fi_model_risk_and_validation",
+          "name": "模型风险与验证",
           "children": [
             {
-              "key": "patent_portfolio_strategy",
-              "name": "专利布局与全球申请/维护",
+              "key": "fi_model_validation_independent_report",
+              "name": "模型独立验证报告（含压力测试与敏感性）",
               "children": []
             },
             {
-              "key": "trademark_global_filing",
-              "name": "商标全球注册与异议/无效",
+              "key": "fi_ifrs9_cecl_model_review",
+              "name": "IFRS9/CECL信用风险模型评审与重建建议",
               "children": []
             },
             {
-              "key": "ip_litigation_enforcement",
-              "name": "侵权诉讼、海关备案与维权行动",
+              "key": "fi_market_risk_var_backtesting",
+              "name": "市场风险VaR回溯检验与模型再校准报告",
               "children": []
             },
             {
-              "key": "tech_licensing_transfer",
-              "name": "技术许可、成果转化与交易合同",
+              "key": "fi_ai_fairness_explainability_assessment",
+              "name": "AI公平性与可解释性评估（含审计材料包）",
               "children": []
             },
             {
-              "key": "brand_protection_anti_counterfeit",
-              "name": "品牌保护与打假（线上线下）",
-              "children": []
-            },
-            {
-              "key": "freedom_to_operate_fto",
-              "name": "FTO检索与专利风险评估",
+              "key": "fi_model_risk_governance_framework",
+              "name": "模型风险治理框架（政策+台账+审批流）",
               "children": []
             }
           ]
         },
         {
-          "key": "regulatory_data_privacy",
-          "name": "监管合规与数据隐私",
+          "key": "fi_fraud_and_forensics",
+          "name": "欺诈风控与取证调查",
           "children": [
             {
-              "key": "gdpr_privacy_program",
-              "name": "GDPR/隐私合规体系建设",
+              "key": "fi_fraud_case_forensic_investigation",
+              "name": "重大欺诈案件取证调查与鉴证报告",
               "children": []
             },
             {
-              "key": "aml_kyc_program_design",
-              "name": "反洗钱AML/KYC体系与审计应对",
+              "key": "fi_cyber_incident_forensics_response",
+              "name": "网络安全事件应急取证与恢复建议书",
               "children": []
             },
             {
-              "key": "sanctions_export_control",
-              "name": "制裁与出口管制合规（含筛查体系）",
+              "key": "fi_dispute_resolution_expert_witness",
+              "name": "金融纠纷专家证人报告与出庭支持",
               "children": []
             },
             {
-              "key": "competition_antitrust",
-              "name": "反垄断/竞争法合规与申报",
+              "key": "fi_insurance_claim_assessment_independent",
+              "name": "大型保险理赔独立评估与争议支持报告",
               "children": []
             },
             {
-              "key": "data_breach_response_retainer",
-              "name": "数据泄露应急响应常年顾问",
+              "key": "fi_third_party_vendor_risk_review",
+              "name": "关键外包/供应商风险评估与现场审计报告",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "fi_technology_and_resilience",
+          "name": "金融科技系统与韧性",
+          "children": [
+            {
+              "key": "fi_core_banking_modernization_program",
+              "name": "核心系统改造项目群管理与阶段验收",
               "children": []
             },
             {
-              "key": "ai_governance_compliance",
-              "name": "AI治理与算法合规评估",
+              "key": "fi_cloud_security_and_regulatory_readiness",
+              "name": "云上安全与监管合规准备（含控制映射）",
+              "children": []
+            },
+            {
+              "key": "fi_bcp_dr_annual_exercise_report",
+              "name": "业务连续性与灾备演练（年度报告与改进项）",
+              "children": []
+            },
+            {
+              "key": "fi_privacy_cross_border_data_assessment",
+              "name": "跨境数据传输评估与合规材料包",
+              "children": []
+            },
+            {
+              "key": "fi_soc_managed_service_finance_grade",
+              "name": "金融级SOC托管与威胁狩猎月报（SLA）",
               "children": []
             }
           ]
@@ -481,118 +731,146 @@
       ]
     },
     {
-      "key": "real_estate_construction",
-      "name": "房地产与工程建设",
+      "key": "seg_public_sector",
+      "name": "政府与公共部门（含招采与强监管）",
       "jobs": [
-        "置业/选址更省心",
-        "工程交付更可控",
-        "资产与合规更安全"
+        "重大公共项目的立项论证、招采合规与交付验收",
+        "公共安全、灾害应对与关键基础设施韧性建设",
+        "数字政府与数据治理的合规、隐私与安全保障",
+        "PPP/特许经营/城市更新等复杂交易结构设计",
+        "公共服务质量评估、审计与绩效改进"
       ],
       "children": [
         {
-          "key": "luxury_residential_services",
-          "name": "高端住宅购置与资产管理",
+          "key": "ps_procurement_and_program",
+          "name": "招采合规与项目群管理",
           "children": [
             {
-              "key": "luxury_home_purchase_advisory",
-              "name": "豪宅购置顾问（选址/谈判/风控）",
+              "key": "ps_rfp_design_evaluation_framework",
+              "name": "RFP设计与评标体系（含技术/商务评分表）",
               "children": []
             },
             {
-              "key": "overseas_property_brokerage",
-              "name": "海外房产经纪与交易撮合",
+              "key": "ps_project_pmo_stage_gate",
+              "name": "政府重大项目PMO与阶段门治理交付",
               "children": []
             },
             {
-              "key": "property_due_diligence_inspection",
-              "name": "房产尽调与验房（结构/法务/税务）",
+              "key": "ps_cost_estimation_and_boq_review",
+              "name": "工程造价估算与清单（BOQ）复核报告",
               "children": []
             },
             {
-              "key": "high_end_rental_management",
-              "name": "高端租赁与物业托管（长租/短租）",
+              "key": "ps_contract_management_claims",
+              "name": "合同管理与索赔争议支持（含证据清单）",
               "children": []
             },
             {
-              "key": "mortgage_financing_broker",
-              "name": "按揭与结构化融资经纪服务",
+              "key": "ps_acceptance_testing_and_audit",
+              "name": "项目验收测试与第三方审计报告",
               "children": []
             },
             {
-              "key": "family_real_estate_structuring",
-              "name": "家族房产持有结构与传承安排",
+              "key": "ps_integrity_compliance_anti_corruption",
+              "name": "廉政合规与反舞弊机制建设（含抽查方案）",
               "children": []
             }
           ]
         },
         {
-          "key": "commercial_real_estate",
-          "name": "商业地产与选址",
+          "key": "ps_infrastructure_and_ppp",
+          "name": "基础设施、EPC与PPP",
           "children": [
             {
-              "key": "office_relocation_buildout",
-              "name": "总部/办公室搬迁选址+装修一体化",
+              "key": "ps_ppp_feasibility_vfm_report",
+              "name": "PPP可研与物有所值（VfM）评估报告",
               "children": []
             },
             {
-              "key": "retail_site_selection",
-              "name": "连锁零售选址与商圈评估",
+              "key": "ps_pmc_owner_engineer_service",
+              "name": "业主工程师/PMC全过程管理（里程碑与报表）",
               "children": []
             },
             {
-              "key": "industrial_warehouse_leasing",
-              "name": "仓储/园区租赁与谈判代理",
+              "key": "ps_transport_rail_airport_safety_audit",
+              "name": "轨交/机场/港口安全审计与整改验收",
               "children": []
             },
             {
-              "key": "hotel_acquisition_advisory",
-              "name": "酒店/公寓收购与运营评估",
+              "key": "ps_smart_city_system_integration",
+              "name": "智慧城市系统集成与上线验收（含运维移交）",
               "children": []
             },
             {
-              "key": "property_valuation_appraisal",
-              "name": "评估估值与可行性研究（Feasibility）",
+              "key": "ps_environmental_impact_assessment_permit",
+              "name": "环评与许可申报材料编制及评审对接",
               "children": []
             },
             {
-              "key": "facility_management_contract",
-              "name": "设施管理FM外包（保洁/机电/安保）",
+              "key": "ps_water_waste_treatment_epc",
+              "name": "水务/固废处理EPC交付与性能验收",
               "children": []
             }
           ]
         },
         {
-          "key": "design_build_and_fitout",
-          "name": "设计建造与精装交付",
+          "key": "ps_public_safety_and_emergency",
+          "name": "公共安全与应急管理",
           "children": [
             {
-              "key": "architectural_design_masterplan",
-              "name": "建筑设计/总体规划与报批",
+              "key": "ps_disaster_response_plan_exercise",
+              "name": "灾害应急预案编制与演练复盘报告",
               "children": []
             },
             {
-              "key": "design_build_turnkey",
-              "name": "EPC/设计施工总承包（交钥匙）",
+              "key": "ps_critical_infrastructure_risk_assessment",
+              "name": "关键基础设施风险评估与加固路线图",
               "children": []
             },
             {
-              "key": "construction_project_management",
-              "name": "工程项目管理PM（进度/成本/质量）",
+              "key": "ps_mass_event_security_planning",
+              "name": "大型活动安保方案设计与指挥协调服务",
               "children": []
             },
             {
-              "key": "green_building_consulting",
-              "name": "LEED/WELL/绿色建筑认证顾问",
+              "key": "ps_crisis_communication_public_notice",
+              "name": "公共危机信息发布与舆情应对支持包",
               "children": []
             },
             {
-              "key": "interior_fitout_luxury",
-              "name": "高端室内设计与软装整合",
+              "key": "ps_independent_incident_investigation",
+              "name": "重大事故独立调查与原因分析报告",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "ps_digital_government_and_data",
+          "name": "数字政府与数据治理",
+          "children": [
+            {
+              "key": "ps_data_governance_platform_delivery",
+              "name": "政务数据治理平台建设交付与验收",
               "children": []
             },
             {
-              "key": "smart_building_system_integration",
-              "name": "智能楼宇/弱电系统集成与调试",
+              "key": "ps_privacy_impact_assessment_public",
+              "name": "公共部门隐私影响评估（PIA）与合规材料包",
+              "children": []
+            },
+            {
+              "key": "ps_cybersecurity_level_protection_program",
+              "name": "网络安全等级保护测评辅导与整改验收",
+              "children": []
+            },
+            {
+              "key": "ps_ai_policy_and_risk_assessment",
+              "name": "公共AI项目风险评估与治理制度包",
+              "children": []
+            },
+            {
+              "key": "ps_information_security_audit_report",
+              "name": "信息安全审计与整改跟踪报告",
               "children": []
             }
           ]
@@ -600,118 +878,172 @@
       ]
     },
     {
-      "key": "enterprise_it_digital",
-      "name": "企业IT与数字化转型",
+      "key": "seg_mass",
+      "name": "普通个人（大众）",
       "jobs": [
-        "核心系统能上线",
-        "云与数据能跑",
-        "安全与AI能落地"
+        "高价值住房与重大消费决策的风险降低与尽调",
+        "重大纠纷的维权路径选择与证据固化",
+        "大额保险理赔的争议处理与独立评估",
+        "跨境出行与安全风险的评估与保障配置",
+        "个人财务与税务合规的长期管理"
       ],
       "children": [
         {
-          "key": "core_systems_erp_crm",
-          "name": "核心系统实施（ERP/CRM等）",
+          "key": "cm_housing_and_transaction",
+          "name": "住房交易与尽调",
           "children": [
             {
-              "key": "sap_s4hana_implementation",
-              "name": "SAP S/4HANA实施与升级迁移",
+              "key": "cm_home_purchase_due_diligence_report",
+              "name": "购房尽调（产权/合同/税费）与风险报告",
               "children": []
             },
             {
-              "key": "oracle_erp_cloud_implementation",
-              "name": "Oracle ERP Cloud实施与集成",
+              "key": "cm_building_survey_structural_report",
+              "name": "房屋结构安全检查与检测报告",
               "children": []
             },
             {
-              "key": "microsoft_dynamics_implementation",
-              "name": "Microsoft Dynamics实施与业务落地",
+              "key": "cm_leakage_mold_diagnosis_report",
+              "name": "渗漏/霉菌成因检测与修复建议报告",
               "children": []
             },
             {
-              "key": "salesforce_enterprise_rollout",
-              "name": "Salesforce企业级推广与治理",
+              "key": "cm_property_dispute_mediation_litigation",
+              "name": "房产纠纷调解与诉讼代理（含证据清单）",
               "children": []
             },
             {
-              "key": "plm_mes_integration",
-              "name": "PLM/MES与ERP集成项目",
+              "key": "cm_mortgage_refinance_advisory",
+              "name": "按揭方案优化与再融资顾问（含对比测算）",
               "children": []
             },
             {
-              "key": "process_reengineering_bpr",
-              "name": "流程再造BPR+系统落地一体化",
+              "key": "cm_home_energy_retrofit_plan",
+              "name": "住宅节能改造方案与施工验收标准",
               "children": []
             }
           ]
         },
         {
-          "key": "cloud_data_and_managed",
-          "name": "云迁移、数据平台与托管",
+          "key": "cm_renovation_and_quality",
+          "name": "装修全案与质量把控",
           "children": [
             {
-              "key": "cloud_migration_program",
-              "name": "云迁移（评估-迁移-优化）项目",
+              "key": "cm_turnkey_renovation_design_build",
+              "name": "装修全案设计+施工总包（含节点验收）",
               "children": []
             },
             {
-              "key": "managed_cloud_operations",
-              "name": "云托管运维（24/7）与SLA服务",
+              "key": "cm_renovation_supervision_third_party",
+              "name": "第三方装修监理与分阶段验收报告",
               "children": []
             },
             {
-              "key": "data_center_colocation",
-              "name": "数据中心托管/机房租赁与网络接入",
+              "key": "cm_indoor_air_quality_testing",
+              "name": "室内空气质量检测与治理方案验收报告",
               "children": []
             },
             {
-              "key": "disaster_recovery_service",
-              "name": "容灾备份与业务连续性DRaaS",
+              "key": "cm_building_quality_appraisal",
+              "name": "房屋质量鉴定与司法鉴定意见书",
               "children": []
             },
             {
-              "key": "finops_cost_optimization",
-              "name": "FinOps云成本治理与持续优化",
-              "children": []
-            },
-            {
-              "key": "network_modernization_sdwan",
-              "name": "企业网络改造（SD-WAN/零信任接入）",
+              "key": "cm_construction_contract_review",
+              "name": "装修/施工合同审阅与风险条款修订稿",
               "children": []
             }
           ]
         },
         {
-          "key": "cybersecurity_and_ai",
-          "name": "网络安全与AI落地",
+          "key": "cm_legal_disputes_and_cases",
+          "name": "民商事纠纷与维权",
           "children": [
             {
-              "key": "mssp_soc_service",
-              "name": "MSSP/SOC安全运营托管",
+              "key": "cm_consumer_dispute_litigation_package",
+              "name": "重大消费纠纷诉讼/仲裁全案代理",
               "children": []
             },
             {
-              "key": "incident_response_retainer",
-              "name": "安全事件响应常年顾问与演练",
+              "key": "cm_personal_injury_claims_support",
+              "name": "人身损害索赔评估与法律代理（含损失清单）",
               "children": []
             },
             {
-              "key": "iam_pam_program",
-              "name": "身份与权限管理（IAM/PAM）项目",
+              "key": "cm_contract_dispute_evidence_preservation",
+              "name": "合同纠纷证据保全与取证服务",
               "children": []
             },
             {
-              "key": "zero_trust_architecture",
-              "name": "零信任架构设计与实施",
+              "key": "cm_expert_appraisal_support",
+              "name": "争议鉴定协调与专家辅助人意见书",
               "children": []
             },
             {
-              "key": "enterprise_data_lakehouse",
-              "name": "数据湖仓/主数据治理建设",
+              "key": "cm_class_action_case_management",
+              "name": "群体性纠纷案件管理与代表人诉讼支持",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "cm_insurance_and_claims",
+          "name": "保险配置与理赔争议",
+          "children": [
+            {
+              "key": "cm_insurance_brokerage_personal_plan",
+              "name": "个人保险规划与方案比选（含对比表与条款解读）",
               "children": []
             },
             {
-              "key": "genai_copilot_deployment",
-              "name": "企业级生成式AI/智能助手部署与治理",
+              "key": "cm_major_claims_adjusting_support",
+              "name": "大额理赔协助与谈判支持（含材料清单）",
+              "children": []
+            },
+            {
+              "key": "cm_independent_loss_assessment_report",
+              "name": "独立损失评估报告（用于争议协商/仲裁）",
+              "children": []
+            },
+            {
+              "key": "cm_disability_medical_assessment",
+              "name": "伤残等级与医疗费用评估报告",
+              "children": []
+            },
+            {
+              "key": "cm_claims_dispute_litigation",
+              "name": "理赔拒赔争议诉讼/仲裁代理",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "cm_personal_finance_and_tax",
+          "name": "个人财务与税务合规",
+          "children": [
+            {
+              "key": "cm_personal_tax_compliance_review",
+              "name": "个人税务合规体检与申报纠错方案",
+              "children": []
+            },
+            {
+              "key": "cm_cross_border_asset_reporting",
+              "name": "海外资产申报与合规材料包（个人维度）",
+              "children": []
+            },
+            {
+              "key": "cm_debt_restructuring_plan_personal",
+              "name": "个人债务重组与还款计划协商包",
+              "children": []
+            },
+            {
+              "key": "cm_financial_fraud_recovery_support",
+              "name": "金融诈骗追偿路径评估与材料包",
+              "children": []
+            },
+            {
+              "key": "cm_notarization_translation_pack",
+              "name": "公证认证+翻译文件包（跨境用途）",
               "children": []
             }
           ]
@@ -719,118 +1051,136 @@
       ]
     },
     {
-      "key": "industrial_engineering",
-      "name": "工业工程与制造服务",
+      "key": "seg_family",
+      "name": "家庭与有孩家庭",
       "jobs": [
-        "产线/工艺升级",
-        "工厂建设与验证",
-        "体系认证与审计通过"
+        "婚育、教育与住房等不可逆决策的高质量方案选择",
+        "家庭风险保障与长期财务可持续规划",
+        "家庭纠纷的法律路径、证据与谈判支持",
+        "重大医疗与生育方案的多方对比与落地",
+        "跨境家庭安排（教育/居留/税务）的合规落地"
       ],
       "children": [
         {
-          "key": "automation_integration",
-          "name": "工业自动化与系统集成",
+          "key": "cf_family_legal_and_disputes",
+          "name": "婚姻家事与家庭法律",
           "children": [
             {
-              "key": "plc_scada_integration",
-              "name": "PLC/SCADA系统集成与改造",
+              "key": "cf_divorce_asset_child_custody_case",
+              "name": "离婚财产分割与抚养权全案代理",
               "children": []
             },
             {
-              "key": "robotics_production_line",
-              "name": "机器人产线自动化集成",
+              "key": "cf_prenuptial_marital_agreement",
+              "name": "婚前/婚内财产协议拟定与谈判支持",
               "children": []
             },
             {
-              "key": "mes_implementation",
-              "name": "MES制造执行系统实施",
+              "key": "cf_inheritance_will_guardianship_pack",
+              "name": "遗嘱/继承/监护安排文件包",
               "children": []
             },
             {
-              "key": "industrial_iot_predictive_maintenance",
-              "name": "工业物联网与预测性维护项目",
+              "key": "cf_family_mediation_settlement",
+              "name": "家庭纠纷调解与和解协议落地",
               "children": []
             },
             {
-              "key": "digital_twin_factory",
-              "name": "工厂数字孪生/仿真优化项目",
-              "children": []
-            },
-            {
-              "key": "industrial_energy_monitoring",
-              "name": "能耗监测与产能效率提升方案",
+              "key": "cf_family_business_succession_basic",
+              "name": "家族小微企业传承与股权安排方案",
               "children": []
             }
           ]
         },
         {
-          "key": "plant_epc_and_validation",
-          "name": "工厂/园区EPC与验证",
+          "key": "cf_health_and_fertility",
+          "name": "健康管理与生育方案",
           "children": [
             {
-              "key": "gmp_facility_design_build",
-              "name": "制药GMP厂房设计建造与验证",
+              "key": "cf_fertility_ivf_full_case_management",
+              "name": "辅助生殖/IVF全程管理与医院方案比选",
               "children": []
             },
             {
-              "key": "cleanroom_design_build",
-              "name": "洁净室/无尘车间设计施工总包",
+              "key": "cf_high_risk_pregnancy_care_coordination",
+              "name": "高危妊娠多学科管理与转诊协调",
               "children": []
             },
             {
-              "key": "semiconductor_facility_project",
-              "name": "半导体/精密制造设施工程管理",
+              "key": "cf_pediatric_specialist_second_opinion",
+              "name": "儿童疑难病二诊与治疗路径建议书",
               "children": []
             },
             {
-              "key": "food_beverage_factory_turnkey",
-              "name": "食品饮料工厂交钥匙工程",
+              "key": "cf_chronic_disease_family_program",
+              "name": "家庭慢病长期管理计划（含随访与用药复核）",
               "children": []
             },
             {
-              "key": "commissioning_and_handover",
-              "name": "调试投产（Commissioning）与交付管理",
-              "children": []
-            },
-            {
-              "key": "ehs_safety_compliance_program",
-              "name": "EHS安全体系建设与事故预防项目",
+              "key": "cf_rehabilitation_plan_home_setup",
+              "name": "家庭康复方案与居家改造建议（含设备清单）",
               "children": []
             }
           ]
         },
         {
-          "key": "quality_certification_and_audit",
-          "name": "质量体系认证与审计",
+          "key": "cf_education_and_child_development",
+          "name": "教育与成长路径",
           "children": [
             {
-              "key": "iso_system_cert_consulting",
-              "name": "ISO体系认证咨询（9001/14001等）",
+              "key": "cf_international_school_admission_package",
+              "name": "国际学校入学申请全案（测评+面试+材料）",
               "children": []
             },
             {
-              "key": "iatf16949_automotive",
-              "name": "汽车IATF16949导入与审核辅导",
+              "key": "cf_study_abroad_family_plan",
+              "name": "家庭留学规划（选校+预算+风险清单）",
               "children": []
             },
             {
-              "key": "fssc22000_food_safety",
-              "name": "食品安全FSSC22000体系建设",
+              "key": "cf_learning_difficulty_assessment_program",
+              "name": "学习困难评估与干预方案（含测评报告）",
               "children": []
             },
             {
-              "key": "ce_marking_compliance",
-              "name": "CE/UKCA等产品合规与技术文件",
+              "key": "cf_special_needs_education_support",
+              "name": "特殊教育支持方案与资源对接",
               "children": []
             },
             {
-              "key": "supplier_social_audit",
-              "name": "供应链社会责任/可持续审计（BSCI等）",
+              "key": "cf_academic_appeal_case_support",
+              "name": "学术处分/申诉案件支持（材料与听证准备）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "cf_home_and_assets",
+          "name": "住房与家庭资产",
+          "children": [
+            {
+              "key": "cf_family_home_purchase_end_to_end",
+              "name": "家庭购房决策与交易全案顾问（含风险报告）",
               "children": []
             },
             {
-              "key": "gmp_regulatory_audit_preparation",
-              "name": "GMP/监管检查陪审与整改项目",
+              "key": "cf_large_renovation_turnkey_supervised",
+              "name": "大额装修全案+监理+验收（含质保条款）",
+              "children": []
+            },
+            {
+              "key": "cf_household_insurance_portfolio",
+              "name": "家庭保障组合配置（寿险/医疗/财产）与年度复盘",
+              "children": []
+            },
+            {
+              "key": "cf_family_financial_planning_long_term",
+              "name": "家庭长期财务规划（教育金/养老/现金流模型）",
+              "children": []
+            },
+            {
+              "key": "cf_cross_border_family_tax_planning",
+              "name": "家庭跨境税务与居留合规规划（非投资移民主线）",
               "children": []
             }
           ]
@@ -838,118 +1188,131 @@
       ]
     },
     {
-      "key": "energy_sustainability",
-      "name": "能源与可持续发展",
+      "key": "seg_youth_student",
+      "name": "年轻人与学生/留学申请群体",
       "jobs": [
-        "新能源项目落地",
-        "储能与韧性提升",
-        "碳管理与ESG合规"
+        "教育与职业路径选择的高信息密度决策与材料准备",
+        "跨境学习与实习的签证与合规落地",
+        "高价值认证/训练营的ROI评估与学习计划",
+        "学术争议与纪律处分的申诉与听证准备",
+        "从校园到职场的迁移（合同、税务、保险）"
       ],
       "children": [
         {
-          "key": "renewable_project_services",
-          "name": "新能源项目开发与EPC",
+          "key": "ys_study_abroad_and_admissions",
+          "name": "留学与升学申请",
           "children": [
             {
-              "key": "utility_scale_solar_epc",
-              "name": "集中式光伏EPC与并网服务",
+              "key": "ys_undergrad_admission_full_package",
+              "name": "本科申请全案（选校+文书+面试+材料递交）",
               "children": []
             },
             {
-              "key": "c_and_i_rooftop_solar",
-              "name": "工商业屋顶光伏（含融资/运维）",
+              "key": "ys_grad_admission_full_package",
+              "name": "研究生申请全案（含研究计划与推荐人管理）",
               "children": []
             },
             {
-              "key": "onshore_wind_development",
-              "name": "陆上风电开发、选址与测风评估",
+              "key": "ys_scholarship_financial_aid_strategy",
+              "name": "奖学金/助学金申请策略与材料包",
               "children": []
             },
             {
-              "key": "offshore_wind_development",
-              "name": "海上风电开发与供应链管理",
+              "key": "ys_credential_evaluation_and_notarization",
+              "name": "学历认证评估与公证认证材料包",
               "children": []
             },
             {
-              "key": "ppa_structuring",
-              "name": "PPA购电协议结构设计与谈判支持",
-              "children": []
-            },
-            {
-              "key": "grid_interconnection_studies",
-              "name": "并网评估、接入方案与电力现货咨询",
+              "key": "ys_student_visa_application_case_management",
+              "name": "学生签证申请全案与补件应对",
               "children": []
             }
           ]
         },
         {
-          "key": "storage_microgrid_resilience",
-          "name": "储能、微电网与韧性",
+          "key": "ys_academic_disputes",
+          "name": "学术申诉与纪律争议",
           "children": [
             {
-              "key": "bess_integration",
-              "name": "BESS电化学储能系统集成与调试",
+              "key": "ys_academic_misconduct_appeal",
+              "name": "学术不端/作弊指控申诉材料与听证代理",
               "children": []
             },
             {
-              "key": "microgrid_design_build",
-              "name": "微电网设计建造（园区/数据中心）",
+              "key": "ys_grade_appeal_case_support",
+              "name": "成绩申诉与复核案件支持（证据与陈述稿）",
               "children": []
             },
             {
-              "key": "backup_power_critical_facility",
-              "name": "关键设施备电与韧性提升方案",
+              "key": "ys_university_dismissal_appeal",
+              "name": "退学/开除决定申诉与校方沟通方案",
               "children": []
             },
             {
-              "key": "energy_management_system_ems",
-              "name": "EMS能量管理系统实施与优化",
+              "key": "ys_disability_accommodation_case",
+              "name": "合理便利（残障/心理）申请与争议支持",
               "children": []
             },
             {
-              "key": "demand_response_program",
-              "name": "需求响应/虚拟电厂参与方案",
-              "children": []
-            },
-            {
-              "key": "o_and_m_long_term_contract",
-              "name": "新能源运维O&M长期服务合同",
+              "key": "ys_visa_compliance_violation_defense",
+              "name": "签证合规违规解释与补救材料包",
               "children": []
             }
           ]
         },
         {
-          "key": "carbon_esg_services",
-          "name": "碳管理与ESG咨询",
+          "key": "ys_career_and_skills",
+          "name": "职业转换与高价技能路径",
           "children": [
             {
-              "key": "carbon_accounting_and_verification",
-              "name": "碳盘查（范围1/2/3）与核查支持",
+              "key": "ys_global_career_coaching_package",
+              "name": "全球求职教练全案（定位+简历+面试+谈薪）",
               "children": []
             },
             {
-              "key": "esg_reporting_assurance",
-              "name": "ESG报告编制与第三方鉴证协同",
+              "key": "ys_professional_certification_pathway",
+              "name": "职业认证路径规划（CFA/CPA/PMI等）与备考计划",
               "children": []
             },
             {
-              "key": "sbt_target_setting",
-              "name": "SBTi目标设定与减排路线图",
+              "key": "ys_overseas_internship_compliance",
+              "name": "海外实习合规与合同审阅（含签证匹配）",
               "children": []
             },
             {
-              "key": "carbon_offset_sourcing",
-              "name": "碳信用/抵消项目筛选与采购顾问",
+              "key": "ys_bootcamp_roi_assessment_plan",
+              "name": "高价训练营ROI评估与学习路线图",
               "children": []
             },
             {
-              "key": "supplier_esg_assessment",
-              "name": "供应商ESG评估与改进项目",
+              "key": "ys_background_check_preparation",
+              "name": "背调准备与合规材料包（学历/工作证明）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "ys_cross_border_settlement",
+          "name": "跨境学习生活落地",
+          "children": [
+            {
+              "key": "ys_relocation_housing_school_support",
+              "name": "跨境落地安置（租房+开户+入学）服务包",
               "children": []
             },
             {
-              "key": "sustainability_strategy_transformation",
-              "name": "可持续战略与组织变革项目",
+              "key": "ys_personal_tax_residency_guidance",
+              "name": "个人税务居民身份判断与申报路径说明书",
+              "children": []
+            },
+            {
+              "key": "ys_health_insurance_selection",
+              "name": "留学生医疗保险方案比选与理赔流程包",
+              "children": []
+            },
+            {
+              "key": "ys_legal_review_part_time_contract",
+              "name": "兼职/实习合同审阅与劳动合规提示",
               "children": []
             }
           ]
@@ -957,118 +1320,131 @@
       ]
     },
     {
-      "key": "supply_chain_logistics",
-      "name": "供应链与物流服务",
+      "key": "seg_senior_caregiver",
+      "name": "老年人与照护者",
       "jobs": [
-        "履约与交付更可控",
-        "冷链/医药合规运输",
-        "关务与项目物流顺畅"
+        "长期护理、康复与机构安置的高风险决策",
+        "医疗与照护费用的可持续筹划与保障配置",
+        "遗嘱、监护与继承安排的法律合规落地",
+        "居家适老化改造的方案设计与验收",
+        "重大医疗事件的多学科协调与转诊管理"
       ],
       "children": [
         {
-          "key": "contract_logistics_3pl_4pl",
-          "name": "合同物流（3PL/4PL）",
+          "key": "sc_long_term_care_placement",
+          "name": "长期护理与机构安置",
           "children": [
             {
-              "key": "warehouse_fulfillment_outsourcing",
-              "name": "仓配一体化外包与履约SLA",
+              "key": "sc_ltc_needs_assessment_plan",
+              "name": "长期护理需求评估与照护计划书",
               "children": []
             },
             {
-              "key": "control_tower_4pl",
-              "name": "4PL控制塔与全链路可视化运营",
+              "key": "sc_nursing_home_selection_contract",
+              "name": "养老机构比选与合同审阅（含费用与条款对比）",
               "children": []
             },
             {
-              "key": "omnichannel_fulfillment",
-              "name": "全渠道履约（电商/门店/分销）",
+              "key": "sc_home_care_service_management",
+              "name": "居家照护服务管理（排班SLA与质量评估）",
               "children": []
             },
             {
-              "key": "last_mile_enterprise",
-              "name": "企业级末端配送网络与众包管理",
+              "key": "sc_care_quality_audit_report",
+              "name": "照护质量第三方审查与改进报告",
               "children": []
             },
             {
-              "key": "returns_reverse_logistics",
-              "name": "逆向物流与退换货中心运营",
-              "children": []
-            },
-            {
-              "key": "value_added_kitting",
-              "name": "增值服务：分装、贴标、组套与质检",
+              "key": "sc_discharge_planning_case_management",
+              "name": "出院后照护衔接与资源协调服务",
               "children": []
             }
           ]
         },
         {
-          "key": "cold_chain_pharma_logistics",
-          "name": "冷链与医药物流",
+          "key": "sc_medical_and_rehab",
+          "name": "医疗协调与康复方案",
           "children": [
             {
-              "key": "pharma_cold_chain_distribution",
-              "name": "医药冷链仓储配送（GDP合规）",
+              "key": "sc_complex_case_second_opinion",
+              "name": "复杂病情二诊与治疗路径建议书",
               "children": []
             },
             {
-              "key": "clinical_trial_logistics",
-              "name": "临床试验样本与药品物流管理",
+              "key": "sc_rehabilitation_program_design",
+              "name": "康复训练方案设计与阶段评估报告",
               "children": []
             },
             {
-              "key": "vaccine_temperature_control",
-              "name": "疫苗/生物制剂温控运输与监测",
+              "key": "sc_medication_review_polypharmacy",
+              "name": "用药复核与多重用药风险评估报告",
               "children": []
             },
             {
-              "key": "cryogenic_shipping",
-              "name": "超低温/液氮冷冻运输（细胞/基因）",
+              "key": "sc_dementia_care_plan_support",
+              "name": "认知障碍照护计划与家属培训服务包",
               "children": []
             },
             {
-              "key": "temperature_monitoring_service",
-              "name": "温控监测设备租赁与数据平台服务",
-              "children": []
-            },
-            {
-              "key": "gdp_audit_and_compliance",
-              "name": "GDP体系搭建、审计与整改项目",
+              "key": "sc_palliative_hospice_care_coordination",
+              "name": "安宁疗护/临终关怀资源对接与照护计划",
               "children": []
             }
           ]
         },
         {
-          "key": "trade_customs_and_project_cargo",
-          "name": "关务合规与项目物流",
+          "key": "sc_legal_estate_and_guardianship",
+          "name": "遗嘱继承与监护",
           "children": [
             {
-              "key": "customs_brokerage_service",
-              "name": "报关报检与通关代理服务",
+              "key": "sc_will_trust_basic_setup",
+              "name": "遗嘱与基础信托文件包（含执行人安排）",
               "children": []
             },
             {
-              "key": "tariff_classification_fta",
-              "name": "税则归类与自贸协定（FTA）利用",
+              "key": "sc_guardianship_power_of_attorney",
+              "name": "监护/授权委托（POA）文件包与公证协调",
               "children": []
             },
             {
-              "key": "import_export_compliance",
-              "name": "进出口合规体系与内控审计",
+              "key": "sc_probate_inheritance_case_support",
+              "name": "遗产认证/继承争议案件支持与代理",
               "children": []
             },
             {
-              "key": "project_cargo_heavy_lift",
-              "name": "重大件/工程项目物流（吊装/运输）",
+              "key": "sc_elder_abuse_investigation_support",
+              "name": "老年人侵害/虐待取证与法律支持包",
               "children": []
             },
             {
-              "key": "hazardous_goods_transport",
-              "name": "危险品/化学品运输合规与承运",
+              "key": "sc_asset_inventory_reporting_pack",
+              "name": "资产清点与申报材料包（含清单与凭证整理）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "sc_age_friendly_home_modification",
+          "name": "适老化居家改造",
+          "children": [
+            {
+              "key": "sc_home_safety_assessment_report",
+              "name": "居家安全评估与改造建议报告",
               "children": []
             },
             {
-              "key": "supply_chain_insurance_claims",
-              "name": "货运险配置与理赔协助服务",
+              "key": "sc_age_friendly_renovation_turnkey",
+              "name": "适老化改造设计+施工总包（含验收）",
+              "children": []
+            },
+            {
+              "key": "sc_medical_equipment_selection_setup",
+              "name": "家用医疗设备选型与安装调试服务包",
+              "children": []
+            },
+            {
+              "key": "sc_emergency_response_system_setup",
+              "name": "紧急呼叫与远程监测系统部署与培训",
               "children": []
             }
           ]
@@ -1076,118 +1452,136 @@
       ]
     },
     {
-      "key": "crossborder_mobility",
-      "name": "跨境身份、安家与高端出行",
+      "key": "seg_patient_major_care",
+      "name": "重大医疗/慢病/手术疗程决策者",
       "jobs": [
-        "身份/签证规划",
-        "搬迁安家落地",
-        "高端行程更省心"
+        "重大手术/肿瘤/罕见病的方案比较与风险控制",
+        "跨院转诊与多学科会诊的协调与资料管理",
+        "跨境就医的资质、费用、签证与随访全案管理",
+        "长期慢病管理的方案优化与依从性提升",
+        "医疗争议与医疗损害的鉴定与法律路径支持"
       ],
       "children": [
         {
-          "key": "immigration_and_citizenship",
-          "name": "移民、签证与身份规划",
+          "key": "pm_second_opinion_and_mdt",
+          "name": "二诊与多学科会诊",
           "children": [
             {
-              "key": "investment_visa_program",
-              "name": "投资移民/黄金签证项目方案",
+              "key": "pm_second_opinion_medical_summary",
+              "name": "重大疾病二诊意见书与病历摘要整理",
               "children": []
             },
             {
-              "key": "citizenship_by_investment",
-              "name": "投资入籍（CBI）项目评估与办理",
+              "key": "pm_mdt_case_coordination",
+              "name": "多学科会诊协调与治疗方案对比报告",
               "children": []
             },
             {
-              "key": "skilled_migration_package",
-              "name": "技术移民全包（评估-材料-递交）",
+              "key": "pm_surgery_hospital_surgeon_selection",
+              "name": "手术医院与主刀团队比选评估（含风险清单）",
               "children": []
             },
             {
-              "key": "business_visa_startup",
-              "name": "创业/商务签证与公司落地配套",
+              "key": "pm_treatment_cost_estimate_plan",
+              "name": "治疗费用测算与支付路径方案（含保险匹配）",
               "children": []
             },
             {
-              "key": "work_permit_compliance",
-              "name": "雇主工签合规与续签管理",
-              "children": []
-            },
-            {
-              "key": "tax_residency_planning",
-              "name": "税务居民身份与跨境居住规划",
+              "key": "pm_medical_record_translation_certified",
+              "name": "病历翻译与认证文件包（跨境就医）",
               "children": []
             }
           ]
         },
         {
-          "key": "global_relocation_settlement",
-          "name": "全球搬迁与落地安家",
+          "key": "pm_cross_border_medical",
+          "name": "跨境就医与疗程管理",
           "children": [
             {
-              "key": "corporate_relocation_package",
-              "name": "企业外派搬迁一揽子服务",
+              "key": "pm_cross_border_medical_case_management",
+              "name": "跨境就医全案管理（预约/签证/住院/随访）",
               "children": []
             },
             {
-              "key": "home_search_and_lease",
-              "name": "找房、签约、押金与入住支持",
+              "key": "pm_international_billing_insurance_claims",
+              "name": "国际医疗费用结算与理赔协助服务包",
               "children": []
             },
             {
-              "key": "school_search_and_enrollment",
-              "name": "择校、预约与入学办理支持",
+              "key": "pm_post_treatment_followup_remote",
+              "name": "治疗后远程随访与复查计划管理",
               "children": []
             },
             {
-              "key": "moving_shipping_and_insurance",
-              "name": "国际搬家、海运空运与保险",
+              "key": "pm_medical_travel_risk_assessment",
+              "name": "医疗旅行风险评估与应急预案（含保险配置）",
               "children": []
             },
             {
-              "key": "destination_services_orientation",
-              "name": "目的地生活安置（开户/医疗/交通）",
-              "children": []
-            },
-            {
-              "key": "expat_payroll_and_admin",
-              "name": "外派薪税、社保与行政外包",
+              "key": "pm_access_to_clinical_trials_screening",
+              "name": "临床试验入组筛查与申请材料包",
               "children": []
             }
           ]
         },
         {
-          "key": "luxury_travel_and_charter",
-          "name": "高端定制旅行与包机/游艇",
+          "key": "pm_chronic_disease_management",
+          "name": "慢病长期管理",
           "children": [
             {
-              "key": "bespoke_luxury_tours",
-              "name": "高端定制旅行（多国线路+资源预订）",
+              "key": "pm_chronic_care_program_subscription",
+              "name": "慢病管理项目制服务（随访+指标+用药复核）",
               "children": []
             },
             {
-              "key": "private_jet_membership",
-              "name": "公务机包机/会员计划与调度服务",
+              "key": "pm_nutrition_rehab_integrated_plan",
+              "name": "营养+运动+康复整合方案与阶段评估",
               "children": []
             },
             {
-              "key": "yacht_charter_management",
-              "name": "游艇包船与船员/航线管理",
+              "key": "pm_device_therapy_selection_support",
+              "name": "器械/介入治疗方案比选与风险说明书",
               "children": []
             },
             {
-              "key": "expedition_cruise_charter",
-              "name": "探险邮轮/极地包船与安全保障",
+              "key": "pm_medication_adherence_support",
+              "name": "用药依从性提升与不良反应监测服务包",
               "children": []
             },
             {
-              "key": "vip_event_concierge",
-              "name": "大型赛事/演出VIP资源与行程管家",
+              "key": "pm_home_nursing_service_setup",
+              "name": "上门护理与护理团队配置管理（SLA）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "pm_medical_dispute_and_legal",
+          "name": "医疗争议与鉴定",
+          "children": [
+            {
+              "key": "pm_medical_malpractice_case_review",
+              "name": "医疗损害案件病历审查与专家意见书",
               "children": []
             },
             {
-              "key": "medical_travel_concierge",
-              "name": "医疗旅行（就医+行程+护理）整合服务",
+              "key": "pm_independent_medical_assessment",
+              "name": "独立医学评估报告（用于索赔/诉讼）",
+              "children": []
+            },
+            {
+              "key": "pm_medical_dispute_mediation_support",
+              "name": "医疗纠纷调解谈判支持与和解协议包",
+              "children": []
+            },
+            {
+              "key": "pm_forensic_medical_appraisal_coordination",
+              "name": "司法医学鉴定协调与质证支持",
+              "children": []
+            },
+            {
+              "key": "pm_litigation_representation_medical",
+              "name": "医疗纠纷诉讼代理（材料与出庭）",
               "children": []
             }
           ]
@@ -1195,118 +1589,105 @@
       ]
     },
     {
-      "key": "security_risk",
-      "name": "安全、风控与调查",
+      "key": "seg_mobility_immigration",
+      "name": "跨境迁移/签证/身份与居留人群",
       "jobs": [
-        "要员与资产更安全",
-        "风控调查更可靠",
-        "安全体系与预案完善"
+        "签证/居留/身份路径的可行性评估与材料准备",
+        "跨境税务与合规（个人/家庭/雇主）落地",
+        "跨境搬迁与安置（住房、学校、医疗）一体化",
+        "跨境资产与信息申报的风险降低",
+        "政策变化下的续签、转签与合规补救"
       ],
       "children": [
         {
-          "key": "physical_security_integrations",
-          "name": "安防系统集成与驻场服务",
+          "key": "mi_visa_and_residency",
+          "name": "签证与居留路径",
           "children": [
             {
-              "key": "security_system_integration",
-              "name": "园区/总部安防系统集成（门禁/视频/报警）",
+              "key": "mi_skilled_work_visa_case_management",
+              "name": "技术/工作签证全案管理（材料+雇主合规）",
               "children": []
             },
             {
-              "key": "secure_facility_design",
-              "name": "高安全场所设计（机房/金库/实验室）",
+              "key": "mi_family_reunion_visa_case",
+              "name": "家庭团聚签证全案与补件应对",
               "children": []
             },
             {
-              "key": "perimeter_intrusion_detection",
-              "name": "周界入侵检测与安保联动平台",
+              "key": "mi_student_to_work_status_change",
+              "name": "学生转工签/身份变更方案与递交包",
               "children": []
             },
             {
-              "key": "security_guarding_contract",
-              "name": "安保驻场与保安外包服务",
+              "key": "mi_residency_permit_renewal_appeal",
+              "name": "居留续签与拒签申诉材料包",
               "children": []
             },
             {
-              "key": "cash_in_transit_service",
-              "name": "押运/现金处理与门店收款服务",
-              "children": []
-            },
-            {
-              "key": "security_operations_center",
-              "name": "安防运营中心SOC（物理安全）建设",
+              "key": "mi_compliance_audit_for_immigration",
+              "name": "移民合规自查与风险补救方案",
               "children": []
             }
           ]
         },
         {
-          "key": "executive_protection_trm",
-          "name": "要员保护与旅行风险管理",
+          "key": "mi_cross_border_tax_and_reporting",
+          "name": "跨境税务与申报",
           "children": [
             {
-              "key": "close_protection_service",
-              "name": "要员贴身保护（国内/海外）",
+              "key": "mi_tax_residency_planning_memo",
+              "name": "税务居民身份规划备忘录（含风险与动作清单）",
               "children": []
             },
             {
-              "key": "secure_transport_driver",
-              "name": "安保车辆与司机、路线规划服务",
+              "key": "mi_double_tax_treaty_claim_pack",
+              "name": "税收协定待遇申请材料包与申报路径",
               "children": []
             },
             {
-              "key": "travel_risk_management",
-              "name": "旅行风险评估、预警与应急支援",
+              "key": "mi_foreign_asset_reporting_pack",
+              "name": "海外资产/账户申报材料包（个人/家庭）",
               "children": []
             },
             {
-              "key": "residential_security_assessment",
-              "name": "住宅安全评估与改造方案",
+              "key": "mi_cross_border_payroll_structuring",
+              "name": "跨境薪酬与雇主合规结构方案（含测算）",
               "children": []
             },
             {
-              "key": "kidnap_ransom_consulting",
-              "name": "K&R绑架勒索风险顾问与预案",
-              "children": []
-            },
-            {
-              "key": "security_training_awareness",
-              "name": "安全意识与反跟踪/应急培训",
+              "key": "mi_exit_tax_assessment_plan",
+              "name": "离境税评估与应对方案（含时间表）",
               "children": []
             }
           ]
         },
         {
-          "key": "investigation_and_forensics",
-          "name": "尽调、调查与取证",
+          "key": "mi_relocation_and_settlement",
+          "name": "搬迁安置与落地服务",
           "children": [
             {
-              "key": "third_party_due_diligence",
-              "name": "第三方合规尽调（供应商/代理商）",
+              "key": "mi_relocation_end_to_end_service",
+              "name": "跨境搬迁落地全案（住房+开户+保险+学校）",
               "children": []
             },
             {
-              "key": "background_checks_executive",
-              "name": "高管背调与诚信调查",
+              "key": "mi_school_selection_admission_support",
+              "name": "子女学校比选与入学申请支持包",
               "children": []
             },
             {
-              "key": "fraud_investigation",
-              "name": "舞弊调查与反舞弊体系建设",
+              "key": "mi_healthcare_access_setup",
+              "name": "医疗体系接入与家庭医生/专科预约服务包",
               "children": []
             },
             {
-              "key": "digital_forensics_e_discovery",
-              "name": "电子取证与eDiscovery诉讼支持",
+              "key": "mi_cross_border_document_legalization",
+              "name": "文件公证/认证/领事合法化全套服务",
               "children": []
             },
             {
-              "key": "asset_tracing_recovery",
-              "name": "资产追踪与追偿支持",
-              "children": []
-            },
-            {
-              "key": "corporate_intelligence",
-              "name": "企业情报与竞争对手深度研究",
+              "key": "mi_security_risk_assessment_destination",
+              "name": "目的地安全风险评估与应急预案（家庭版）",
               "children": []
             }
           ]
@@ -1314,118 +1695,211 @@
       ]
     },
     {
-      "key": "brand_marketing_events",
-      "name": "品牌、市场与大型活动",
+      "key": "seg_high_risk_occupation",
+      "name": "高风险职业/高风险出行人群",
       "jobs": [
-        "战略与市场洞察",
-        "公关与声誉管理",
-        "大型活动落地可控"
+        "高风险地区出行前的安全评估与应急预案",
+        "企业/个人安保与事件响应能力建设",
+        "绑架勒索、战争风险等特殊保险配置与理赔支持",
+        "危机发生时的撤离、医疗转运与取证协助",
+        "合规与培训（武装冲突区、海上、航空）"
       ],
       "children": [
         {
-          "key": "strategy_and_research",
-          "name": "战略咨询与市场研究",
+          "key": "hr_security_and_planning",
+          "name": "安保规划与培训",
           "children": [
             {
-              "key": "market_entry_gtm",
-              "name": "海外市场进入与GTM策略项目",
+              "key": "hr_travel_risk_assessment_briefing",
+              "name": "出行风险评估与行前简报（含路线与联络树）",
               "children": []
             },
             {
-              "key": "pricing_strategy_consulting",
-              "name": "定价策略与收益管理咨询",
+              "key": "hr_close_protection_service_contract",
+              "name": "随行要员安保（Close Protection）服务合同包",
               "children": []
             },
             {
-              "key": "customer_insight_research",
-              "name": "消费者洞察（定性+定量）研究项目",
+              "key": "hr_corporate_security_program_design",
+              "name": "企业安保体系设计（岗位、SOP与演练）",
               "children": []
             },
             {
-              "key": "brand_positioning_rebranding",
-              "name": "品牌定位与重塑（VI/叙事体系）",
+              "key": "hr_hostile_environment_training",
+              "name": "高风险环境培训（HEAT）组织与认证对接",
               "children": []
             },
             {
-              "key": "product_portfolio_strategy",
-              "name": "产品组合与业务线规划咨询",
-              "children": []
-            },
-            {
-              "key": "channel_partner_strategy",
-              "name": "渠道策略与伙伴生态搭建项目",
+              "key": "hr_event_security_command_center",
+              "name": "大型活动安保指挥与现场协调服务",
               "children": []
             }
           ]
         },
         {
-          "key": "pr_and_reputation",
-          "name": "公关、舆情与声誉管理",
+          "key": "hr_evacuation_and_response",
+          "name": "撤离与应急响应",
           "children": [
             {
-              "key": "global_pr_retainer",
-              "name": "全球公关代理常年服务",
+              "key": "hr_emergency_evacuation_plan",
+              "name": "紧急撤离预案与供应商联动方案（含触发阈值）",
               "children": []
             },
             {
-              "key": "crisis_pr_retainer",
-              "name": "危机公关常年顾问与预案演练",
+              "key": "hr_medical_evacuations_case_management",
+              "name": "医疗转运/包机救援协调服务包",
               "children": []
             },
             {
-              "key": "investor_relations_service",
-              "name": "投资者关系IR与资本市场传播",
+              "key": "hr_crisis_hotline_and_case_management",
+              "name": "危机热线与事件管理托管服务（SLA与报告）",
               "children": []
             },
             {
-              "key": "public_affairs_advisory",
-              "name": "政府事务/公共事务咨询（合规范围内）",
+              "key": "hr_incident_investigation_evidence",
+              "name": "重大事件调查取证与安全复盘报告",
               "children": []
             },
             {
-              "key": "executive_thought_leadership",
-              "name": "高管思想领导力内容与传播矩阵",
-              "children": []
-            },
-            {
-              "key": "brand_social_media_management",
-              "name": "企业社媒矩阵运营与内容制作外包",
+              "key": "hr_family_notification_support",
+              "name": "家属沟通与通知支持包（含话术与流程）",
               "children": []
             }
           ]
         },
         {
-          "key": "events_and_exhibitions",
-          "name": "大型会展与发布会制作",
+          "key": "hr_specialty_insurance_and_claims",
+          "name": "特殊保险与理赔争议",
           "children": [
             {
-              "key": "global_exhibition_booth_design_build",
-              "name": "国际展台设计搭建与现场执行",
+              "key": "hr_kidnap_ransom_insurance_brokerage",
+              "name": "绑架勒索（K&R）保险经纪配置与条款解读",
               "children": []
             },
             {
-              "key": "large_conference_production",
-              "name": "大型峰会/论坛全案制作与导播",
+              "key": "hr_war_risk_political_violence_cover",
+              "name": "战争风险/政治暴力保险配置与投保谈判",
               "children": []
             },
             {
-              "key": "product_launch_event",
-              "name": "新品发布会全流程策划与落地",
+              "key": "hr_specialty_claims_advocacy",
+              "name": "特殊险种理赔协助与拒赔争议支持",
               "children": []
             },
             {
-              "key": "corporate_annual_meeting",
-              "name": "年会/庆典/团建大型活动统筹",
+              "key": "hr_loss_assessment_for_claims",
+              "name": "事故损失独立评估报告（用于理赔与仲裁）",
               "children": []
             },
             {
-              "key": "roadshow_event_management",
-              "name": "路演活动与多城巡展执行管理",
+              "key": "hr_security_compliance_audit",
+              "name": "安保合规审计（供应商资质与流程抽检）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "seg_hnw",
+      "name": "高净值与家族",
+      "jobs": [
+        "复杂资产与家族治理的长期结构化安排",
+        "跨境税务、合规与隐私风险控制",
+        "家族企业传承与治理机制建设",
+        "高价值不动产/艺术品等另类资产的尽调与管理",
+        "高端生活方式与风险保障（安保、医疗、出行）"
+      ],
+      "children": [
+        {
+          "key": "hnw_wealth_structuring",
+          "name": "财富结构与家族治理",
+          "children": [
+            {
+              "key": "hnw_family_office_setup_operating_model",
+              "name": "家族办公室设立与运营模型（制度+流程+岗位）",
               "children": []
             },
             {
-              "key": "sponsorship_activation",
-              "name": "赞助权益激活与整合营销项目",
+              "key": "hnw_trust_foundation_structuring",
+              "name": "信托/基金会架构设计与文件包（跨境协调）",
+              "children": []
+            },
+            {
+              "key": "hnw_succession_governance_charter",
+              "name": "家族宪章与治理机制搭建（议事规则+传承计划）",
+              "children": []
+            },
+            {
+              "key": "hnw_cross_border_tax_planning",
+              "name": "跨境税务筹划与合规申报路线图",
+              "children": []
+            },
+            {
+              "key": "hnw_asset_protection_legal_strategy",
+              "name": "资产隔离与法律风险防火墙方案（含执行清单）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "hnw_alt_assets_and_real_estate",
+          "name": "不动产与另类资产",
+          "children": [
+            {
+              "key": "hnw_global_real_estate_due_diligence",
+              "name": "全球不动产尽调与交易结构建议书",
+              "children": []
+            },
+            {
+              "key": "hnw_art_collectible_authentication",
+              "name": "艺术品/收藏品真伪鉴定与估值报告",
+              "children": []
+            },
+            {
+              "key": "hnw_yacht_aircraft_management_service",
+              "name": "游艇/公务机托管与合规运营服务包",
+              "children": []
+            },
+            {
+              "key": "hnw_private_investment_due_diligence",
+              "name": "私募/直投项目尽调与投委会报告",
+              "children": []
+            },
+            {
+              "key": "hnw_philanthropy_program_design",
+              "name": "慈善项目设计与合规落地（含评估框架）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "hnw_health_security_and_lifestyle",
+          "name": "高端健康、安保与生活方式",
+          "children": [
+            {
+              "key": "hnw_global_medical_concierge",
+              "name": "全球医疗管家（预约+二诊+跨境疗程管理）",
+              "children": []
+            },
+            {
+              "key": "hnw_executive_health_screening_program",
+              "name": "高端体检与健康管理年包（含随访计划）",
+              "children": []
+            },
+            {
+              "key": "hnw_personal_security_risk_management",
+              "name": "个人安全风险管理（住宅安防+出行方案）",
+              "children": []
+            },
+            {
+              "key": "hnw_crisis_reputation_private_support",
+              "name": "个人/家族危机与声誉管理支持包",
+              "children": []
+            },
+            {
+              "key": "hnw_specialty_insurance_portfolio",
+              "name": "高净值专属保险组合配置与年度复盘",
               "children": []
             }
           ]
@@ -1435,56 +1909,92 @@
   ],
   "channels": [
     {
-      "key": "health_crossborder",
-      "name": "健康与跨境生活",
+      "key": "ch_large_enterprise",
+      "name": "大型企业入口",
       "category_keys": [
-        "healthcare",
-        "crossborder_mobility"
+        "seg_large_enterprise"
       ],
       "children": []
     },
     {
-      "key": "education_talent",
-      "name": "教育与人才",
+      "key": "ch_smb",
+      "name": "中小企业入口",
       "category_keys": [
-        "education_talent"
+        "seg_smb"
       ],
       "children": []
     },
     {
-      "key": "finance_legal",
-      "name": "金融与法务",
+      "key": "ch_startup_scaleup",
+      "name": "创业与增长入口",
       "category_keys": [
-        "finance_investment",
-        "legal_compliance"
+        "seg_startup_scaleup"
       ],
       "children": []
     },
     {
-      "key": "realestate_construction",
-      "name": "房产与工程",
+      "key": "ch_financial_institution",
+      "name": "金融机构入口",
       "category_keys": [
-        "real_estate_construction"
+        "seg_financial_institution"
       ],
       "children": []
     },
     {
-      "key": "enterprise_industry",
-      "name": "企业数字化与产业服务",
+      "key": "ch_public_sector",
+      "name": "政府与公共部门入口",
       "category_keys": [
-        "enterprise_it_digital",
-        "industrial_engineering",
-        "supply_chain_logistics",
-        "energy_sustainability"
+        "seg_public_sector"
       ],
       "children": []
     },
     {
-      "key": "security_brand",
-      "name": "安全风控与品牌市场",
+      "key": "ch_personal_and_family",
+      "name": "个人与家庭大事",
       "category_keys": [
-        "security_risk",
-        "brand_marketing_events"
+        "seg_mass",
+        "seg_family"
+      ],
+      "children": []
+    },
+    {
+      "key": "ch_education_and_career",
+      "name": "教育与职业发展",
+      "category_keys": [
+        "seg_youth_student"
+      ],
+      "children": []
+    },
+    {
+      "key": "ch_health_and_care",
+      "name": "健康医疗与照护",
+      "category_keys": [
+        "seg_patient_major_care",
+        "seg_senior_caregiver"
+      ],
+      "children": []
+    },
+    {
+      "key": "ch_mobility_and_identity",
+      "name": "迁移与身份",
+      "category_keys": [
+        "seg_mobility_immigration"
+      ],
+      "children": []
+    },
+    {
+      "key": "ch_high_risk_security",
+      "name": "高风险出行与安全",
+      "category_keys": [
+        "seg_high_risk_occupation"
+      ],
+      "children": []
+    },
+    {
+      "key": "ch_hnw_family",
+      "name": "高净值与家族",
+      "category_keys": [
+        "seg_hnw"
       ],
       "children": []
     }
