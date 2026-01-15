@@ -1,0 +1,4991 @@
+{
+  "schema": "service_category_nav_coarse_global",
+  "version": "v2.2",
+  "locale": "zh-CN",
+  "generated_at": "2026-01-15",
+  "facets": {
+    "geo_destination": {
+      "type": "enum",
+      "name": "目的地/司法辖区/目标市场",
+      "values": [
+        {
+          "key": "local",
+          "name": "本地/本国"
+        },
+        {
+          "key": "US",
+          "name": "美国"
+        },
+        {
+          "key": "UK",
+          "name": "英国"
+        },
+        {
+          "key": "CA",
+          "name": "加拿大"
+        },
+        {
+          "key": "AU_NZ",
+          "name": "澳大利亚/新西兰"
+        },
+        {
+          "key": "EU",
+          "name": "欧洲"
+        },
+        {
+          "key": "SG_HK",
+          "name": "新加坡/香港"
+        },
+        {
+          "key": "JP",
+          "name": "日本"
+        },
+        {
+          "key": "ASIA_OTHER",
+          "name": "亚洲其他"
+        },
+        {
+          "key": "ME",
+          "name": "中东"
+        },
+        {
+          "key": "LATAM",
+          "name": "拉美"
+        },
+        {
+          "key": "AFRICA",
+          "name": "非洲"
+        },
+        {
+          "key": "OTHER",
+          "name": "其他/多国"
+        }
+      ]
+    },
+    "geo_service_coverage": {
+      "type": "enum",
+      "name": "服务覆盖范围/交付方式",
+      "values": [
+        {
+          "key": "online",
+          "name": "远程/线上"
+        },
+        {
+          "key": "onsite_city",
+          "name": "同城线下"
+        },
+        {
+          "key": "onsite_country",
+          "name": "全国线下"
+        },
+        {
+          "key": "multi_country",
+          "name": "跨国交付"
+        }
+      ]
+    },
+    "delivery_mode": {
+      "type": "enum",
+      "name": "合作模式",
+      "values": [
+        {
+          "key": "full_case",
+          "name": "全案托管"
+        },
+        {
+          "key": "project",
+          "name": "项目制"
+        },
+        {
+          "key": "retainer",
+          "name": "按月/按年保留顾问"
+        },
+        {
+          "key": "one_off",
+          "name": "一次性专项"
+        }
+      ]
+    },
+    "language": {
+      "type": "enum",
+      "name": "服务语言",
+      "values": [
+        {
+          "key": "zh",
+          "name": "中文"
+        },
+        {
+          "key": "en",
+          "name": "英文"
+        },
+        {
+          "key": "bilingual",
+          "name": "双语"
+        },
+        {
+          "key": "other",
+          "name": "其他"
+        }
+      ]
+    },
+    "education_system": {
+      "type": "enum",
+      "name": "课程/体系",
+      "values": [
+        {
+          "key": "IB",
+          "name": "IB"
+        },
+        {
+          "key": "A_LEVEL",
+          "name": "A-Level"
+        },
+        {
+          "key": "AP",
+          "name": "AP"
+        },
+        {
+          "key": "GCSE_IGCSE",
+          "name": "GCSE/IGCSE"
+        },
+        {
+          "key": "LOCAL",
+          "name": "本土体系"
+        },
+        {
+          "key": "OTHER",
+          "name": "其他"
+        }
+      ]
+    },
+    "service_object": {
+      "type": "enum",
+      "name": "服务对象",
+      "values": [
+        {
+          "key": "individual",
+          "name": "个人"
+        },
+        {
+          "key": "family",
+          "name": "家庭"
+        },
+        {
+          "key": "sme",
+          "name": "中小企业"
+        },
+        {
+          "key": "enterprise",
+          "name": "大型企业"
+        },
+        {
+          "key": "public_sector",
+          "name": "政府/公共机构"
+        },
+        {
+          "key": "ngo",
+          "name": "非营利/协会"
+        }
+      ]
+    },
+    "urgency": {
+      "type": "enum",
+      "name": "紧急程度",
+      "values": [
+        {
+          "key": "routine",
+          "name": "常规"
+        },
+        {
+          "key": "urgent_72h",
+          "name": "加急（72小时内响应）"
+        },
+        {
+          "key": "emergency_24h",
+          "name": "应急（24小时内响应）"
+        }
+      ]
+    },
+    "industry": {
+      "type": "multi_enum",
+      "name": "行业",
+      "values": [
+        {
+          "key": "finance",
+          "name": "金融"
+        },
+        {
+          "key": "healthcare",
+          "name": "医疗健康"
+        },
+        {
+          "key": "pharma_biotech",
+          "name": "医药生物"
+        },
+        {
+          "key": "manufacturing",
+          "name": "制造"
+        },
+        {
+          "key": "energy",
+          "name": "能源与公用事业"
+        },
+        {
+          "key": "tech",
+          "name": "互联网与软件"
+        },
+        {
+          "key": "retail",
+          "name": "零售消费"
+        },
+        {
+          "key": "construction_real_estate",
+          "name": "建筑与地产"
+        },
+        {
+          "key": "media_entertainment",
+          "name": "媒体与娱乐"
+        },
+        {
+          "key": "logistics",
+          "name": "物流与运输"
+        },
+        {
+          "key": "education",
+          "name": "教育"
+        },
+        {
+          "key": "other",
+          "name": "其他"
+        }
+      ]
+    },
+    "compliance_regime": {
+      "type": "multi_enum",
+      "name": "合规/标准体系",
+      "values": [
+        {
+          "key": "gdpr",
+          "name": "GDPR"
+        },
+        {
+          "key": "hipaa",
+          "name": "HIPAA"
+        },
+        {
+          "key": "pci_dss",
+          "name": "PCI DSS"
+        },
+        {
+          "key": "sox",
+          "name": "SOX"
+        },
+        {
+          "key": "iso_27001",
+          "name": "ISO 27001"
+        },
+        {
+          "key": "soc2",
+          "name": "SOC 2"
+        },
+        {
+          "key": "gxp",
+          "name": "GxP"
+        },
+        {
+          "key": "fda",
+          "name": "FDA相关"
+        },
+        {
+          "key": "ce_mdr_ivdr",
+          "name": "CE/MDR/IVDR"
+        },
+        {
+          "key": "nmpa",
+          "name": "NMPA相关"
+        },
+        {
+          "key": "reach_rohs",
+          "name": "REACH/RoHS"
+        },
+        {
+          "key": "esg_reporting",
+          "name": "ESG披露"
+        },
+        {
+          "key": "aml_kyc",
+          "name": "反洗钱/客户尽调"
+        },
+        {
+          "key": "other",
+          "name": "其他"
+        }
+      ]
+    }
+  },
+  "channels": [
+    {
+      "key": "personal_life",
+      "name": "个人与家庭",
+      "category_keys": [
+        "elite_education",
+        "healthcare_wellness",
+        "home_property",
+        "global_mobility_immigration",
+        "private_legal_disputes",
+        "security_risk_management",
+        "personal_reputation_crisis",
+        "luxury_lifestyle_concierge",
+        "philanthropy_volunteering",
+        "family_wealth_office"
+      ]
+    },
+    {
+      "key": "enterprise",
+      "name": "企业与机构",
+      "category_keys": [
+        "enterprise_strategy_operations",
+        "enterprise_finance_tax_legal",
+        "cyber_data_it",
+        "market_access_compliance_quality",
+        "life_sciences_clinical",
+        "public_infrastructure_environment",
+        "enterprise_talent_hr",
+        "enterprise_marketing_brand_growth",
+        "enterprise_risk_stakeholder_comms",
+        "nonprofit_social_impact"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "key": "elite_education",
+      "name": "教育与升学规划",
+      "allowed_facets": [
+        "geo_destination",
+        "education_system",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "early_years_k12_pathway",
+          "name": "学前与K12升学路径",
+          "allowed_facets": [
+            "geo_destination",
+            "education_system",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "school_selection_shortlist",
+              "name": "择校与短名单规划"
+            },
+            {
+              "key": "application_full_case_k12",
+              "name": "申请全案与流程托管"
+            },
+            {
+              "key": "assessment_interview_coaching",
+              "name": "测评与面试辅导"
+            },
+            {
+              "key": "transfer_enrollment_bridge",
+              "name": "转学与学籍衔接"
+            },
+            {
+              "key": "guardian_boarding_management",
+              "name": "监护与寄宿管理支持"
+            },
+            {
+              "key": "other_k12_services",
+              "name": "其他K12升学服务"
+            }
+          ]
+        },
+        {
+          "key": "higher_education_admissions",
+          "name": "高等教育申请与录取",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "ug_full_case",
+              "name": "本科申请全案"
+            },
+            {
+              "key": "grad_full_case",
+              "name": "研究生申请全案"
+            },
+            {
+              "key": "phd_research_support",
+              "name": "博士申请与研究计划支持"
+            },
+            {
+              "key": "mba_exec_support",
+              "name": "MBA/高管项目申请支持"
+            },
+            {
+              "key": "portfolio_art_admissions",
+              "name": "艺术/设计作品集申请"
+            },
+            {
+              "key": "scholarship_fin_aid",
+              "name": "奖学金/助学金申请支持"
+            },
+            {
+              "key": "other_higher_ed_services",
+              "name": "其他高等教育申请服务"
+            }
+          ]
+        },
+        {
+          "key": "test_prep_tutoring",
+          "name": "标化与学科辅导",
+          "allowed_facets": [
+            "education_system",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "toefl_ielts",
+              "name": "托福/雅思"
+            },
+            {
+              "key": "sat_act",
+              "name": "SAT/ACT"
+            },
+            {
+              "key": "gre_gmat",
+              "name": "GRE/GMAT"
+            },
+            {
+              "key": "ib_subjects",
+              "name": "IB学科辅导"
+            },
+            {
+              "key": "alevel_subjects",
+              "name": "A-Level学科辅导"
+            },
+            {
+              "key": "ap_subjects",
+              "name": "AP学科辅导"
+            },
+            {
+              "key": "other_test_prep",
+              "name": "其他标化/学科辅导"
+            }
+          ]
+        },
+        {
+          "key": "enrichment_competition_research",
+          "name": "竞赛/科研/背景提升",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "competition_coaching",
+              "name": "竞赛训练与教练制"
+            },
+            {
+              "key": "research_mentorship",
+              "name": "科研导师制与课题孵化"
+            },
+            {
+              "key": "internship_programs",
+              "name": "高含金量实习与项目"
+            },
+            {
+              "key": "summer_school_programs",
+              "name": "夏校与学术项目规划"
+            },
+            {
+              "key": "leadership_community_projects",
+              "name": "领导力与公益项目"
+            },
+            {
+              "key": "other_enrichment",
+              "name": "其他背景提升项目"
+            }
+          ]
+        },
+        {
+          "key": "special_education_support",
+          "name": "特殊教育与学习支持",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "assessment_diagnosis_referral",
+              "name": "评估与诊断转介"
+            },
+            {
+              "key": "iep_504_support",
+              "name": "IEP/504支持与沟通"
+            },
+            {
+              "key": "therapy_learning_support",
+              "name": "治疗与学习支持（OT/SLP等）"
+            },
+            {
+              "key": "school_placement_support",
+              "name": "学校安置与融合支持"
+            },
+            {
+              "key": "family_coaching_support",
+              "name": "家长训练与家庭支持"
+            },
+            {
+              "key": "other_special_education",
+              "name": "其他特殊教育服务"
+            }
+          ]
+        },
+        {
+          "key": "education_institution_services",
+          "name": "教育机构与学校侧服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "school_licensing_compliance",
+              "name": "办学资质与合规"
+            },
+            {
+              "key": "curriculum_accreditation",
+              "name": "课程体系与认证评估"
+            },
+            {
+              "key": "school_ops_improvement",
+              "name": "学校运营改善与招生策略"
+            },
+            {
+              "key": "safeguarding_child_protection",
+              "name": "未成年人保护与安全体系"
+            },
+            {
+              "key": "edtech_procurement_evaluation",
+              "name": "教育技术采购与评估"
+            },
+            {
+              "key": "other_school_services",
+              "name": "其他教育机构服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "healthcare_wellness",
+      "name": "医疗健康与长期管理",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "urgency",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "specialist_access_second_opinion",
+          "name": "专家诊疗与二次诊断",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "second_opinion_remote",
+              "name": "远程二诊与多学科会诊"
+            },
+            {
+              "key": "top_hospital_access",
+              "name": "顶级医院绿色通道"
+            },
+            {
+              "key": "complex_case_management",
+              "name": "复杂病例全程管理"
+            },
+            {
+              "key": "rare_disease_pathway",
+              "name": "罕见病路径与转介"
+            },
+            {
+              "key": "treatment_plan_comparison",
+              "name": "治疗方案对比与决策支持"
+            },
+            {
+              "key": "other_specialist_services",
+              "name": "其他专家诊疗服务"
+            }
+          ]
+        },
+        {
+          "key": "cross_border_medical",
+          "name": "跨境就医与医疗旅行",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "hospital_selection_referral",
+              "name": "医院选择与转介"
+            },
+            {
+              "key": "medical_translation_records",
+              "name": "病历整理与医学翻译（配套）"
+            },
+            {
+              "key": "visa_logistics_medical",
+              "name": "医疗签证与行程落地"
+            },
+            {
+              "key": "inpatient_care_coordination",
+              "name": "住院陪护与护理协调"
+            },
+            {
+              "key": "post_treatment_followup",
+              "name": "术后随访与远程管理"
+            },
+            {
+              "key": "other_cross_border_medical",
+              "name": "其他跨境医疗服务"
+            }
+          ]
+        },
+        {
+          "key": "major_disease_care",
+          "name": "重疾治疗与康复管理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "oncology_case_management",
+              "name": "肿瘤全程管理"
+            },
+            {
+              "key": "cardio_neuro_interventions",
+              "name": "心脑血管介入与管理"
+            },
+            {
+              "key": "transplant_pathway",
+              "name": "移植与供体路径支持"
+            },
+            {
+              "key": "rehabilitation_programs",
+              "name": "康复方案与机构选择"
+            },
+            {
+              "key": "palliative_hospice_care",
+              "name": "舒缓医疗与临终关怀"
+            },
+            {
+              "key": "other_major_disease",
+              "name": "其他重疾管理"
+            }
+          ]
+        },
+        {
+          "key": "mental_health_addiction",
+          "name": "心理健康与成瘾治疗",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "psychiatry_psychotherapy",
+              "name": "精神科与心理治疗"
+            },
+            {
+              "key": "inpatient_rehab_programs",
+              "name": "住院式康复与戒断项目"
+            },
+            {
+              "key": "family_therapy_support",
+              "name": "家庭治疗与支持"
+            },
+            {
+              "key": "executive_stress_burnout",
+              "name": "高压人群减压与倦怠管理"
+            },
+            {
+              "key": "crisis_intervention",
+              "name": "危机干预与紧急响应"
+            },
+            {
+              "key": "other_mental_health",
+              "name": "其他心理健康服务"
+            }
+          ]
+        },
+        {
+          "key": "preventive_longevity",
+          "name": "预防医学与长寿管理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "executive_health_checkup",
+              "name": "高端体检与深度筛查"
+            },
+            {
+              "key": "genetic_testing_counseling",
+              "name": "基因检测与遗传咨询"
+            },
+            {
+              "key": "metabolic_hormone_management",
+              "name": "代谢/激素管理"
+            },
+            {
+              "key": "precision_nutrition_fitness",
+              "name": "精准营养与体能训练"
+            },
+            {
+              "key": "sleep_recovery_programs",
+              "name": "睡眠与恢复计划"
+            },
+            {
+              "key": "other_longevity",
+              "name": "其他长寿管理服务"
+            }
+          ]
+        },
+        {
+          "key": "dental_vision_aesthetic",
+          "name": "高端齿科/视力/医美",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "implant_orthodontics",
+              "name": "种植与正畸全案"
+            },
+            {
+              "key": "complex_dental_reconstruction",
+              "name": "复杂口腔重建"
+            },
+            {
+              "key": "laser_vision_surgery",
+              "name": "屈光矫正与视力手术"
+            },
+            {
+              "key": "plastic_reconstructive_surgery",
+              "name": "整形与修复手术"
+            },
+            {
+              "key": "dermatology_aesthetic_programs",
+              "name": "皮肤管理与医美疗程"
+            },
+            {
+              "key": "other_aesthetic",
+              "name": "其他高端医美与功能改善"
+            }
+          ]
+        },
+        {
+          "key": "elderly_long_term_care",
+          "name": "银发与长期照护",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "care_needs_assessment",
+              "name": "照护需求评估与方案"
+            },
+            {
+              "key": "nursing_home_selection",
+              "name": "养老机构选择与入住"
+            },
+            {
+              "key": "home_care_coordination",
+              "name": "居家照护与护理协调"
+            },
+            {
+              "key": "dementia_care_programs",
+              "name": "认知障碍照护方案"
+            },
+            {
+              "key": "caregiver_management",
+              "name": "护工/看护团队管理"
+            },
+            {
+              "key": "other_long_term_care",
+              "name": "其他长期照护服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home_property",
+      "name": "住房与家庭资产服务",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "property_transaction",
+          "name": "房产买卖与交易支持",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "buyer_representation",
+              "name": "购房代理与谈判"
+            },
+            {
+              "key": "seller_representation",
+              "name": "售房代理与营销"
+            },
+            {
+              "key": "due_diligence_title",
+              "name": "尽调与权属审查"
+            },
+            {
+              "key": "mortgage_financing_support",
+              "name": "按揭与融资支持"
+            },
+            {
+              "key": "closing_settlement_support",
+              "name": "交割与过户协同"
+            },
+            {
+              "key": "other_property_transaction",
+              "name": "其他房产交易服务"
+            }
+          ]
+        },
+        {
+          "key": "rental_relocation_housing",
+          "name": "高端租赁与安居落地",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "premium_rental_search",
+              "name": "高端租房与看房代理"
+            },
+            {
+              "key": "lease_negotiation_compliance",
+              "name": "租约谈判与合规审查"
+            },
+            {
+              "key": "move_in_setup_services",
+              "name": "入住开通与生活落地"
+            },
+            {
+              "key": "relocation_package_management",
+              "name": "搬迁套餐与项目管理"
+            },
+            {
+              "key": "tenant_dispute_support",
+              "name": "租赁纠纷支持"
+            },
+            {
+              "key": "other_rental_services",
+              "name": "其他租赁安居服务"
+            }
+          ]
+        },
+        {
+          "key": "interior_design_build",
+          "name": "设计与装修工程",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "interior_design_concept",
+              "name": "室内设计与方案"
+            },
+            {
+              "key": "fit_out_general_contractor",
+              "name": "装修总包与施工管理"
+            },
+            {
+              "key": "smart_home_integration",
+              "name": "智能家居与系统集成"
+            },
+            {
+              "key": "quality_inspection_handover",
+              "name": "第三方验收与质检"
+            },
+            {
+              "key": "furniture_customization",
+              "name": "软装与定制家具"
+            },
+            {
+              "key": "other_interiors",
+              "name": "其他装修与设计服务"
+            }
+          ]
+        },
+        {
+          "key": "new_build_renovation_permits",
+          "name": "新建/改建与报批报建",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "architect_engineer_services",
+              "name": "建筑/结构/机电顾问"
+            },
+            {
+              "key": "planning_permit_support",
+              "name": "规划许可与报批支持"
+            },
+            {
+              "key": "site_survey_geotech",
+              "name": "测绘勘察与地基评估"
+            },
+            {
+              "key": "project_owner_rep_pmo",
+              "name": "业主代表与工程PMO"
+            },
+            {
+              "key": "contractor_tender_management",
+              "name": "招标与承包商管理"
+            },
+            {
+              "key": "other_construction_services",
+              "name": "其他新建改建服务"
+            }
+          ]
+        },
+        {
+          "key": "property_management_concierge",
+          "name": "物业管理与资产托管",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "premium_property_management",
+              "name": "高端物业管理"
+            },
+            {
+              "key": "short_term_rental_management",
+              "name": "短租与托管运营"
+            },
+            {
+              "key": "maintenance_vendor_management",
+              "name": "维修保养与供应商管理"
+            },
+            {
+              "key": "security_home_staff_management",
+              "name": "安保与家政团队管理"
+            },
+            {
+              "key": "insurance_claims_property",
+              "name": "房屋保险与理赔协同"
+            },
+            {
+              "key": "other_property_mgmt",
+              "name": "其他资产托管服务"
+            }
+          ]
+        },
+        {
+          "key": "valuation_appraisal_disputes",
+          "name": "评估鉴定与质量争议",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "property_valuation_appraisal",
+              "name": "房产估值与评估报告"
+            },
+            {
+              "key": "construction_defect_forensics",
+              "name": "工程质量鉴定与取证"
+            },
+            {
+              "key": "mold_air_quality_testing",
+              "name": "室内环境与空气质量检测"
+            },
+            {
+              "key": "neighbor_dispute_mediation",
+              "name": "邻里纠纷调解支持"
+            },
+            {
+              "key": "litigation_support_property",
+              "name": "房产诉讼支持（鉴定协同）"
+            },
+            {
+              "key": "other_property_disputes",
+              "name": "其他房产争议支持"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "global_mobility_immigration",
+      "name": "跨境身份与全球流动",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "immigration_investment",
+          "name": "移民与身份规划",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "investment_immigration",
+              "name": "投资类移民方案"
+            },
+            {
+              "key": "talent_immigration",
+              "name": "人才/杰出贡献类移民"
+            },
+            {
+              "key": "family_reunification",
+              "name": "家庭团聚与配偶签证"
+            },
+            {
+              "key": "citizenship_naturalization",
+              "name": "入籍与国籍相关"
+            },
+            {
+              "key": "residency_renewal_compliance",
+              "name": "续签/永居维护与合规"
+            },
+            {
+              "key": "other_immigration",
+              "name": "其他身份规划服务"
+            }
+          ]
+        },
+        {
+          "key": "business_travel_visas",
+          "name": "商务与长期签证服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "business_visa",
+              "name": "商务签证与材料"
+            },
+            {
+              "key": "work_visa_support",
+              "name": "工作签证支持"
+            },
+            {
+              "key": "student_visa_support",
+              "name": "学生签证支持（配套）"
+            },
+            {
+              "key": "visa_refusal_appeal",
+              "name": "拒签申诉与再申请"
+            },
+            {
+              "key": "appointments_expedite",
+              "name": "预约与加急通道"
+            },
+            {
+              "key": "other_visa_services",
+              "name": "其他签证服务"
+            }
+          ]
+        },
+        {
+          "key": "tax_residency_planning",
+          "name": "税务居民与跨境合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "tax_residency_assessment",
+              "name": "税务居民判定与规划"
+            },
+            {
+              "key": "annual_tax_filing_support",
+              "name": "年度申报与合规支持"
+            },
+            {
+              "key": "asset_disclosure_reporting",
+              "name": "资产申报与信息披露"
+            },
+            {
+              "key": "cross_border_structuring",
+              "name": "跨境持有结构与筹划"
+            },
+            {
+              "key": "audit_inquiry_response",
+              "name": "税务稽查/问询应对"
+            },
+            {
+              "key": "other_personal_tax",
+              "name": "其他个人跨境税务"
+            }
+          ]
+        },
+        {
+          "key": "relocation_settlement",
+          "name": "落地安居与搬迁服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "housing_school_settlement",
+              "name": "住房与学校落地包"
+            },
+            {
+              "key": "banking_telecom_setup",
+              "name": "开户与通讯基础设施"
+            },
+            {
+              "key": "local_id_driving_license",
+              "name": "本地证件与驾照"
+            },
+            {
+              "key": "family_logistics_move",
+              "name": "国际搬家与物流"
+            },
+            {
+              "key": "cultural_language_support",
+              "name": "文化适应与语言支持"
+            },
+            {
+              "key": "other_relocation",
+              "name": "其他落地安居服务"
+            }
+          ]
+        },
+        {
+          "key": "cross_border_documentation",
+          "name": "跨境文件与认证",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "notarization_apostille",
+              "name": "公证与海牙认证"
+            },
+            {
+              "key": "certified_translation",
+              "name": "认证翻译与本地化"
+            },
+            {
+              "key": "education_medical_documents",
+              "name": "教育/医疗文件整理"
+            },
+            {
+              "key": "company_letter_support",
+              "name": "雇主/机构证明协同"
+            },
+            {
+              "key": "compliance_forms_submission",
+              "name": "合规表格与递交协同"
+            },
+            {
+              "key": "other_documentation",
+              "name": "其他跨境文件服务"
+            }
+          ]
+        },
+        {
+          "key": "global_citizenship_services",
+          "name": "全球公民与多地身份维护",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "multi_jurisdiction_planning",
+              "name": "多地身份组合规划"
+            },
+            {
+              "key": "residency_obligations",
+              "name": "居住义务与合规维护"
+            },
+            {
+              "key": "citizenship_by_descent",
+              "name": "血统/出生公民路径"
+            },
+            {
+              "key": "renunciation_reacquisition",
+              "name": "放弃/恢复国籍与身份"
+            },
+            {
+              "key": "travel_compliance_risk",
+              "name": "出入境合规与风险"
+            },
+            {
+              "key": "other_global_citizenship",
+              "name": "其他多地身份服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "private_legal_disputes",
+      "name": "个人法律与争议解决",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "urgency",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "family_marriage_divorce",
+          "name": "婚姻家事与离婚争议",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "divorce_settlement",
+              "name": "离婚谈判与财产分割"
+            },
+            {
+              "key": "child_custody_support",
+              "name": "抚养权与探视安排"
+            },
+            {
+              "key": "prenup_postnup",
+              "name": "婚前/婚后协议"
+            },
+            {
+              "key": "domestic_violence_orders",
+              "name": "家暴保护令与救济"
+            },
+            {
+              "key": "cross_border_family_disputes",
+              "name": "跨境家事纠纷支持"
+            },
+            {
+              "key": "other_family_law",
+              "name": "其他婚姻家事服务"
+            }
+          ]
+        },
+        {
+          "key": "inheritance_estate_disputes",
+          "name": "继承与遗产争议",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "will_contest",
+              "name": "遗嘱争议与诉讼"
+            },
+            {
+              "key": "estate_administration",
+              "name": "遗产管理与执行"
+            },
+            {
+              "key": "trust_disputes",
+              "name": "信托争议"
+            },
+            {
+              "key": "probate_procedures",
+              "name": "继承认证与程序"
+            },
+            {
+              "key": "cross_border_estate",
+              "name": "跨境继承与资产追索"
+            },
+            {
+              "key": "other_inheritance",
+              "name": "其他继承服务"
+            }
+          ]
+        },
+        {
+          "key": "civil_tort_liability",
+          "name": "民事侵权与责任纠纷",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "defamation_privacy",
+              "name": "名誉侵权与隐私侵权"
+            },
+            {
+              "key": "personal_injury_claims",
+              "name": "人身伤害索赔"
+            },
+            {
+              "key": "medical_malpractice_claims",
+              "name": "医疗纠纷与损害赔偿"
+            },
+            {
+              "key": "consumer_disputes_high_value",
+              "name": "高价值消费纠纷"
+            },
+            {
+              "key": "property_damage_claims",
+              "name": "财产损害与索赔"
+            },
+            {
+              "key": "other_tort",
+              "name": "其他侵权纠纷"
+            }
+          ]
+        },
+        {
+          "key": "criminal_defense",
+          "name": "刑事辩护与程序救济",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "criminal_defense_retainer",
+              "name": "刑事辩护（常年/项目）"
+            },
+            {
+              "key": "bail_hearing_support",
+              "name": "保释与听证支持"
+            },
+            {
+              "key": "investigation_response",
+              "name": "侦查阶段应对"
+            },
+            {
+              "key": "trial_appeal_support",
+              "name": "审判与上诉支持"
+            },
+            {
+              "key": "cross_border_extradition",
+              "name": "引渡/跨境刑事协助"
+            },
+            {
+              "key": "other_criminal",
+              "name": "其他刑事法律服务"
+            }
+          ]
+        },
+        {
+          "key": "contract_disputes_private",
+          "name": "合同纠纷（个人高价值）",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "high_value_contract_review",
+              "name": "高价值合同审查与谈判"
+            },
+            {
+              "key": "breach_of_contract_litigation",
+              "name": "违约诉讼与仲裁"
+            },
+            {
+              "key": "settlement_mediation",
+              "name": "和解与调解"
+            },
+            {
+              "key": "cross_border_contract",
+              "name": "跨境合同争议"
+            },
+            {
+              "key": "enforcement_collection",
+              "name": "判决执行与追偿"
+            },
+            {
+              "key": "other_contract_disputes",
+              "name": "其他合同争议"
+            }
+          ]
+        },
+        {
+          "key": "dispute_resolution_services",
+          "name": "争议解决配套服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "litigation_strategy_case_assessment",
+              "name": "诉讼策略与案情评估"
+            },
+            {
+              "key": "evidence_collection_preservation",
+              "name": "证据收集与保全协同"
+            },
+            {
+              "key": "expert_witness_management",
+              "name": "专家证人与鉴定协调"
+            },
+            {
+              "key": "asset_tracing_recovery",
+              "name": "资产追踪与追偿"
+            },
+            {
+              "key": "arbitration_admin_support",
+              "name": "仲裁程序管理支持"
+            },
+            {
+              "key": "other_dispute_support",
+              "name": "其他争议解决支持"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "security_risk_management",
+      "name": "安全与风险管理",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "urgency",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "personal_security_protection",
+          "name": "人身安全与安保服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "executive_protection",
+              "name": "要人保护与贴身安保"
+            },
+            {
+              "key": "residential_security",
+              "name": "住宅安保与巡防体系"
+            },
+            {
+              "key": "event_security",
+              "name": "大型活动安保与管控"
+            },
+            {
+              "key": "travel_security",
+              "name": "出行安全评估与护卫"
+            },
+            {
+              "key": "kidnap_extortion_response",
+              "name": "绑架勒索应对支持"
+            },
+            {
+              "key": "other_personal_security",
+              "name": "其他人身安保服务"
+            }
+          ]
+        },
+        {
+          "key": "risk_assessment_planning",
+          "name": "风险评估与应急预案",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "threat_risk_assessment",
+              "name": "威胁评估与风险画像"
+            },
+            {
+              "key": "emergency_response_plan",
+              "name": "应急预案与演练"
+            },
+            {
+              "key": "security_audit_review",
+              "name": "安全审计与漏洞评估"
+            },
+            {
+              "key": "crisis_management_setup",
+              "name": "危机管理体系搭建"
+            },
+            {
+              "key": "family_security_training",
+              "name": "家庭安全培训与演练"
+            },
+            {
+              "key": "other_risk_planning",
+              "name": "其他风险规划服务"
+            }
+          ]
+        },
+        {
+          "key": "cyber_personal_privacy",
+          "name": "个人网络安全与隐私防护",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "account_takeover_recovery",
+              "name": "账号被盗恢复与加固"
+            },
+            {
+              "key": "device_security_hardening",
+              "name": "设备与家庭网络加固"
+            },
+            {
+              "key": "doxxing_harassment_response",
+              "name": "人肉/骚扰应对与处置"
+            },
+            {
+              "key": "privacy_cleanup_monitoring",
+              "name": "隐私暴露清理与监测"
+            },
+            {
+              "key": "secure_comms_setup",
+              "name": "安全通讯与加密方案"
+            },
+            {
+              "key": "other_personal_cyber",
+              "name": "其他个人网络安全"
+            }
+          ]
+        },
+        {
+          "key": "investigation_due_diligence_private",
+          "name": "个人尽调与调查",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "background_check_high_stakes",
+              "name": "高风险背景调查"
+            },
+            {
+              "key": "open_source_intelligence",
+              "name": "公开信息调查（OSINT）"
+            },
+            {
+              "key": "fraud_scam_investigation",
+              "name": "诈骗与欺诈调查支持"
+            },
+            {
+              "key": "asset_tracing_private",
+              "name": "个人资产追踪与线索整理"
+            },
+            {
+              "key": "reputation_risk_screening",
+              "name": "声誉风险筛查"
+            },
+            {
+              "key": "other_private_investigation",
+              "name": "其他个人调查服务"
+            }
+          ]
+        },
+        {
+          "key": "travel_health_safety",
+          "name": "旅行健康与安全保障",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "destination_risk_briefing",
+              "name": "目的地风险简报与建议"
+            },
+            {
+              "key": "medical_security_evacuations",
+              "name": "医疗保障与紧急撤离协调"
+            },
+            {
+              "key": "secure_transport_logistics",
+              "name": "安全交通与物流安排"
+            },
+            {
+              "key": "crisis_hotline_support",
+              "name": "应急热线与响应支持"
+            },
+            {
+              "key": "family_travel_protection",
+              "name": "家庭旅行保护方案"
+            },
+            {
+              "key": "other_travel_safety",
+              "name": "其他旅行安全服务"
+            }
+          ]
+        },
+        {
+          "key": "insurance_claims_support",
+          "name": "保险理赔协调与损失评估",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "claims_management",
+              "name": "理赔全流程协调"
+            },
+            {
+              "key": "loss_adjusting_assessment",
+              "name": "损失评估与理算协同"
+            },
+            {
+              "key": "coverage_dispute_support",
+              "name": "保险拒赔争议支持"
+            },
+            {
+              "key": "medical_claims_coordination",
+              "name": "医疗理赔协调"
+            },
+            {
+              "key": "property_claims_coordination",
+              "name": "财产险理赔协调"
+            },
+            {
+              "key": "other_claims_support",
+              "name": "其他理赔相关服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "personal_reputation_crisis",
+      "name": "个人声誉与危机应对",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "urgency",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "personal_reputation_governance",
+          "name": "个人声誉治理与内容管理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "online_content_governance",
+              "name": "线上内容治理与策略"
+            },
+            {
+              "key": "search_reputation_management",
+              "name": "搜索声誉与信息呈现管理"
+            },
+            {
+              "key": "platform_takedown_requests",
+              "name": "平台下架与申诉协同"
+            },
+            {
+              "key": "privacy_exposure_cleanup",
+              "name": "隐私暴露清理与修复"
+            },
+            {
+              "key": "long_term_reputation_retainer",
+              "name": "长期声誉顾问（保留）"
+            },
+            {
+              "key": "other_personal_reputation",
+              "name": "其他声誉治理服务"
+            }
+          ]
+        },
+        {
+          "key": "personal_crisis_communications",
+          "name": "个人危机沟通与舆情应对",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "crisis_statement_messaging",
+              "name": "声明文本与口径设计"
+            },
+            {
+              "key": "media_engagement_management",
+              "name": "媒体沟通与采访管理"
+            },
+            {
+              "key": "stakeholder_family_comms",
+              "name": "家族/团队沟通与协同"
+            },
+            {
+              "key": "rumor_response_strategy",
+              "name": "谣言与抹黑应对策略"
+            },
+            {
+              "key": "rapid_response_war_room",
+              "name": "快速响应机制与战情室"
+            },
+            {
+              "key": "other_personal_crisis",
+              "name": "其他危机沟通服务"
+            }
+          ]
+        },
+        {
+          "key": "media_presence_training",
+          "name": "媒体训练与公众表达",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "spokesperson_interview_training",
+              "name": "发言与采访训练"
+            },
+            {
+              "key": "speech_script_coaching",
+              "name": "演讲稿与呈现辅导"
+            },
+            {
+              "key": "debate_argumentation",
+              "name": "论证与对话技巧训练"
+            },
+            {
+              "key": "camera_presence",
+              "name": "镜头表现与形象管理"
+            },
+            {
+              "key": "high_stakes_appearance",
+              "name": "高风险场景出席策略"
+            },
+            {
+              "key": "other_media_training",
+              "name": "其他表达训练服务"
+            }
+          ]
+        },
+        {
+          "key": "defamation_privacy_response",
+          "name": "名誉侵权与隐私侵害联动应对",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "legal_pr_joint_strategy",
+              "name": "法律+传播联合策略"
+            },
+            {
+              "key": "evidence_preservation",
+              "name": "证据保全与链路梳理"
+            },
+            {
+              "key": "injunction_takedown",
+              "name": "禁令/下架与救济路径"
+            },
+            {
+              "key": "settlement_negotiation",
+              "name": "和解与谈判"
+            },
+            {
+              "key": "cross_border_defamation",
+              "name": "跨境名誉侵权应对"
+            },
+            {
+              "key": "other_defamation_privacy",
+              "name": "其他侵权联动应对"
+            }
+          ]
+        },
+        {
+          "key": "high_exposure_person_support",
+          "name": "高曝光人群与公众人物支持",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "celebrity_team_setup",
+              "name": "团队搭建与日常机制"
+            },
+            {
+              "key": "event_risk_comms",
+              "name": "活动/发布会风险沟通"
+            },
+            {
+              "key": "brand_endorsement_risk",
+              "name": "代言与合作风险审查协同"
+            },
+            {
+              "key": "leak_blackmail_response",
+              "name": "泄露/敲诈应对支持"
+            },
+            {
+              "key": "fan_community_risk",
+              "name": "粉丝社群风险管理"
+            },
+            {
+              "key": "other_high_exposure",
+              "name": "其他高曝光场景支持"
+            }
+          ]
+        },
+        {
+          "key": "digital_investigation_intel",
+          "name": "信息核查与情报支持",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "osint_verification",
+              "name": "公开信息核查（OSINT）"
+            },
+            {
+              "key": "source_trace_analysis",
+              "name": "源头溯源与传播链分析"
+            },
+            {
+              "key": "fake_account_network",
+              "name": "水军/假账号网络识别"
+            },
+            {
+              "key": "incident_timeline_reconstruction",
+              "name": "事件时间线重建"
+            },
+            {
+              "key": "reputation_risk_screening",
+              "name": "声誉风险筛查与预警"
+            },
+            {
+              "key": "other_digital_intel",
+              "name": "其他情报支持"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "luxury_lifestyle_concierge",
+      "name": "高端生活方式与陪伴关怀",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "premium_concierge_membership",
+          "name": "高端礼宾与会员制服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "membership_concierge",
+              "name": "会员制礼宾与资源对接"
+            },
+            {
+              "key": "priority_reservations_access",
+              "name": "稀缺资源预订与通道"
+            },
+            {
+              "key": "event_access_curation",
+              "name": "活动与演出稀缺席位策划"
+            },
+            {
+              "key": "luxury_procurement_sourcing",
+              "name": "奢侈品采购与溯源"
+            },
+            {
+              "key": "special_requests_management",
+              "name": "特殊需求与复杂委托"
+            },
+            {
+              "key": "other_concierge",
+              "name": "其他礼宾服务"
+            }
+          ]
+        },
+        {
+          "key": "high_end_transport_mobility",
+          "name": "高端出行与交通",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "private_aviation_charter",
+              "name": "公务机/包机服务策划"
+            },
+            {
+              "key": "yacht_services_management",
+              "name": "游艇相关服务与管理"
+            },
+            {
+              "key": "chauffeur_security_transport",
+              "name": "专车与安保交通"
+            },
+            {
+              "key": "fleet_vehicle_procurement",
+              "name": "车辆采购与定制协同"
+            },
+            {
+              "key": "mobility_logistics_complex",
+              "name": "复杂出行与物流统筹"
+            },
+            {
+              "key": "other_transport",
+              "name": "其他高端出行服务"
+            }
+          ]
+        },
+        {
+          "key": "private_events_social",
+          "name": "私人活动与社交场景策划",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "private_party_wedding_high_end",
+              "name": "高端派对/婚礼全案"
+            },
+            {
+              "key": "vip_guest_management",
+              "name": "嘉宾接待与礼仪统筹"
+            },
+            {
+              "key": "venue_design_production",
+              "name": "场地设计与制作搭建"
+            },
+            {
+              "key": "security_compliance_events",
+              "name": "活动安保与合规"
+            },
+            {
+              "key": "media_content_capture",
+              "name": "影像记录与内容制作"
+            },
+            {
+              "key": "other_private_events",
+              "name": "其他私人活动服务"
+            }
+          ]
+        },
+        {
+          "key": "culinary_dining_experiences",
+          "name": "高端餐饮与美食体验",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "private_chef_programs",
+              "name": "私厨与宴会主理"
+            },
+            {
+              "key": "fine_dining_curation",
+              "name": "高端餐厅与主厨策划"
+            },
+            {
+              "key": "wine_spirits_advisory",
+              "name": "葡萄酒与藏品顾问"
+            },
+            {
+              "key": "food_safety_allergen_management",
+              "name": "食品安全与过敏管理"
+            },
+            {
+              "key": "restaurant_investment_support",
+              "name": "餐饮投资与运营顾问"
+            },
+            {
+              "key": "other_culinary",
+              "name": "其他高端餐饮服务"
+            }
+          ]
+        },
+        {
+          "key": "companionship_care_support",
+          "name": "陪伴关怀与家庭支持",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "premium_home_care_coordination",
+              "name": "高端居家照护统筹"
+            },
+            {
+              "key": "childcare_nanny_management",
+              "name": "育儿与保姆团队管理"
+            },
+            {
+              "key": "elder_companionship_support",
+              "name": "长者陪伴与活动支持"
+            },
+            {
+              "key": "special_needs_support_coordination",
+              "name": "特殊需求陪护统筹"
+            },
+            {
+              "key": "family_schedule_management",
+              "name": "家庭日程与资源协调"
+            },
+            {
+              "key": "other_care_support",
+              "name": "其他陪伴关怀服务"
+            }
+          ]
+        },
+        {
+          "key": "luxury_assets_collectibles",
+          "name": "奢侈资产与收藏（非交易所）",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "art_advisory_due_diligence",
+              "name": "艺术顾问与尽调"
+            },
+            {
+              "key": "authentication_provenance",
+              "name": "真伪鉴定与溯源"
+            },
+            {
+              "key": "collection_management_storage",
+              "name": "收藏管理与仓储"
+            },
+            {
+              "key": "insurance_valuation_collectibles",
+              "name": "保险估值与理赔协同"
+            },
+            {
+              "key": "logistics_customs_high_value",
+              "name": "高价值物流与清关协调"
+            },
+            {
+              "key": "other_collectibles",
+              "name": "其他收藏服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "family_wealth_office",
+      "name": "家族财富与事务管理",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "service_object",
+        "compliance_regime"
+      ],
+      "children": [
+        {
+          "key": "family_office_setup_governance",
+          "name": "家办搭建与治理架构",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "family_office_strategy",
+              "name": "家办定位与战略"
+            },
+            {
+              "key": "governance_policies",
+              "name": "治理制度与家族宪章"
+            },
+            {
+              "key": "vendor_ecosystem_setup",
+              "name": "服务商体系与选择"
+            },
+            {
+              "key": "risk_controls_reporting",
+              "name": "风控与报告机制"
+            },
+            {
+              "key": "succession_planning_framework",
+              "name": "传承规划框架"
+            },
+            {
+              "key": "other_family_office_setup",
+              "name": "其他家办搭建服务"
+            }
+          ]
+        },
+        {
+          "key": "wealth_legal_tax_structuring",
+          "name": "财富法律与税务结构",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "trust_foundation_structuring",
+              "name": "信托/基金会架构"
+            },
+            {
+              "key": "cross_border_holding_structures",
+              "name": "跨境持有结构设计"
+            },
+            {
+              "key": "tax_planning_compliance",
+              "name": "税务筹划与合规"
+            },
+            {
+              "key": "asset_protection_structures",
+              "name": "资产保护结构"
+            },
+            {
+              "key": "philanthropy_structuring",
+              "name": "慈善与捐赠结构"
+            },
+            {
+              "key": "other_wealth_structuring",
+              "name": "其他财富结构服务"
+            }
+          ]
+        },
+        {
+          "key": "investment_advisory_non_discretionary",
+          "name": "投资顾问与资产配置",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "asset_allocation_policy",
+              "name": "资产配置策略与IPS"
+            },
+            {
+              "key": "manager_selection_due_diligence",
+              "name": "管理人选择与尽调"
+            },
+            {
+              "key": "portfolio_risk_management",
+              "name": "组合风险管理"
+            },
+            {
+              "key": "alternative_investments_advisory",
+              "name": "另类投资顾问"
+            },
+            {
+              "key": "performance_reporting",
+              "name": "投后监测与报告"
+            },
+            {
+              "key": "other_investment_advisory",
+              "name": "其他投资顾问服务"
+            }
+          ]
+        },
+        {
+          "key": "family_business_governance",
+          "name": "家族企业治理与传承",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "ownership_succession",
+              "name": "股权与接班规划"
+            },
+            {
+              "key": "board_advisory",
+              "name": "董事会与治理顾问"
+            },
+            {
+              "key": "family_business_conflict",
+              "name": "家族企业冲突调解"
+            },
+            {
+              "key": "leadership_development",
+              "name": "继任者培养与教练"
+            },
+            {
+              "key": "mna_exit_preparation",
+              "name": "并购/退出准备"
+            },
+            {
+              "key": "other_family_business",
+              "name": "其他家族企业服务"
+            }
+          ]
+        },
+        {
+          "key": "philanthropy_impact",
+          "name": "慈善与影响力项目",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode"
+          ],
+          "children": [
+            {
+              "key": "foundation_operations",
+              "name": "基金会运营与合规"
+            },
+            {
+              "key": "grantmaking_program_design",
+              "name": "资助与项目设计"
+            },
+            {
+              "key": "impact_assessment_reporting",
+              "name": "影响力评估与报告"
+            },
+            {
+              "key": "ngo_partner_due_diligence",
+              "name": "合作伙伴尽调"
+            },
+            {
+              "key": "cause_campaigns",
+              "name": "公益倡导与活动策划"
+            },
+            {
+              "key": "other_philanthropy",
+              "name": "其他慈善服务"
+            }
+          ]
+        },
+        {
+          "key": "dispute_risk_family_office",
+          "name": "家办争议与风险处置",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "asset_recovery_disputes",
+              "name": "资产追索与争议处置"
+            },
+            {
+              "key": "trust_estate_dispute_support",
+              "name": "信托/遗产争议支持"
+            },
+            {
+              "key": "reputation_risk_family",
+              "name": "家族声誉风险处置"
+            },
+            {
+              "key": "regulatory_inquiries",
+              "name": "监管问询与应对"
+            },
+            {
+              "key": "forensics_investigation_support",
+              "name": "调查取证与专家协同"
+            },
+            {
+              "key": "other_family_office_risk",
+              "name": "其他风险处置服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "enterprise_strategy_operations",
+      "name": "企业战略与运营管理",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "industry",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "strategy_consulting",
+          "name": "战略规划与商业咨询",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "corporate_strategy",
+              "name": "公司级战略与增长战略"
+            },
+            {
+              "key": "market_entry_strategy",
+              "name": "市场进入与出海策略"
+            },
+            {
+              "key": "portfolio_business_review",
+              "name": "业务组合与投后提升"
+            },
+            {
+              "key": "pricing_revenue_strategy",
+              "name": "定价与收入策略"
+            },
+            {
+              "key": "competitive_intelligence",
+              "name": "竞争情报与行业研究"
+            },
+            {
+              "key": "other_strategy",
+              "name": "其他战略咨询"
+            }
+          ]
+        },
+        {
+          "key": "operational_excellence",
+          "name": "运营改善与精益管理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "process_reengineering",
+              "name": "流程再造与效率提升"
+            },
+            {
+              "key": "lean_six_sigma",
+              "name": "精益六西格玛项目"
+            },
+            {
+              "key": "supply_chain_optimization",
+              "name": "供应链优化"
+            },
+            {
+              "key": "cost_reduction_programs",
+              "name": "降本增效项目"
+            },
+            {
+              "key": "service_ops_improvement",
+              "name": "服务运营提升"
+            },
+            {
+              "key": "other_opex",
+              "name": "其他运营改善"
+            }
+          ]
+        },
+        {
+          "key": "pmo_program_management",
+          "name": "PMO与项目群管理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "enterprise_transformation_pmo",
+              "name": "企业转型PMO"
+            },
+            {
+              "key": "it_program_pmo",
+              "name": "IT项目群PMO"
+            },
+            {
+              "key": "construction_capex_pmo",
+              "name": "工程/资本开支PMO"
+            },
+            {
+              "key": "vendor_management_pmo",
+              "name": "供应商与交付管理"
+            },
+            {
+              "key": "governance_reporting",
+              "name": "治理与汇报体系"
+            },
+            {
+              "key": "other_pmo",
+              "name": "其他PMO服务"
+            }
+          ]
+        },
+        {
+          "key": "digital_transformation",
+          "name": "数字化转型与组织变革",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "digital_roadmap",
+              "name": "数字化路线图与架构规划"
+            },
+            {
+              "key": "product_operating_model",
+              "name": "产品化组织与运营模式"
+            },
+            {
+              "key": "change_management",
+              "name": "变更管理与培训"
+            },
+            {
+              "key": "data_driven_ops",
+              "name": "数据驱动运营体系"
+            },
+            {
+              "key": "shared_services",
+              "name": "共享服务与流程外包治理"
+            },
+            {
+              "key": "other_digital_transformation",
+              "name": "其他数字化转型"
+            }
+          ]
+        },
+        {
+          "key": "quality_management_system",
+          "name": "质量管理体系与认证准备",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "iso_management_system",
+              "name": "管理体系搭建与认证准备"
+            },
+            {
+              "key": "internal_audit_programs",
+              "name": "内审体系与改进"
+            },
+            {
+              "key": "supplier_quality",
+              "name": "供应商质量管理"
+            },
+            {
+              "key": "customer_complaint_system",
+              "name": "客诉与召回体系"
+            },
+            {
+              "key": "continuous_improvement",
+              "name": "持续改进机制"
+            },
+            {
+              "key": "other_qms",
+              "name": "其他质量管理服务"
+            }
+          ]
+        },
+        {
+          "key": "esg_sustainability_strategy",
+          "name": "ESG与可持续战略",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "esg_strategy_roadmap",
+              "name": "ESG战略与路线图"
+            },
+            {
+              "key": "esg_reporting_disclosure",
+              "name": "ESG披露与报告"
+            },
+            {
+              "key": "carbon_inventory_reduction",
+              "name": "碳盘查与减排方案"
+            },
+            {
+              "key": "supply_chain_esg",
+              "name": "供应链ESG与尽调"
+            },
+            {
+              "key": "sustainability_risk",
+              "name": "可持续风险评估"
+            },
+            {
+              "key": "other_esg",
+              "name": "其他ESG服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "enterprise_finance_tax_legal",
+      "name": "企业财税法与交易服务",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "industry",
+        "compliance_regime",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "corporate_legal_counsel",
+          "name": "企业法律顾问与合规治理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "general_counsel_retainer",
+              "name": "常年法律顾问"
+            },
+            {
+              "key": "contract_lifecycle_management",
+              "name": "合同全生命周期管理"
+            },
+            {
+              "key": "corporate_governance",
+              "name": "公司治理与股东事务"
+            },
+            {
+              "key": "regulatory_compliance_counsel",
+              "name": "监管合规顾问"
+            },
+            {
+              "key": "dispute_litigation_arbitration",
+              "name": "争议解决与诉讼仲裁"
+            },
+            {
+              "key": "other_corporate_legal",
+              "name": "其他企业法律服务"
+            }
+          ]
+        },
+        {
+          "key": "mna_investment",
+          "name": "并购与投融资（含尽调）",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "buy_side_mna",
+              "name": "买方并购顾问"
+            },
+            {
+              "key": "sell_side_mna",
+              "name": "卖方出售/重组顾问"
+            },
+            {
+              "key": "financial_legal_due_diligence",
+              "name": "财务/法律尽调"
+            },
+            {
+              "key": "valuation_modeling",
+              "name": "估值与建模支持"
+            },
+            {
+              "key": "deal_structuring_negotiation",
+              "name": "交易结构与谈判"
+            },
+            {
+              "key": "other_mna",
+              "name": "其他交易服务"
+            }
+          ]
+        },
+        {
+          "key": "tax_planning_compliance_enterprise",
+          "name": "企业税务筹划与合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "tax_structuring",
+              "name": "税务结构与筹划"
+            },
+            {
+              "key": "transfer_pricing",
+              "name": "转让定价与文档"
+            },
+            {
+              "key": "vat_gst_customs",
+              "name": "增值税/消费税与关务税务"
+            },
+            {
+              "key": "tax_audit_dispute",
+              "name": "税务稽查与争议应对"
+            },
+            {
+              "key": "global_mobility_tax",
+              "name": "外派与全球用工税务"
+            },
+            {
+              "key": "other_enterprise_tax",
+              "name": "其他企业税务服务"
+            }
+          ]
+        },
+        {
+          "key": "accounting_reporting_audit",
+          "name": "会计核算与审计服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "financial_statement_audit",
+              "name": "财务报表审计"
+            },
+            {
+              "key": "ipo_readiness",
+              "name": "上市合规与IPO准备"
+            },
+            {
+              "key": "ifrs_gaap_conversion",
+              "name": "准则转换（IFRS/GAAP）"
+            },
+            {
+              "key": "internal_controls_sox",
+              "name": "内控与SOX合规"
+            },
+            {
+              "key": "forensic_accounting",
+              "name": "法务会计与损失评估"
+            },
+            {
+              "key": "other_audit_services",
+              "name": "其他审计与会计服务"
+            }
+          ]
+        },
+        {
+          "key": "aml_kyc_compliance",
+          "name": "反洗钱与客户尽调（AML/KYC）",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "aml_program_setup",
+              "name": "AML制度与体系搭建"
+            },
+            {
+              "key": "kyc_edd_due_diligence",
+              "name": "KYC/EDD尽调"
+            },
+            {
+              "key": "transaction_monitoring",
+              "name": "交易监测与模型优化"
+            },
+            {
+              "key": "sanctions_screening",
+              "name": "制裁筛查与名单管理"
+            },
+            {
+              "key": "regulatory_examination_support",
+              "name": "监管检查应对"
+            },
+            {
+              "key": "other_aml",
+              "name": "其他AML/KYC服务"
+            }
+          ]
+        },
+        {
+          "key": "ip_technology_legal",
+          "name": "知识产权与技术法",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "patent_strategy_filing",
+              "name": "专利策略与申请"
+            },
+            {
+              "key": "trademark_brand_protection",
+              "name": "商标与品牌保护"
+            },
+            {
+              "key": "ip_litigation_enforcement",
+              "name": "侵权诉讼与维权"
+            },
+            {
+              "key": "licensing_technology_transfer",
+              "name": "许可与技术转让"
+            },
+            {
+              "key": "trade_secret_protection",
+              "name": "商业秘密保护"
+            },
+            {
+              "key": "other_ip",
+              "name": "其他知识产权服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cyber_data_it",
+      "name": "网络安全、数据与IT治理",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "compliance_regime",
+        "industry",
+        "urgency",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "cyber_security_assessment",
+          "name": "安全评估与渗透测试",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "penetration_testing",
+              "name": "渗透测试"
+            },
+            {
+              "key": "red_team_exercises",
+              "name": "红队演练"
+            },
+            {
+              "key": "cloud_security_assessment",
+              "name": "云安全评估"
+            },
+            {
+              "key": "app_security_testing",
+              "name": "应用安全测试"
+            },
+            {
+              "key": "vulnerability_management",
+              "name": "漏洞管理体系"
+            },
+            {
+              "key": "other_security_assessment",
+              "name": "其他安全评估"
+            }
+          ]
+        },
+        {
+          "key": "security_operations_mdr",
+          "name": "安全运营与托管防护",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "soc_mdr_services",
+              "name": "SOC/MDR托管服务"
+            },
+            {
+              "key": "siem_soar_build",
+              "name": "SIEM/SOAR搭建"
+            },
+            {
+              "key": "threat_hunting",
+              "name": "威胁狩猎"
+            },
+            {
+              "key": "security_monitoring",
+              "name": "持续监测与告警"
+            },
+            {
+              "key": "security_metrics_reporting",
+              "name": "安全指标与报告"
+            },
+            {
+              "key": "other_security_ops",
+              "name": "其他安全运营"
+            }
+          ]
+        },
+        {
+          "key": "incident_response_forensics",
+          "name": "安全事件响应与取证",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "urgency",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "ransomware_response",
+              "name": "勒索事件响应"
+            },
+            {
+              "key": "breach_investigation",
+              "name": "数据泄露调查"
+            },
+            {
+              "key": "digital_forensics",
+              "name": "电子取证与证据保全"
+            },
+            {
+              "key": "containment_recovery",
+              "name": "遏制恢复与复盘"
+            },
+            {
+              "key": "regulatory_notification_support",
+              "name": "监管通报与沟通支持"
+            },
+            {
+              "key": "other_ir",
+              "name": "其他事件响应服务"
+            }
+          ]
+        },
+        {
+          "key": "privacy_data_compliance",
+          "name": "隐私与数据合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "privacy_program_setup",
+              "name": "隐私治理体系搭建"
+            },
+            {
+              "key": "dpi_risk_assessment",
+              "name": "DPIA/风险评估"
+            },
+            {
+              "key": "data_mapping_records",
+              "name": "数据盘点与记录"
+            },
+            {
+              "key": "cross_border_data_transfer",
+              "name": "跨境数据传输合规"
+            },
+            {
+              "key": "vendor_data_processing",
+              "name": "第三方与数据处理协议"
+            },
+            {
+              "key": "other_privacy",
+              "name": "其他数据合规服务"
+            }
+          ]
+        },
+        {
+          "key": "it_governance_architecture",
+          "name": "IT治理与架构咨询",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "enterprise_architecture",
+              "name": "企业架构规划"
+            },
+            {
+              "key": "it_service_management",
+              "name": "ITSM与服务管理"
+            },
+            {
+              "key": "cloud_migration_governance",
+              "name": "上云迁移治理"
+            },
+            {
+              "key": "identity_access_management",
+              "name": "身份与访问管理"
+            },
+            {
+              "key": "business_continuity_dr",
+              "name": "业务连续性与灾备"
+            },
+            {
+              "key": "other_it_governance",
+              "name": "其他IT治理服务"
+            }
+          ]
+        },
+        {
+          "key": "ai_governance_compliance",
+          "name": "AI治理与合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "ai_risk_assessment",
+              "name": "AI风险评估与分级"
+            },
+            {
+              "key": "model_governance_controls",
+              "name": "模型治理与控制"
+            },
+            {
+              "key": "algorithm_audit_transparency",
+              "name": "算法审计与透明度"
+            },
+            {
+              "key": "ai_policy_training",
+              "name": "AI政策与培训"
+            },
+            {
+              "key": "regulatory_readiness_ai",
+              "name": "监管应对与合规准备"
+            },
+            {
+              "key": "other_ai_governance",
+              "name": "其他AI治理服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "market_access_compliance_quality",
+      "name": "市场准入、产品合规与质量检测",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "industry",
+        "compliance_regime",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "product_certification_testing",
+          "name": "产品认证与检测",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "safety_emc_testing",
+              "name": "安全/EMC检测"
+            },
+            {
+              "key": "wireless_telecom_approval",
+              "name": "无线与通信型号核准"
+            },
+            {
+              "key": "chemical_compliance_testing",
+              "name": "化学合规测试"
+            },
+            {
+              "key": "energy_efficiency_labeling",
+              "name": "能效与标签合规"
+            },
+            {
+              "key": "factory_inspection_audit",
+              "name": "工厂审查与审核"
+            },
+            {
+              "key": "other_cert_testing",
+              "name": "其他认证与检测"
+            }
+          ]
+        },
+        {
+          "key": "medical_device_regulatory",
+          "name": "医疗器械注册与合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "regulatory_strategy_medtech",
+              "name": "注册策略与路径"
+            },
+            {
+              "key": "technical_documentation",
+              "name": "技术文件与申报资料"
+            },
+            {
+              "key": "clinical_evaluation",
+              "name": "临床评价与证据"
+            },
+            {
+              "key": "qms_iso13485",
+              "name": "ISO13485与质量体系"
+            },
+            {
+              "key": "post_market_surveillance",
+              "name": "上市后监管与PMS"
+            },
+            {
+              "key": "other_medtech_reg",
+              "name": "其他器械合规"
+            }
+          ]
+        },
+        {
+          "key": "pharma_food_cosmetics",
+          "name": "药品/食品/化妆品合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "cosmetics_registration",
+              "name": "化妆品备案/注册"
+            },
+            {
+              "key": "food_safety_compliance",
+              "name": "食品安全合规与申报"
+            },
+            {
+              "key": "pharma_regulatory_support",
+              "name": "药品注册支持"
+            },
+            {
+              "key": "claims_label_review",
+              "name": "宣称与标签审查"
+            },
+            {
+              "key": "gmp_supplier_audit",
+              "name": "GMP与供应商审核"
+            },
+            {
+              "key": "other_fmcg_reg",
+              "name": "其他快消合规"
+            }
+          ]
+        },
+        {
+          "key": "import_export_trade_compliance",
+          "name": "进出口合规与关务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "customs_classification_valuation",
+              "name": "归类与估价"
+            },
+            {
+              "key": "origin_rules_ftas",
+              "name": "原产地与自贸协定"
+            },
+            {
+              "key": "export_controls_sanctions",
+              "name": "出口管制与制裁"
+            },
+            {
+              "key": "trade_compliance_program",
+              "name": "贸易合规体系搭建"
+            },
+            {
+              "key": "customs_audit_response",
+              "name": "海关稽查应对"
+            },
+            {
+              "key": "other_trade_compliance",
+              "name": "其他关务合规"
+            }
+          ]
+        },
+        {
+          "key": "quality_inspection_supply_chain",
+          "name": "供应链质量与验货",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "supplier_qualification_audit",
+              "name": "供应商准入与审核"
+            },
+            {
+              "key": "pre_shipment_inspection",
+              "name": "出货前验货"
+            },
+            {
+              "key": "lab_testing_batch",
+              "name": "批次抽检与实验室测试"
+            },
+            {
+              "key": "quality_issue_root_cause",
+              "name": "质量问题根因分析"
+            },
+            {
+              "key": "recall_compliance_support",
+              "name": "召回合规与处置"
+            },
+            {
+              "key": "other_quality_services",
+              "name": "其他质量检验服务"
+            }
+          ]
+        },
+        {
+          "key": "industry_market_authorizations",
+          "name": "行业许可与准入",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "financial_services_licensing",
+              "name": "金融业务许可支持"
+            },
+            {
+              "key": "telecom_media_licensing",
+              "name": "通信/媒体许可支持"
+            },
+            {
+              "key": "energy_environment_permits",
+              "name": "能源与环保许可"
+            },
+            {
+              "key": "transport_logistics_licensing",
+              "name": "运输与物流许可"
+            },
+            {
+              "key": "construction_occupancy_permits",
+              "name": "建设与使用许可"
+            },
+            {
+              "key": "other_market_auth",
+              "name": "其他行业准入服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "life_sciences_clinical",
+      "name": "生命科学与临床服务",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "compliance_regime",
+        "industry",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "cro_clinical_trials",
+          "name": "临床试验CRO服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "clinical_trial_design",
+              "name": "试验设计与方案"
+            },
+            {
+              "key": "site_selection_startup",
+              "name": "中心选择与启动"
+            },
+            {
+              "key": "clinical_operations_monitoring",
+              "name": "临床运营与监查"
+            },
+            {
+              "key": "data_management_biostats",
+              "name": "数据管理与统计"
+            },
+            {
+              "key": "safety_pharmacovigilance",
+              "name": "安全性与药物警戒"
+            },
+            {
+              "key": "other_cro",
+              "name": "其他CRO服务"
+            }
+          ]
+        },
+        {
+          "key": "regulatory_medical_writing",
+          "name": "注册申报与医学写作",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "cta_ind_support",
+              "name": "CTA/IND支持"
+            },
+            {
+              "key": "nda_bla_support",
+              "name": "NDA/BLA支持"
+            },
+            {
+              "key": "cer_clinical_reports",
+              "name": "临床报告与CER"
+            },
+            {
+              "key": "risk_management_files",
+              "name": "风险管理文件"
+            },
+            {
+              "key": "labeling_ifu",
+              "name": "标签与说明书"
+            },
+            {
+              "key": "other_medical_writing",
+              "name": "其他医学写作"
+            }
+          ]
+        },
+        {
+          "key": "gxp_quality_compliance",
+          "name": "GxP质量与合规体系",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "gmp_audit_readiness",
+              "name": "GMP检查准备"
+            },
+            {
+              "key": "gcp_audit_readiness",
+              "name": "GCP检查准备"
+            },
+            {
+              "key": "csv_computer_system_validation",
+              "name": "CSV计算机系统验证"
+            },
+            {
+              "key": "validation_qualification",
+              "name": "验证与确认（IQ/OQ/PQ）"
+            },
+            {
+              "key": "quality_system_qms",
+              "name": "质量体系搭建与内审"
+            },
+            {
+              "key": "other_gxp",
+              "name": "其他GxP合规"
+            }
+          ]
+        },
+        {
+          "key": "lab_services_biomarkers",
+          "name": "实验室与生物标志物服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "central_lab_services",
+              "name": "中心实验室服务"
+            },
+            {
+              "key": "bioanalysis_pk_pd",
+              "name": "生物分析与PK/PD"
+            },
+            {
+              "key": "biomarker_development",
+              "name": "生物标志物开发"
+            },
+            {
+              "key": "sample_logistics",
+              "name": "样本物流与链路管理"
+            },
+            {
+              "key": "method_validation",
+              "name": "方法学开发与验证"
+            },
+            {
+              "key": "other_lab_services",
+              "name": "其他实验室服务"
+            }
+          ]
+        },
+        {
+          "key": "market_access_heor",
+          "name": "市场准入与卫生经济学",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "heor_studies",
+              "name": "卫生经济学研究"
+            },
+            {
+              "key": "pricing_reimbursement",
+              "name": "定价与报销策略"
+            },
+            {
+              "key": "hta_submission_support",
+              "name": "HTA递交支持"
+            },
+            {
+              "key": "real_world_evidence",
+              "name": "真实世界证据研究"
+            },
+            {
+              "key": "payer_stakeholder_comms",
+              "name": "支付方沟通支持"
+            },
+            {
+              "key": "other_heor",
+              "name": "其他市场准入服务"
+            }
+          ]
+        },
+        {
+          "key": "medical_affairs_kol",
+          "name": "医学事务与KOL合作",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "kol_mapping_engagement",
+              "name": "KOL地图与合作"
+            },
+            {
+              "key": "medical_education_programs",
+              "name": "医学教育项目"
+            },
+            {
+              "key": "advisory_board_management",
+              "name": "专家顾问会管理"
+            },
+            {
+              "key": "publication_strategy",
+              "name": "发表与传播策略"
+            },
+            {
+              "key": "compliance_review_med_affairs",
+              "name": "医学事务合规审查"
+            },
+            {
+              "key": "other_med_affairs",
+              "name": "其他医学事务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "public_infrastructure_environment",
+      "name": "基础设施与环境治理",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "industry",
+        "compliance_regime",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "feasibility_planning",
+          "name": "可研与规划咨询",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "feasibility_study",
+              "name": "可行性研究与方案比选"
+            },
+            {
+              "key": "master_planning",
+              "name": "总体规划与专项规划"
+            },
+            {
+              "key": "traffic_transport_planning",
+              "name": "交通与运输规划"
+            },
+            {
+              "key": "utility_planning",
+              "name": "市政公用与管网规划"
+            },
+            {
+              "key": "ppp_procurement_advisory",
+              "name": "PPP与采购咨询"
+            },
+            {
+              "key": "other_planning",
+              "name": "其他规划可研"
+            }
+          ]
+        },
+        {
+          "key": "environmental_assessment",
+          "name": "环境影响评价与合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "eia_permitting",
+              "name": "环评与许可支持"
+            },
+            {
+              "key": "environmental_monitoring",
+              "name": "环境监测与报告"
+            },
+            {
+              "key": "contamination_assessment",
+              "name": "污染评估与修复方案"
+            },
+            {
+              "key": "water_air_noise_assessment",
+              "name": "水/气/噪声评估"
+            },
+            {
+              "key": "esg_environment_disclosure",
+              "name": "环境披露与审计"
+            },
+            {
+              "key": "other_environment",
+              "name": "其他环境合规"
+            }
+          ]
+        },
+        {
+          "key": "engineering_design_supervision",
+          "name": "工程咨询、设计与监理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "survey_geotech",
+              "name": "勘察测绘与地质"
+            },
+            {
+              "key": "concept_preliminary_design",
+              "name": "方案/初步设计"
+            },
+            {
+              "key": "detailed_design_review",
+              "name": "施工图与审查"
+            },
+            {
+              "key": "third_party_supervision",
+              "name": "第三方监理与驻场"
+            },
+            {
+              "key": "engineering_cost_control",
+              "name": "造价与成本控制"
+            },
+            {
+              "key": "other_engineering",
+              "name": "其他工程咨询"
+            }
+          ]
+        },
+        {
+          "key": "construction_project_management",
+          "name": "施工管理与交付管理",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "owner_rep_pmo",
+              "name": "业主代表与PMO"
+            },
+            {
+              "key": "tender_procurement_management",
+              "name": "招采与合同管理"
+            },
+            {
+              "key": "schedule_cost_risk_control",
+              "name": "进度成本风险控制"
+            },
+            {
+              "key": "quality_safety_management",
+              "name": "质量与安全管理"
+            },
+            {
+              "key": "commissioning_handover",
+              "name": "调试与竣工移交"
+            },
+            {
+              "key": "other_construction_mgmt",
+              "name": "其他交付管理"
+            }
+          ]
+        },
+        {
+          "key": "utilities_energy_projects",
+          "name": "公用事业与能源项目",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "renewable_energy_development",
+              "name": "新能源项目开发支持"
+            },
+            {
+              "key": "grid_interconnection_permits",
+              "name": "并网与许可协调"
+            },
+            {
+              "key": "energy_storage_projects",
+              "name": "储能项目咨询"
+            },
+            {
+              "key": "district_energy_planning",
+              "name": "区域能源规划"
+            },
+            {
+              "key": "energy_efficiency_programs",
+              "name": "节能改造与评估"
+            },
+            {
+              "key": "other_energy",
+              "name": "其他能源项目"
+            }
+          ]
+        },
+        {
+          "key": "public_sector_procurement",
+          "name": "公共采购与合规审查",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "service_object"
+          ],
+          "children": [
+            {
+              "key": "rfp_bid_management",
+              "name": "RFP与投标管理"
+            },
+            {
+              "key": "procurement_compliance_review",
+              "name": "采购合规审查"
+            },
+            {
+              "key": "grant_funding_advisory",
+              "name": "补助金与资金申请"
+            },
+            {
+              "key": "stakeholder_hearings_support",
+              "name": "听证与利益相关方支持"
+            },
+            {
+              "key": "contract_performance_audit",
+              "name": "履约审计与评估"
+            },
+            {
+              "key": "other_public_procurement",
+              "name": "其他公共采购服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "enterprise_talent_hr",
+      "name": "人才、组织与用工合规",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "industry",
+        "service_object",
+        "compliance_regime"
+      ],
+      "children": [
+        {
+          "key": "executive_search",
+          "name": "高管寻访与关键人才招聘",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "c_level_search",
+              "name": "C-level高管寻访"
+            },
+            {
+              "key": "functional_leader_search",
+              "name": "职能负责人寻访"
+            },
+            {
+              "key": "board_advisory_search",
+              "name": "董事/顾问委员会寻访"
+            },
+            {
+              "key": "confidential_search",
+              "name": "保密招聘项目"
+            },
+            {
+              "key": "talent_mapping",
+              "name": "人才地图与对标"
+            },
+            {
+              "key": "other_exec_search",
+              "name": "其他寻访服务"
+            }
+          ]
+        },
+        {
+          "key": "organization_design",
+          "name": "组织设计与薪酬绩效",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "org_structure_design",
+              "name": "组织架构设计"
+            },
+            {
+              "key": "job_architecture_grading",
+              "name": "岗位体系与职级"
+            },
+            {
+              "key": "comp_benchmarking",
+              "name": "薪酬对标与体系设计"
+            },
+            {
+              "key": "incentive_equity_plans",
+              "name": "激励与股权方案"
+            },
+            {
+              "key": "performance_management",
+              "name": "绩效体系与落地"
+            },
+            {
+              "key": "other_org_design",
+              "name": "其他组织与薪酬服务"
+            }
+          ]
+        },
+        {
+          "key": "labor_employment_compliance",
+          "name": "劳动用工合规与争议",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "employment_contracts_policies",
+              "name": "劳动合同与规章制度"
+            },
+            {
+              "key": "mass_layoff_restructuring",
+              "name": "裁员与重组方案"
+            },
+            {
+              "key": "labor_dispute_resolution",
+              "name": "劳动争议处理与仲裁"
+            },
+            {
+              "key": "workplace_investigations",
+              "name": "职场调查与处置"
+            },
+            {
+              "key": "union_collective_bargaining",
+              "name": "工会与集体协商支持"
+            },
+            {
+              "key": "other_labor",
+              "name": "其他用工合规服务"
+            }
+          ]
+        },
+        {
+          "key": "global_workforce_eor_peo",
+          "name": "全球用工EOR/PEO与外派合规",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "eor_employment",
+              "name": "EOR雇佣与薪资代发"
+            },
+            {
+              "key": "peo_benefits_admin",
+              "name": "PEO与福利管理"
+            },
+            {
+              "key": "cross_border_assignment",
+              "name": "跨境外派与派遣合规"
+            },
+            {
+              "key": "permanent_establishment_risk",
+              "name": "常设机构风险评估"
+            },
+            {
+              "key": "immigration_hr_integration",
+              "name": "签证与HR一体化支持"
+            },
+            {
+              "key": "other_global_workforce",
+              "name": "其他全球用工服务"
+            }
+          ]
+        },
+        {
+          "key": "learning_leadership_coaching",
+          "name": "学习发展与高管教练",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "executive_coaching",
+              "name": "高管教练"
+            },
+            {
+              "key": "leadership_programs",
+              "name": "领导力发展项目"
+            },
+            {
+              "key": "sales_enablement",
+              "name": "销售赋能与训练营"
+            },
+            {
+              "key": "culture_change_programs",
+              "name": "文化建设与变革"
+            },
+            {
+              "key": "assessment_centers",
+              "name": "测评中心与人才评估"
+            },
+            {
+              "key": "other_ld",
+              "name": "其他培训与发展"
+            }
+          ]
+        },
+        {
+          "key": "hr_analytics_systems",
+          "name": "人力数据与HR系统咨询",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "hris_selection_implementation",
+              "name": "HRIS选型与实施"
+            },
+            {
+              "key": "compensation_analytics",
+              "name": "薪酬数据分析"
+            },
+            {
+              "key": "workforce_planning",
+              "name": "人力规划与编制"
+            },
+            {
+              "key": "people_metrics_dashboard",
+              "name": "人力指标与看板"
+            },
+            {
+              "key": "compliance_hr_data_privacy",
+              "name": "人力数据隐私合规"
+            },
+            {
+              "key": "other_hr_analytics",
+              "name": "其他HR数据服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "enterprise_marketing_brand_growth",
+      "name": "企业营销、品牌与增长",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "industry",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "brand_strategy_positioning",
+          "name": "品牌战略与定位",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "brand_architecture",
+              "name": "品牌架构与组合"
+            },
+            {
+              "key": "positioning_messaging",
+              "name": "定位与信息框架"
+            },
+            {
+              "key": "rebranding_programs",
+              "name": "品牌焕新与重塑"
+            },
+            {
+              "key": "customer_insights_research",
+              "name": "消费者洞察与研究"
+            },
+            {
+              "key": "go_to_market_plans",
+              "name": "GTM与上市计划"
+            },
+            {
+              "key": "other_brand_strategy",
+              "name": "其他品牌战略"
+            }
+          ]
+        },
+        {
+          "key": "content_marketing_growth",
+          "name": "内容营销与增长运营",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "content_strategy_ops",
+              "name": "内容策略与中台运营"
+            },
+            {
+              "key": "seo_sem_strategy",
+              "name": "SEO/SEM策略与执行"
+            },
+            {
+              "key": "social_media_operations",
+              "name": "社媒运营与增长"
+            },
+            {
+              "key": "creator_influencer_programs",
+              "name": "达人/KOL合作项目"
+            },
+            {
+              "key": "marketing_automation_crm",
+              "name": "营销自动化与CRM"
+            },
+            {
+              "key": "other_growth_ops",
+              "name": "其他增长运营"
+            }
+          ]
+        },
+        {
+          "key": "creative_production_campaigns",
+          "name": "创意制作与整合传播",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "integrated_campaigns",
+              "name": "整合营销战役"
+            },
+            {
+              "key": "video_photo_production",
+              "name": "视频/拍摄制作"
+            },
+            {
+              "key": "design_brand_assets",
+              "name": "品牌视觉与资产设计"
+            },
+            {
+              "key": "event_experiential_marketing",
+              "name": "活动与体验营销"
+            },
+            {
+              "key": "media_buying_planning",
+              "name": "媒体策划与投放协同"
+            },
+            {
+              "key": "other_creative",
+              "name": "其他创意制作"
+            }
+          ]
+        },
+        {
+          "key": "performance_marketing",
+          "name": "效果营销与投放优化",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "paid_search_social",
+              "name": "搜索/信息流投放"
+            },
+            {
+              "key": "attribution_measurement",
+              "name": "归因与效果衡量"
+            },
+            {
+              "key": "conversion_rate_optimization",
+              "name": "转化率优化"
+            },
+            {
+              "key": "retention_lifecycle_marketing",
+              "name": "留存与生命周期营销"
+            },
+            {
+              "key": "marketing_data_stack",
+              "name": "营销数据栈与埋点"
+            },
+            {
+              "key": "other_performance",
+              "name": "其他效果营销"
+            }
+          ]
+        },
+        {
+          "key": "communications_media_relations",
+          "name": "企业传播与媒体关系（增长向）",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "media_relations",
+              "name": "媒体关系与传播策略"
+            },
+            {
+              "key": "product_launch_pr",
+              "name": "新品发布传播"
+            },
+            {
+              "key": "thought_leadership",
+              "name": "观点领导力与内容发布"
+            },
+            {
+              "key": "employer_branding",
+              "name": "雇主品牌传播"
+            },
+            {
+              "key": "community_partnerships",
+              "name": "社群与合作传播"
+            },
+            {
+              "key": "other_comms_growth",
+              "name": "其他传播服务"
+            }
+          ]
+        },
+        {
+          "key": "reputation_marketing_monitoring",
+          "name": "品牌口碑与监测（增长向）",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "review_rating_management",
+              "name": "口碑与评分管理"
+            },
+            {
+              "key": "social_listening_insights",
+              "name": "舆情聆听与洞察"
+            },
+            {
+              "key": "search_brand_safety",
+              "name": "搜索品牌安全"
+            },
+            {
+              "key": "content_moderation_support",
+              "name": "内容审核与治理协同"
+            },
+            {
+              "key": "brand_protection_programs",
+              "name": "品牌保护项目"
+            },
+            {
+              "key": "other_reputation_marketing",
+              "name": "其他口碑服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "enterprise_risk_stakeholder_comms",
+      "name": "企业危机、公共事务与利益相关方沟通",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "industry",
+        "urgency",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "crisis_management_response",
+          "name": "危机管理与事件响应",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "crisis_playbook_drills",
+              "name": "危机预案与演练"
+            },
+            {
+              "key": "incident_war_room",
+              "name": "战情室与联合作战机制"
+            },
+            {
+              "key": "crisis_statement_messaging",
+              "name": "声明口径与信息框架"
+            },
+            {
+              "key": "media_issue_management",
+              "name": "媒体与议题处置"
+            },
+            {
+              "key": "post_crisis_review",
+              "name": "危机复盘与改进"
+            },
+            {
+              "key": "other_crisis_mgmt",
+              "name": "其他危机管理"
+            }
+          ]
+        },
+        {
+          "key": "public_affairs_policy",
+          "name": "公共事务与政策沟通",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "stakeholder_mapping",
+              "name": "利益相关方地图"
+            },
+            {
+              "key": "government_relations",
+              "name": "政府沟通与关系管理"
+            },
+            {
+              "key": "policy_advocacy_campaigns",
+              "name": "政策倡导与活动"
+            },
+            {
+              "key": "regulatory_hearings_support",
+              "name": "听证与监管沟通支持"
+            },
+            {
+              "key": "coalition_trade_association",
+              "name": "行业协会与联盟协作"
+            },
+            {
+              "key": "other_public_affairs",
+              "name": "其他公共事务"
+            }
+          ]
+        },
+        {
+          "key": "investor_relations_disclosure",
+          "name": "投资者关系与信息披露沟通",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "ir_strategy_narrative",
+              "name": "IR策略与叙事框架"
+            },
+            {
+              "key": "earnings_comms_materials",
+              "name": "财报沟通材料制作"
+            },
+            {
+              "key": "ipo_roadshow_comms",
+              "name": "IPO路演与沟通支持"
+            },
+            {
+              "key": "shareholder_engagement",
+              "name": "股东沟通与答疑"
+            },
+            {
+              "key": "disclosure_compliance_support",
+              "name": "披露合规支持"
+            },
+            {
+              "key": "other_ir",
+              "name": "其他投资者关系服务"
+            }
+          ]
+        },
+        {
+          "key": "employee_internal_comms",
+          "name": "员工沟通与内部传播",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "change_comms",
+              "name": "变革沟通"
+            },
+            {
+              "key": "leadership_messaging",
+              "name": "管理层沟通支持"
+            },
+            {
+              "key": "culture_engagement",
+              "name": "文化与参与度项目"
+            },
+            {
+              "key": "crisis_internal_updates",
+              "name": "危机期间内部通报"
+            },
+            {
+              "key": "internal_channels_ops",
+              "name": "内部渠道运营与内容"
+            },
+            {
+              "key": "other_internal_comms",
+              "name": "其他内部传播"
+            }
+          ]
+        },
+        {
+          "key": "recall_safety_incident_comms",
+          "name": "召回、事故与安全事件沟通",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "product_recall_comms",
+              "name": "产品召回沟通与流程"
+            },
+            {
+              "key": "workplace_safety_incident",
+              "name": "安全事故沟通"
+            },
+            {
+              "key": "data_breach_comms",
+              "name": "数据泄露对外沟通协同"
+            },
+            {
+              "key": "legal_regulatory_alignment",
+              "name": "法律与监管口径对齐"
+            },
+            {
+              "key": "customer_support_scripts",
+              "name": "客服话术与SOP"
+            },
+            {
+              "key": "other_incident_comms",
+              "name": "其他事故沟通"
+            }
+          ]
+        },
+        {
+          "key": "stakeholder_risk_narrative",
+          "name": "合规叙事与风险沟通支持",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "industry",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "compliance_positioning",
+              "name": "合规立场与叙事支持"
+            },
+            {
+              "key": "esg_controversy_response",
+              "name": "ESG争议回应策略"
+            },
+            {
+              "key": "cross_border_reputation_risk",
+              "name": "跨境声誉与审查应对"
+            },
+            {
+              "key": "third_party_allegations_response",
+              "name": "第三方指控应对"
+            },
+            {
+              "key": "monitoring_early_warning",
+              "name": "舆情监测预警与机制"
+            },
+            {
+              "key": "other_risk_narrative",
+              "name": "其他风险沟通"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "philanthropy_volunteering",
+      "name": "公益/志愿参与与慈善项目",
+      "allowed_facets": [
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "personal_giving_planning",
+          "name": "个人/家庭捐赠与公益计划",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "cause_area_selection",
+              "name": "议题/方向选择与匹配"
+            },
+            {
+              "key": "donation_portfolio_plan",
+              "name": "捐赠组合与年度计划"
+            },
+            {
+              "key": "recurring_giving_setup",
+              "name": "定期捐赠与执行代办"
+            },
+            {
+              "key": "in_kind_donation_logistics",
+              "name": "物资捐赠与物流协同"
+            },
+            {
+              "key": "donation_transparency_due_diligence",
+              "name": "公益机构甄选与透明度尽调"
+            },
+            {
+              "key": "other_giving_planning",
+              "name": "其他捐赠相关服务"
+            }
+          ]
+        },
+        {
+          "key": "volunteer_matching_programs",
+          "name": "志愿者/义工项目匹配与参与",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "local_volunteer_matching",
+              "name": "本地志愿机会匹配"
+            },
+            {
+              "key": "skills_based_volunteering",
+              "name": "技能型志愿服务（Pro bono）"
+            },
+            {
+              "key": "virtual_remote_volunteering",
+              "name": "远程/线上志愿服务"
+            },
+            {
+              "key": "volunteer_travel_programs",
+              "name": "公益旅行/国际义工项目"
+            },
+            {
+              "key": "group_family_volunteering",
+              "name": "家庭/团队志愿活动组织"
+            },
+            {
+              "key": "other_volunteering",
+              "name": "其他志愿参与服务"
+            }
+          ]
+        },
+        {
+          "key": "charity_events_fundraising_participation",
+          "name": "慈善活动与筹款参与",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "charity_gala_event_access",
+              "name": "慈善晚宴/活动参与与席位协同"
+            },
+            {
+              "key": "peer_to_peer_fundraising_support",
+              "name": "个人筹款页/社交筹款支持"
+            },
+            {
+              "key": "charity_run_challenge_programs",
+              "name": "公益跑/挑战赛报名与配套"
+            },
+            {
+              "key": "auction_bidding_support",
+              "name": "慈善拍卖与捐赠协同"
+            },
+            {
+              "key": "fundraising_page_setup",
+              "name": "募捐页面与支付工具配置"
+            },
+            {
+              "key": "other_charity_events",
+              "name": "其他慈善活动服务"
+            }
+          ]
+        },
+        {
+          "key": "cause_advocacy_community",
+          "name": "公益倡导与社区行动",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "community_project_launch",
+              "name": "社区公益项目发起与落地"
+            },
+            {
+              "key": "policy_petition_advocacy",
+              "name": "倡议/请愿与议题行动"
+            },
+            {
+              "key": "mutual_aid_coordination",
+              "name": "互助/救援资源协调"
+            },
+            {
+              "key": "public_awareness_campaigns",
+              "name": "公众教育与传播活动"
+            },
+            {
+              "key": "stakeholder_partnership_local",
+              "name": "本地合作伙伴与资源对接"
+            },
+            {
+              "key": "other_advocacy",
+              "name": "其他公益倡导服务"
+            }
+          ]
+        },
+        {
+          "key": "youth_service_learning",
+          "name": "青少年服务学习与公益实践",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "service_learning_programs",
+              "name": "服务学习项目规划"
+            },
+            {
+              "key": "volunteer_hours_tracking_certification",
+              "name": "志愿时长记录与证明"
+            },
+            {
+              "key": "youth_nonprofit_internships",
+              "name": "公益机构实习/项目参与"
+            },
+            {
+              "key": "gap_year_volunteer_programs",
+              "name": "间隔年公益/义工项目"
+            },
+            {
+              "key": "mentorship_leadership_for_good",
+              "name": "公益领导力与导师制"
+            },
+            {
+              "key": "other_youth_service",
+              "name": "其他青少年公益服务"
+            }
+          ]
+        },
+        {
+          "key": "other_personal_philanthropy",
+          "name": "其他公益/志愿服务",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "other_personal_philanthropy_services",
+              "name": "其他未列出服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nonprofit_social_impact",
+      "name": "非营利组织与社会影响力",
+      "allowed_facets": [
+        "urgency",
+        "geo_destination",
+        "language",
+        "delivery_mode",
+        "geo_service_coverage",
+        "industry",
+        "compliance_regime",
+        "service_object"
+      ],
+      "children": [
+        {
+          "key": "nonprofit_formation_governance",
+          "name": "非营利组织设立与治理运营",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "compliance_regime"
+          ],
+          "children": [
+            {
+              "key": "ngo_registration_incorporation",
+              "name": "注册设立/章程与资质路径"
+            },
+            {
+              "key": "governance_board_policies",
+              "name": "治理架构与董事会制度"
+            },
+            {
+              "key": "finance_controls_policies",
+              "name": "财务制度、内控与预算体系"
+            },
+            {
+              "key": "hr_volunteer_management_system",
+              "name": "人员/志愿者管理与培训体系"
+            },
+            {
+              "key": "nonprofit_crm_digital_ops",
+              "name": "CRM/捐赠人管理与数字化运营"
+            },
+            {
+              "key": "other_nonprofit_governance",
+              "name": "其他治理与运营服务"
+            }
+          ]
+        },
+        {
+          "key": "fundraising_grants",
+          "name": "筹款、募捐与资助申请",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "donor_development_strategy",
+              "name": "捐赠人拓展与筹款策略"
+            },
+            {
+              "key": "grant_proposal_writing",
+              "name": "资助申请与标书/申请书写作"
+            },
+            {
+              "key": "fundraising_campaign_management",
+              "name": "筹款活动/战役策划与执行"
+            },
+            {
+              "key": "major_gifts_planned_giving",
+              "name": "大额捐赠与计划捐赠（Planned Giving）"
+            },
+            {
+              "key": "crowdfunding_platform_setup",
+              "name": "众筹平台搭建与支付合规"
+            },
+            {
+              "key": "other_fundraising",
+              "name": "其他筹款相关服务"
+            }
+          ]
+        },
+        {
+          "key": "program_design_impact",
+          "name": "公益项目设计与影响力评估",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "theory_of_change_logic_model",
+              "name": "变革理论/逻辑框架（ToC/Logframe）"
+            },
+            {
+              "key": "program_design_delivery",
+              "name": "项目方案设计与落地交付"
+            },
+            {
+              "key": "monitoring_evaluation_mel",
+              "name": "监测评估（MEL）与数据体系"
+            },
+            {
+              "key": "impact_reporting_esg_sdg",
+              "name": "影响力报告（ESG/SDGs对齐）"
+            },
+            {
+              "key": "beneficiary_needs_research",
+              "name": "受益人研究与需求评估"
+            },
+            {
+              "key": "other_program_impact",
+              "name": "其他项目与评估服务"
+            }
+          ]
+        },
+        {
+          "key": "nonprofit_compliance_risk",
+          "name": "合规、审计与风险管理（非营利）",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "compliance_regime",
+            "urgency"
+          ],
+          "children": [
+            {
+              "key": "regulatory_compliance_nonprofit",
+              "name": "监管合规与信息披露"
+            },
+            {
+              "key": "audit_assurance_services",
+              "name": "审计/鉴证与财务合规"
+            },
+            {
+              "key": "anti_fraud_investigation_nonprofit",
+              "name": "反舞弊与调查取证支持"
+            },
+            {
+              "key": "data_privacy_safeguarding",
+              "name": "数据合规与受益人保护（Safeguarding）"
+            },
+            {
+              "key": "crisis_incident_response_nonprofit",
+              "name": "危机/事件响应与舆情联动"
+            },
+            {
+              "key": "other_compliance_risk",
+              "name": "其他合规与风险服务"
+            }
+          ]
+        },
+        {
+          "key": "csr_partnerships_volunteering",
+          "name": "企业公益、合作伙伴与志愿者项目",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage",
+            "industry"
+          ],
+          "children": [
+            {
+              "key": "csr_strategy_programs",
+              "name": "CSR/社会影响力战略与项目组合"
+            },
+            {
+              "key": "employee_volunteering_programs",
+              "name": "员工志愿者项目（含技能志愿）"
+            },
+            {
+              "key": "cause_marketing_partnerships",
+              "name": "公益联名/因果营销合作"
+            },
+            {
+              "key": "corporate_foundation_setup",
+              "name": "企业基金会设立与运营顾问"
+            },
+            {
+              "key": "ngo_corporate_partner_matching",
+              "name": "NGO合作伙伴匹配与尽调"
+            },
+            {
+              "key": "other_csr_partnerships",
+              "name": "其他企业公益合作服务"
+            }
+          ]
+        },
+        {
+          "key": "advocacy_communications_nonprofit",
+          "name": "公益传播与倡导",
+          "allowed_facets": [
+            "geo_destination",
+            "language",
+            "delivery_mode",
+            "geo_service_coverage"
+          ],
+          "children": [
+            {
+              "key": "ngo_brand_storytelling",
+              "name": "机构品牌与叙事（Storytelling）"
+            },
+            {
+              "key": "advocacy_campaigns_policy",
+              "name": "议题倡导与政策沟通"
+            },
+            {
+              "key": "social_media_pr_for_good",
+              "name": "社媒运营与公益传播"
+            },
+            {
+              "key": "community_engagement_events",
+              "name": "公众参与与活动运营"
+            },
+            {
+              "key": "crisis_comms_nonprofit",
+              "name": "公益机构危机沟通"
+            },
+            {
+              "key": "other_communications_advocacy",
+              "name": "其他传播与倡导服务"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
